@@ -1,0 +1,16 @@
+{
+  "title": "The Uniformity Principle: How Within-Sentence Consistency Predicts Readability",
+  "summary": "Successfully created a publication-ready LaTeX paper with BibTeX from the provided paper_text and available_figures. The paper was compiled to PDF (12 pages, 7.9 MB) using pdflatex and bibtex. All 5 figures from available_figures were included in the paper at the correct positions (fig1: concept diagram, fig2: dataset characteristics, fig3: R² comparison, fig4: ablation study, fig5: bootstrap coefficient CIs). The references.bib file was manually created with BibTeX entries for all 11 cited references (Flesch 1948, Kincaid 1975, Sweller 1988, Feng 2010, Deutsch 2020, Liu 2023, Courtis 2004, Brysbaert 2009, Vajjala 2012, Xia 2023, Lee 2021). The paper includes: title, abstract, 6 sections (Introduction, Related Work, The Uniformity Principle, Experiments, Discussion, Conclusion), acknowledgments, bibliography, and appendix. Compilation completed with some overfull hbox warnings (addressed with \\sloppy and xurl package). The PDF was verified to contain all 12 expected pages with correct content placement.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg",
+      "figures/fig4_v0.jpg",
+      "figures/fig5_v0.jpg"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Flesch1948}
+\citation{Kincaid1975}
+\citation{Sweller1988}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{Flesch1948,Kincaid1975}
+\citation{Feng2010}
+\citation{Deutsch2020}
+\citation{Liu2023}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Conceptual illustration of the Uniformity Principle. Left: A sentence with uniform word difficulty (low CV) allows consistent processing rhythm. Right: A sentence with variable word difficulty (high CV) creates peak cognitive load spikes. The figure shows a hypothetical cognitive load trace over time for each case.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:fig1}{{1}{2}{Conceptual illustration of the Uniformity Principle. Left: A sentence with uniform word difficulty (low CV) allows consistent processing rhythm. Right: A sentence with variable word difficulty (high CV) creates peak cognitive load spikes. The figure shows a hypothetical cognitive load trace over time for each case}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Readability Assessment}{2}{subsection.2.1}\protected@file@percent }
+\citation{Courtis2004}
+\citation{Sweller1988}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Variance and Uniformity in Text}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Cognitive Load Theory}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}The Uniformity Principle}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Hypothesis}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Cognitive Motivation}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Feature Definitions}{3}{subsection.3.3}\protected@file@percent }
+\citation{Brysbaert2009}
+\citation{Vajjala2012}
+\citation{Xia2023}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experimental Setup}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Dataset characteristics. (a) Distribution of readability scores for WeeBIT (5 levels, n=3,125) and CEFR-SP (6 levels mapped to continuous, n=10,004). (b) Sentence length distributions. (c) Word length distributions. All figures show the combined 13,129 sentences used in experiments.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:fig2}{{2}{5}{Dataset characteristics. (a) Distribution of readability scores for WeeBIT (5 levels, n=3,125) and CEFR-SP (6 levels mapped to continuous, n=10,004). (b) Sentence length distributions. (c) Word length distributions. All figures show the combined 13,129 sentences used in experiments}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Results}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Main Results}{5}{subsubsection.4.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Cross-validated $R^2$ and MSE for all feature sets on both datasets. Values are mean $\pm $ standard deviation across 5 folds.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:main_results}{{1}{6}{Cross-validated $R^2$ and MSE for all feature sets on both datasets. Values are mean $\pm $ standard deviation across 5 folds}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Main results. Bar chart showing cross-validated $R^2$ for three feature sets (average only, uniformity only, combined) on both datasets. Error bars show $\pm 1$ SD across 5 folds. Combined significantly outperforms average only on both datasets ($p < 0.001$, bootstrap test). WeeBIT: $R^2 = 0.248 \rightarrow 0.376$ ($+0.127$). CEFR-SP: $R^2 = 0.544 \rightarrow 0.590$ ($+0.046$).}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:fig3}{{3}{6}{Main results. Bar chart showing cross-validated $R^2$ for three feature sets (average only, uniformity only, combined) on both datasets. Error bars show $\pm 1$ SD across 5 folds. Combined significantly outperforms average only on both datasets ($p < 0.001$, bootstrap test). WeeBIT: $R^2 = 0.248 \rightarrow 0.376$ ($+0.127$). CEFR-SP: $R^2 = 0.544 \rightarrow 0.590$ ($+0.046$)}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Coefficient Significance}{7}{subsubsection.4.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Bootstrap coefficient confidence intervals. Forest plot showing 95\% CIs for Ridge regression coefficients on the combined model. WeeBIT (top): \texttt  {cv\_syllables} ($\beta =0.141$, CI[0.125,0.157]) and \texttt  {cv\_frequency} ($\beta =0.104$, CI[0.069,0.138]) are significant predictors. CEFR-SP (bottom): all three uniformity features are significant. Coefficients $> 0$ indicate higher CV (less uniformity) predicts higher difficulty.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:fig5}{{4}{7}{Bootstrap coefficient confidence intervals. Forest plot showing 95\% CIs for Ridge regression coefficients on the combined model. WeeBIT (top): \texttt {cv\_syllables} ($\beta =0.141$, CI[0.125,0.157]) and \texttt {cv\_frequency} ($\beta =0.104$, CI[0.069,0.138]) are significant predictors. CEFR-SP (bottom): all three uniformity features are significant. Coefficients $> 0$ indicate higher CV (less uniformity) predicts higher difficulty}{figure.4}{}}
+\citation{Feng2010}
+\citation{Deutsch2020,Liu2023}
+\citation{Deutsch2020}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}Ablation Study}{8}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Ablation study: $R^2$ improvement from adding each uniformity feature to the average-only baseline. Values are mean across 5 folds.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:ablation}{{2}{8}{Ablation study: $R^2$ improvement from adding each uniformity feature to the average-only baseline. Values are mean across 5 folds}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Interpretation of Results}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Comparison to Prior Work}{8}{subsection.5.2}\protected@file@percent }
+\citation{Brysbaert2009}
+\citation{Deutsch2020}
+\citation{Lee2021}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Ablation study results. Bar chart showing $R^2$ improvement from adding each uniformity feature to the average-only baseline. WeeBIT: \texttt  {cv\_syllables} contributes $+0.116$, \texttt  {cv\_frequency} $+0.025$, \texttt  {cv\_word\_length} $+0.038$. CEFR-SP: \texttt  {cv\_frequency} contributes $+0.032$, \texttt  {cv\_word\_length} $+0.022$, \texttt  {cv\_syllables} $+0.014$. Error bars show $\pm 1$ SD.}}{9}{figure.5}\protected@file@percent }
+\newlabel{fig:fig4}{{5}{9}{Ablation study results. Bar chart showing $R^2$ improvement from adding each uniformity feature to the average-only baseline. WeeBIT: \texttt {cv\_syllables} contributes $+0.116$, \texttt {cv\_frequency} $+0.025$, \texttt {cv\_word\_length} $+0.038$. CEFR-SP: \texttt {cv\_frequency} contributes $+0.032$, \texttt {cv\_word\_length} $+0.022$, \texttt {cv\_syllables} $+0.014$. Error bars show $\pm 1$ SD}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Limitations}{9}{subsection.5.3}\protected@file@percent }
+\bibstyle{plainnat}
+\bibdata{references}
+\bibcite{Brysbaert2009}{{1}{2009}{{Brysbaert and New}}{{}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Practical Applications}{10}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}\protected@file@percent }
+\bibcite{Courtis2004}{{2}{2004}{{Courtis}}{{}}}
+\bibcite{Deutsch2020}{{3}{2020}{{Deutsch et~al.}}{{Deutsch, Jasbi, and Shieber}}}
+\bibcite{Feng2010}{{4}{2010}{{Feng et~al.}}{{Feng, Jansche, Huenerfauth, and Elhadad}}}
+\bibcite{Flesch1948}{{5}{1948}{{Flesch}}{{}}}
+\bibcite{Kincaid1975}{{6}{1975}{{Kincaid et~al.}}{{Kincaid, Fishburne, Rogers, and Chissom}}}
+\bibcite{Lee2021}{{7}{2021}{{Lee and Lee}}{{}}}
+\bibcite{Liu2023}{{8}{2023}{{Liu and Lee}}{{}}}
+\bibcite{Sweller1988}{{9}{1988}{{Sweller}}{{}}}
+\bibcite{Vajjala2012}{{10}{2012}{{Vajjala and Meurers}}{{}}}
+\bibcite{Xia2023}{{11}{2023}{{Xia et~al.}}{{Xia, Kochmar, and Briscoe}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Text Simplification Demonstration}{11}{appendix.A}\protected@file@percent }
+\newlabel{app:simplification}{{A}{11}{Text Simplification Demonstration}{appendix.A}{}}
+\gdef \@abspage@last{12}
