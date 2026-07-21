@@ -1,0 +1,36 @@
+{
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "The cat sat on the mat.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1500,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The quantum mechanical model describes electrons as probabilistic matter waves using the Schrödinger equation and Dirac equation, incorporating phenomena such as electron spin and orbital angular momentum.",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 3000,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        }
+      ]
+    }
+  ]
+}

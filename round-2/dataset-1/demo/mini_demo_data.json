@@ -1,0 +1,49 @@
+{
+  "datasets": [
+    {
+      "dataset": "CLEAR_corpus_demo",
+      "examples": [
+        {
+          "input": "The cat sat on the mat.",
+          "output": "0.05",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 1,
+          "metadata_source": "CLEAR_corpus_demo",
+          "metadata_original_grade_level": 1.0
+        },
+        {
+          "input": "Children play in the park after school every day.",
+          "output": "0.10",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2,
+          "metadata_source": "CLEAR_corpus_demo",
+          "metadata_original_grade_level": 2.5
+        },
+        {
+          "input": "The experiment was conducted to determine the effects of temperature on chemical reaction rates.",
+          "output": "0.35",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3,
+          "metadata_source": "CLEAR_corpus_demo",
+          "metadata_original_grade_level": 8.0
+        },
+        {
+          "input": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+          "output": "0.50",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4,
+          "metadata_source": "CLEAR_corpus_demo",
+          "metadata_original_grade_level": 10.5
+        },
+        {
+          "input": "The methodological framework employed in this investigation facilitates a comprehensive analysis of the phenomenological implications inherent in the theoretical construct under consideration.",
+          "output": "0.85",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 5,
+          "metadata_source": "CLEAR_corpus_demo",
+          "metadata_original_grade_level": 16.0
+        }
+      ]
+    }
+  ]
+}

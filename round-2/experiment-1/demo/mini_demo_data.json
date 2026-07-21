@@ -1,0 +1,128 @@
+{
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "The cat sat on the mat.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "I like to play with my friends at the park after school.",
+          "output": "0.1",
+          "metadata_readability_score": 0.1,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 10,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The students worked on their science project together in the laboratory.",
+          "output": "0.3",
+          "metadata_readability_score": 0.3,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 50,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water.",
+          "output": "0.8",
+          "metadata_readability_score": 0.8,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 100,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The implementation of sustainable development goals requires coordination between governmental and non-governmental organizations at multiple levels.",
+          "output": "0.9",
+          "metadata_readability_score": 0.9,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 200,
+          "metadata_complexity_age_interval": 6,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The research demonstrates that methodological approaches to interdisciplinary collaboration require sophisticated frameworks for evaluating epistemological assumptions.",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 500,
+          "metadata_complexity_age_interval": 7,
+          "metadata_original_split": "train"
+        }
+      ]
+    },
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "Hello, how are you today?",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 0,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "What is your favorite color and why do you like it?",
+          "output": "0.2",
+          "metadata_readability_score": 0.2,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 20,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The weather has been quite unpredictable this year with sudden changes in temperature.",
+          "output": "0.4",
+          "metadata_readability_score": 0.4,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 40,
+          "metadata_annotator_1": 2,
+          "metadata_annotator_2": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The implementation of sustainable development goals requires coordination between governmental and non-governmental organizations.",
+          "output": "0.7",
+          "metadata_readability_score": 0.7,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 50,
+          "metadata_annotator_1": 3,
+          "metadata_annotator_2": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Constitutional law encompasses the fundamental principles and established precedents that define the governance structure of a state.",
+          "output": "0.9",
+          "metadata_readability_score": 0.9,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 80,
+          "metadata_annotator_1": 4,
+          "metadata_annotator_2": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Epistemological frameworks necessitate concomitant methodological paradigms.",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 100,
+          "metadata_annotator_1": 5,
+          "metadata_annotator_2": 5,
+          "metadata_original_split": "train"
+        }
+      ]
+    }
+  ]
+}

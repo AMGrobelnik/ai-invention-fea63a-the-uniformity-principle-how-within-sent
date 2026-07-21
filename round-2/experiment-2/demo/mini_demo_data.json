@@ -1,0 +1,459 @@
+{
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "Deitte (DEE-et) Curry's dog was having trouble breathing.\nDoctors said the 12-year-old dog was sick.\nThe dog had a weak heart and needed an operation.\nDoctors put a\nin the dog's heart.\nA pacemaker is a small device that helps the heart beat evenly.\nThe dog's pacemaker came from a woman who had died.\nShe wanted her pacemaker to help an animal.\nA pacemaker cannot be used again in a person, but a pacemaker can be used again in an animal.\nThe dog is healthy now that it has the pacemaker.\n\"He's as go...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 17,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Most grown-ups have 32 teeth.\nDid you know that those teeth have different jobs?\nThe table below names the kinds of teeth and explains their jobs.\nHow might eating healthful foods keep your teeth strong?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 102,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The first telephone and a modern cellular phone.\nsolve problems and help make our lives easier.\nThe Wright brothers invented the first airplane in 1903.\nThe first flight traveled about half the length of a football field and lasted 12 seconds.\nToday\u2019s airplanes can travel long distances.\nLook at the ways that some inventions have changed over the years.\nDiscover how some inventions have changed over time.\nAlexander Graham Bell invented the telephone in 1876.\nThe first phone had a trumpet-shaped ...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 134,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Emperor penguins are one of 17 different kinds of\nPenguins are seabirds with feathers and flippers.\nThese birds cannot fly.\nOn land, they stand upright and walk with a waddle.\nEmperor penguins are the largest penguins.\nThey are mostly black and white.\nMost emperor penguins live in the icy waters of Antarctica.\nBaby emperor penguins have soft, fuzzy feathers called\nAs they grow up, they lose the down and grow smooth feathers.\nEmperor penguins dive in the water for food.\nPenguins eat small fish, s...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 139,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Library of Congress, Prints and Photographs Division [reproduction number, LC-USZ62-116776]\nThis year, Martin Luther King Jr. Day is January 15.\nMany people celebrate his life as a leader.\nMartin Luther King Jr. grew up in\nAt that time the laws in some places treated African American people differently from white people.\nAfrican Americans had to use separate bathrooms and water fountains and sit in the back of buses.\nMartin Luther King Jr. worked to stop the unfair treatment of African Americans...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 170,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "is the Spanish word for \"hello.\"\nThe month begins on September 15 and lasts until October 15.\nDuring that time, we\nHispanic Americans and their way of life.\nThe word\nMore than 42 million people in the United States are Hispanic.\nMore than 42 million people in the United States are Hispanic.\nMany Hispanic Americans speak both Spanish and English.\nThat is because their families came from countries where people speak Spanish.\nMany people celebrate Hispanic Heritage Month.\nThey dance, take part in p...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 251,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Naoko Takahashi buzzed past other runners in the Olympic\nlast year.\n(A marathon is a 26-mile footrace.)\nThe runner says that hornets helped her win the gold medal for Japan, a country in Asia.\nThe insects didn't lend Naoko their wings, however.\nBefore and during the race, Takahashi drank the stomach juice of giant hornets!\nJapanese scientists say that the drink helps people move faster and prevents muscles from tiring.\nA Japanese company plans to make a sports drink out of hornet juice soon.\nAll...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 270,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "November 11 is Veterans Day.\nOn that holiday, Americans honor U.S. veterans.\nVeterans are men and women who have served in the military for our country.\nMany cities will hold events to honor veterans.\nThe oldest and largest celebration is held in Birmingham, Alabama, each year.\nVeterans from all over the country attend.\nEvents include an awards dinner and a parade.\nWe want to thank our veterans for their service, says event planner Bill Voigt.\nWhy is it important to honor our veterans?\nAll trade...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 291,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Learn about the Hispanic way of life.\n(fee-ESS-tah) time!\nThat is the Spanish word for party.\nHispanic Heritage Month is here.\nIt takes place from September 15 to October 15.\nDuring that time, we celebrate the Hispanic way of life.\nare people whose families came to the United States from Spanish-speaking countries.\nMany Hispanic Americans speak both Spanish and English.\n(OH-lah) is the Spanish word for hello.\nWhat do those two words have in common?\nWhat type of bread is flat and round?\nIt is the...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 309,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Our solar system is made up of the sun and eight\nA planet is a large ball made of rock or gas.\nEach planet\n, or travels around, the sun.\nThe sun is at the center of the solar system.\nThe planets in our solar system are all different sizes.\nis a star.\nIt is a ball of hot gas.\nIt gives off light and heat.\nWhy does the sun look different from other stars?\nThe sun is the star closest to Earth.\nis the closest planet to the sun.\nIt is also the smallest.\nIt has mountains and\nCraters are holes in the gr...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 346,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "How does food get from the farm to you?\ntime!\nA harvest is the gathering of food.\nMany fruits and vegetables are\nin the fall.\nThey are fully grown.\nThey are ready to be picked and eaten.\nMiller Farms is busy with its fall harvest.\nThe farm is in Platteville, Colorado.\nIt grows many vegetables.\nCarrots, beets, and onions are just a few of them.\nDavid Patterson works on the farm.\nHe told\nKids can visit the farm and pick their own vegetables.\nWe pick the vegetables by hand each day.\nCarrots are kin...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 438,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Nobody likes being bullied.\nLearn more about the problem and how you can help stop it.\nBullying is not a one-time problem.\nIt is hurting someone over and over again.\nIt can include teasing and threats.\nIt can take the form of hitting and pushing.\nKids who are bullied often feel scared or hurt.\nIf the answer is yes, think about why you acted that way.\nIt is not right to make others feel bad.\nSay you are sorry to the person you bullied.\nTalk to an adult if you need help to stop bullying others.\nWh...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 457,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Now you can take a trip to Mars without ever leaving Earth.\nkid reporter Sonia Mia Diaz had a blast this August!\nThe 10-year-old went to Mars aboard a new ride called Mission: SPACE.\nIt can be found at Disney World's Epcot Center in Florida.\nSonia Mia never actually left the ground.\nThe ride gives people the feeling of blasting off into space.\n\"Going on the ride made me think about how brave astronauts are,\" said Sonia Mia.\nNo astronauts have gone to Mars yet.\nMission: SPACE lets people see what...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 565,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Many kids play the pi\u00f1ata game on Cinco de Mayo.\nPi\u00f1atas are filled with treats.\nThe fifth day of the fifth month of 2005 is no ordinary day.\nIt is the holiday Cinco de Mayo!\nThat is the Spanish name for the fifth of May.\nCinco de Mayo marks the victory of the Mexican army over the French army in a battle on May 5, 1862.\nThe holiday is not Mexico's Independence Day, as people often believe.\nMany people in Mexico and the United States celebrate this holiday with a\nFiesta is the Spanish word for p...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 599,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Millions of people are allergic to cats.\nHowever, they soon may be able to have a pet cat without feeling sick.\nA company in California is developing cats that won't cause allergic reactions.\nAn allergy is caused by the body's\nThe immune system protects the body from disease.\nThe body of a person with allergies mistakes ordinary things, such as cats, for germs.\nScientists plan to turn off the part of the cats' cells that make the\nAn allergen is the cause of an allergic reaction.\nThe company hope...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 621,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Have you ever been in a bad storm?\nMcKenna Andrews, 10, has.\nShe and her family\nor stayed, in their Mississippi home during Hurricane Katrina.\nThat storm hit the Gulf Coast in 2005.\nMcKenna used her experiences during the storm to write a book.\nIt is called\nHer story recently won a Mom's Choice Award from the Just For Mom Foundation.\nis based on real-life events.\nDuring the hurricane, a huge wave swept eight dolphins from Marine Life Oceanarium in Gulfport, Miss., into the ocean.\nMcKenna's book ...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 756,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "What is black, white, read all over ... and 12 feet tall?\nIt's Newspaper House!\nThat is a house made out of about 120,000 sheets of newspaper.\nAn artist named Sumer Erek created the\n, or building, in London, England.\nEngland is a country in Europe.\nErek built Newspaper House to remind people to\nRecycling is putting items through a special process so parts of the items can be used again.\nIn the United States, people use more than 100 million tons of paper a year.\nAbout half of that amount is recy...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 790,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Divers off the coast of Alaska recently discovered a sunken treasure.\nIt is a ship called the\nIt sank in 1868.\nIt is the oldest shipwreck ever discovered in Alaska.\nIt was found near Port Graham.\nfind,\" says Steve Lloyd.\nHe led the team of divers.\nExtraordinary means very special.\nSo far, the divers have uncovered two anchors, cannons, plates, shoes, and even an old toilet!\nLloyd hopes the items will be placed in a museum.\nsank after it crashed into a reef.\nis a ridge of rock in the water.\nAll 1...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 794,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Courtney Oliver doesn't just take her family's dogs to the\nshe helps treat them!\nA veterinarian is a doctor for animals.\nThe 10-year-old from Olympia, Wash., recently became a\nThat is a person who is trained to help veterinarians.\nCourtney learned how to care for animals by taking online college classes.\nMost people who take those classes are adults.\nShe studied everything about animalseven their teeth.\nNow Courtney helps out at South Bay Veterinary Hospital one day a week.\nShe puts bandages on ...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 801,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "You might think twice the next time you spot a fly on the wall!\nThe U.S. Air Force plans to design flying robots that look like insects.\nThe buggy robots could spy on enemies in other countries.\nThey could also take part in missions that are too dangerous for humans.\nThe U.S. military will use bug robots to watch bad guys.\nThe flying machines could be as small as bumblebees, say military experts.\nThey would also have wings that move up and down, just like real winged bugs.\nThe bug-like robots ma...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 812,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Teasing on the Internet is a growing problem for kids.\nNobody likes to get a teasing e-mail.\nEspecially if you dont know whom the mean message is from.\nYou never know if its your best friend or your worst enemy, one elementary school student explains.\nTeasing or bothering other kids online is called\nExperts say its a growing problem.\nA recent survey of 1,500 students found that one in every four kids had been bullied online more than once.\nIn person, bullies can bother other kids only when adult...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 817,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Pluto has recently been dropped as a planet from displays at the Rose Center for Earth and Space in New York City.\nWhy?\nBecause the museum's scientists had studied Pluto and decided it isn't a planet, for these reasons:\nPluto's orbit is unlike any other planet's in our solar system.\nPluto is small, even smaller than Earth's moon.\nMany other scientists disagree and say Pluto should still be considered a planet.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 965,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Aquarius: An Underwater Lab With A View\nMany U.S. kids share their bedrooms with a brother or sister.\nSharing a room can be a pain.\nIn October, six scientists squeezed into a small underwater laboratory to study a coral reef.\nThey worked and slept in the tiny space for ten days.\nThey, too, found that sharing space isn't easy.\n\"I've been on missions where people snored,\" said Celia Smith, who led the mission in October.\n\"You just kind of kick their bunk and try to get to sleep before they do.\"\nIt...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1071,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "\"If I had one wish, it would be to bring peace to Earth and comfort to all the families who lost friends and loved ones [in the terrorist attacks],\" fourth grader Brandon wrote in an e-mail to\nBrandon and millions of other kids have come together to help the victims of the September 11 attacks on New York City and Washington, D.C. Those kids have been offering comfort to one another; collecting clothes, food, water, and other supplies to send to rescue workers; and raising money to help the vict...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1073,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "A \"cat-tastrophe\" recently struck the airport near Providence, Rhode Island.\nAirport officials were forced to cancel a flight when they found a runaway cat named Muffy sitting in the airplane's wheel well, the place where the landing gear is stored during flight.\nThe wayward cat had been placed in a cage to be put aboard an airplane.\nBut somehow Muffy escaped and climbed into the wheel well of a nearby plane.\nAirport workers spent hours trying to coax the cat down from its hiding place.\nThey eve...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1075,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Most students spend their school days sitting at desks learning.\nAurelious Woolfolk, however, does a lot more than sit at a desk when he is in school.\nHe scrambles up high ladders, walks down the sides of buildings, and rides in a fire engine.\nHe is learning to be a firefighter at the New Haven Fire Academy.\nWoolfolk and 28 other students are currently learning what it takes to become a firefighter.\nClasses at the fire academy, which is in Connecticut, last for about 22 weeks.\nOn most days, the ...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1114,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "New York City schools are removing the junk food from their vending machines.\nChange is on the way for vending machines in New York City schools.\nBeginning in September, candy, soda pop, and other sweet snacks will no longer be offered in school vending machines.\nIt's not just vending machines that are getting a makeover.\nIn a move to make cafeteria food more healthful, New York City schools will also cut the amount of sugar, fat, and salt in school lunches.\nThat means beef ravioli, potato salad...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1192,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Recently, Vice President Al Gore invited two\nkid reporters to interview him.\nFifth grader Daniel Calderone and sixth grader Kimberly Hernandez caught up with the vice president at the Elizabeth Avenue Learning Center in Cudahy, California.\n\"I was very excited and kind of nervous when I learned that I was going to interview the vice president of the United States,\" said Calderone.\nThe two reporters asked the vice president questions that kids from around the United States sent to\nWho is your hero...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1207,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Condoleezza Rice is the first African American woman to become secretary of state.\nAfter the November election, President Bush nominated Condoleezza Rice to become secretary of state.\nThat is the highest job in the president's\nRice will make history as the first-ever African American woman secretary of state.\n\"The secretary of state is America's face to the world, and in [Condoleezza Rice] the world will see the strength, grace, and decency of our country,\" Bush told reporters.\nBeing a leader is...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1261,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Say hello to a family member of one of the most fearsome dinosaurs known to exist.\nScientists recently unearthed the oldest relative of the fierce\nor scientists who study dinosaurs, found two fossils buried in northwestern China.\nis the remains of a plant or an animal of a past age preserved in rock.\n\"We knew we had something significant,\" James M. Clark, co-leader of the expedition, told\nmeans \"crowned dragon\" and refers to the\nor crown, on the dinosaur\u2019s head.\nThe second word,\ndescribes the ar...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1352,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Utah has a state fruit, a state folk dance, and a state fish.\nAnd thanks to a group of determined fourth graders, Utah may soon boast a state reptile.\nStudents in Laura Graf\u2019s social studies classes at Diamond Valley Elementary School in St. George, Utah, are getting a lesson in how a bill becomes a law.\nThey are urging state lawmakers to approve a new state symbolthe western rattler.\nThe idea for the state reptile came from the school\u2019s mascot, a diamondback rattlesnake.\nThe students convinced ...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1398,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Fancy some detective work?\nTry to solve an equation.\nIn order to see this content you need to have both\nThe BBC is not responsible for the content of external internet sites.\nThis page is best viewed in an up-to-date web browser with style sheets (CSS) enabled.\nWhile you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience.\nPlease consider upgrading your browser software or enabling style sheets (CSS) if you are able to do ...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1613,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Want to investigate?\nTry to find out some values.\nIn order to see this content you need to have both\nThe BBC is not responsible for the content of external internet sites.\nThis page is best viewed in an up-to-date web browser with style sheets (CSS) enabled.\nWhile you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience.\nPlease consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1659,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "If you toss a coin, the probability of obtaining a head is\nand the probability of obtaining a tail is also\nIf we choose a letter at random from the word 'SUMS', the probability of obtaining the letter 'S' is\n, the probability of obtaining the letter 'U' is\nand the probability of obtaining the letter 'M' is\nsum of the probabilities of all possible outcomes is 1\nThe probability that I am late for work tomorrow is\nWhat is the probability that I am not late for work?\nThere are two possible outcomes ...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1681,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Before you can measure something, you need to know what unit to use.\nYou can do this by making an estimate of its approximate size.\nWhen converting between units, there are some simple rules you should follow.\nCan you match Viral Vinnie's appetite for English, Maths and Science?\nMake sure your maths skills add up.\nThe BBC is not responsible for the content of external internet sites.\nThis page is best viewed in an up-to-date web browser with style sheets (CSS) enabled.\nWhile you will be able to ...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1711,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Something that is explicit is obvious, out in the open, plainly stated and up-front.\nExplicit meaning is the easiest to pick out from a piece of text.\nSometimes a writer wants it to be obvious that a character is good or bad or cruel or generous or mean and so on.\nJim Wellings was not a man to be glanced at.\nBut nor was he a man to be stared at.\nTo say he was a big man is like calling Buckingham Palace a big house.\nHe was a man who filled whatever space there was.\nHe wasn't fat, though; just big...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1765,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The beginning of a text is crucial to its success.\nIf the start is weak, there is a risk that the reader will lose interest and stop reading it.\nHere is the opening paragraph of a text about boxing:\nBoxing, amongst other hand-to-hand fighting, has been with us for thousands of years.\nOriginally it was nothing more than bare fist fighting between two willing, and sometimes unwilling, competitors for the entertainment of others.\nSome people argue that it is a relatively safe, disciplined, highly s...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1929,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "By a theme we mean an idea that runs through the text.\nAny piece of writing.\nMore widely, a text can be anything that conveys meaning - eg, a film, tv programme, advert, website, or image.\nmay have one theme, or many.\nUnderstanding the themes makes the text more than 'just' a story - it becomes something more significant, because we're encouraged to think deeper about the story and work out what lies beyond the\nThe sequence of events in a narrative; a story\nis a book about growing up.\nThe reader...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2084,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "You have disabled Javascript, or are not running Javascript on this browser.\nGo to the\nC\u00e1 ndeachaigh t\u00fa ar do laethanta saoire anuraidh?\nWhere did you go on your holidays last year?\nYou have disabled Javascript, or are not running Javascript on this browser.\nGo to the\n\u00c9ir\u00edm ar leath i ndiaidh a seacht.\nI get up at half past seven.\nYou have disabled Javascript, or are not running Javascript on this browser.\nGo to the\n\u00c9ir\u00edm ar a seacht a chlog gach maidin i rith na seachtaine mar im\u00edonn an bus ar ...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2183,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Sikhs should live their lives according to three equally important principles:\nA Punjabi term used in Sikhism to refer to God.\n\u2013 this can be done by meditating on the name Waheguru.\nare all equally important and Sikhs should not spend all their time on prayer.\n: earn a living by honest means.\nWork is essential for the individual, the family and the community and a Sikh has a duty to provide basic needs.\nIt does not matter what the work is, provided that it is\nand not against the teachings of the...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2247,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Abortion is the artificial ending of the life of a foetus in the womb (uterus).\nA natural abortion is called a miscarriage.\nAbortion has been legal in England, Scotland and Wales since 1967 when The Abortion Act was passed.\nA new upper time limit of 24 weeks was introduced in 1990 under The Human Fertilisation and Embryology Act.\nAn abortion may be carried out if one of the following conditions applies:\nthe life or physical health of the mother is at risk\nthe mental health of the mother is at ri...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2260,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Roads did have a significant impact on Britain.\nHowever, the roads did not meet the demands of everybody in Britain and there were some negative effects of the new roads:\nand businessmen started to make less money.\nNew roads were good for travel, but\nbecause it was too costly to move bulky goods.\nTurnpike Trusts meant industrialists were at a disadvantage because people were forced to pay whatever price the toll was to use the roads and the\nBack to Transport 1700 - 1900 index\nAll things historic...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2304,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Crude oil is a mixture of hydrocarbons.\nThese are separated into useful products, such as fuels, using a process called fractional distillation.\nThe demand for short hydrocarbon molecules is greater than their supply in crude oil, so a reaction called cracking is used.\nCracking converts long alkane molecules into shorter alkanes and alkenes, which are more useful.\nThe exploitation of oil can damage the environment - for example, through oil spills.\nThey were formed over millions of years, from t...",
+          "output": "1.0",
+          "metadata_readability_score": 1.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2468,
+          "metadata_complexity_age_interval": 5,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Why do some plants and animals die out?\nVenice is a famous city in Italy.\nIt is built on small islands.\nTo get around the city, people travel by boat.\nOver the years, Venice has been sinking slowly into the sea.\nWater levels are rising and causing flooding.\nThe city needs help to stay above water.\nThe government of Italy has a plan to save the city from floods.\nGovernment officials want to build a system of gates.\nThe gates would block the seawater from flooding the city.\nThe gates would take ab...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2567,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "This table shows how the units we use to measure time compare.\n365 days = 1 year (366 days in a leap year)\na) How many minutes are there in 6 hours?\nb) How many hours are there in a week?\nc) How many weeks are there in 63 days?\na) 60 \u00d7 6 = 360 minutes\nb) 24 \u00d7 7 = 168 hours in one week\nc) 63 \u00f7 7 = 9 weeks.\nRemember, there are 7 days in a week\n0.5 hours = 30 minutes, not 50 minutes.\nThis is because decimals show fractions of tenths, hundredths, thousandths and so on.\nof an hour.\nSimilarly, 1/4 hou...",
+          "output": "0.75",
+          "metadata_readability_score": 0.75,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2714,
+          "metadata_complexity_age_interval": 4,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "With a wave of his wand, Harry Potter has put kids under his spell.\nNow more kids than ever are going wild for fantasy.\nMuggles, look out!\nThe magic of Harry Potter is taking over.\nKids are heading to the world of fantasy.\n(ZHAN-ruh), or type, of fiction.\nIt is set in a world different from our own.\nThe stories involve magic and imaginary creatures.\nFantasy is nothing new.\nBut it has become all the rage again, thanks to author J. K. Rowling.\nThis summer, millions of Harry Potter fans lined up fo...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2897,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "NASA shuttles have blasted spacecraft to far-off planets.\nThey have even helped build a floating space lab.\nNow, the shuttles are ready for a new mission: their final countdown.\nOfficials at the U.S. space agency are ending the shuttle program this summer.\nThe shuttle\nwill shoot for the stars one more time this month.\nThen\nwill make its last flight in June.\nThe program took off in 1981 when NASA sent\nto space.\nNASA built five shuttles in all.\nThe others were\nEach spacecraft could carry up to 10 ...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2930,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The International Space Station will be getting a new homethe Pacific Ocean!\nOfficials recently announced plans to one day sink the spacecraft.\nThe space station is a lab that\nEarth.\nTo orbit is to circle.\nThe lab is about the length of a football field.\nIt is 250 miles from Earth.\nScientists from many countries live there and work on experiments.\nWhen the lab is no longer needed, experts will send the station into the ocean, says Kelly Humphries.\nHe is an official at the National Aeronautics an...",
+          "output": "0.25",
+          "metadata_readability_score": 0.25,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2936,
+          "metadata_complexity_age_interval": 2,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Imagine ordering an ice cream cone and knowing that it's improving your health.\nThat might be possible in the future.\nScientists are experimenting with ways to add extra nutrients to ice cream.\nNutrients are the parts of food that the body uses for growth and energy.\nOne type of nutrient that scientists want to add to ice cream is the group of fatty acids called omega-3.\nThey are found in fish such as tuna, salmon, and sardines.\nOmega-3 fatty acids are good for circulation and help prevent heart...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2961,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "When Paul Glover goes to the store, he takes his own money.\nWhat's so unusual about that?\nGlover, who lives in Ithaca, New York, actually\nthe money he spends at the store.\nEven though Glover pays for items with money the U.S. government didn't print, he's not breaking any laws.\nGlover's money is legal as long as it isn't passed off as\nGlover calls his money Ithaca Hours.\nAbout 500 stores and businesses in Ithaca accept Ithaca Hours in exchange for goods or services.\nThousands of people in Ithaca...",
+          "output": "0.5",
+          "metadata_readability_score": 0.5,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2981,
+          "metadata_complexity_age_interval": 3,
+          "metadata_original_split": "train"
+        }
+      ]
+    }
+  ]
+}
