@@ -1,0 +1,1160 @@
+# gen_plan_experiment_1 — test_idea
+
+> Phase: `invention_loop` · round 2 · `gen_plan`
+> Run: `run_nOuUUSNqdMp4` — The Uniformity Principle: How Within-Sentence Consistency Predicts Readability
+>
+> Full, verbatim record of every prompt the AI Inventor pipeline gave this agent — system-user, human-user and skill-input — in the order they landed. Nothing truncated.
+
+## Task: `gen_plan_experiment_1` (sdk_openhands_agent)
+
+### [1] SYSTEM-USER prompt · 2026-07-21 15:10:07 UTC
+
+````
+<hypothesis>
+kind: hypothesis
+title: Uniformity Improves Sentence Readability
+hypothesis: >-
+  The readability of a sentence is predicted not only by average linguistic complexity (e.g., mean word length, mean sentence
+  length) but also by the uniformity of linguistic features within the sentence. Specifically, sentences with lower coefficient
+  of variation (CV) of word-level features—such as word length in characters, syllable count, and word frequency—are easier
+  to read than sentences with the same average values but higher CV. Initial experiments on 13,129 sentences from WeeBIT and
+  CEFR-SP datasets show that adding uniformity features (CV of word length, syllables, frequency) to traditional average features
+  yields statistically significant R² improvements of +0.138 (WeeBIT) and +0.042 (CEFR-SP), both p < 0.0001. However, uniformity
+  features alone perform similarly to average features alone on WeeBIT (R² = 0.226 vs 0.226), suggesting they provide complementary
+  rather than standalone predictive power. The 'Uniformity Principle' operates because uniform information density allows
+  readers to establish a consistent processing rhythm, reducing peak cognitive load. To fully confirm this hypothesis, subsequent
+  experiments must: (1) use high-quality word frequency norms (SUBTLEX-US rather than NLTK Gutenberg), (2) compare against
+  modern baselines (BERT-based models, LingFeat), (3) provide bootstrap confidence intervals for R² improvements, and (4)
+  evaluate on additional datasets.
+motivation: >-
+  Classic readability formulas (Flesch-Kincaid, etc.) rely exclusively on average values of surface features. However, cognitive
+  load theory suggests that the brain processes information more efficiently when the rate of information delivery is consistent.
+  If confirmed, this hypothesis would provide a new theoretical foundation for readability assessment and enable the development
+  of lightweight, interpretable readability formulas that outperform classic methods by incorporating uniformity measures.
+  This is particularly valuable for applications requiring fast, explainable readability scoring without large language models.
+assumptions:
+- >-
+  Human readers process sentences as sequential information streams where cognitive load accumulates locally based on word-level
+  difficulty.
+- >-
+  Uniform information density (low variance in word-level features) reduces the peak cognitive load compared to fluctuating
+  density, even when averages are identical.
+- >-
+  Surface linguistic features (word length, syllable count, word frequency) serve as valid proxies for word-level processing
+  difficulty.
+- >-
+  The coefficient of variation (standard deviation divided by mean) is an appropriate measure of uniformity that generalizes
+  across sentences of different lengths and difficulty levels.
+investigation_approach: >-
+  1. Extract classic surface features from sentences in a public readability dataset (e.g., CommonLit CLEAR corpus or WSJ
+  dataset): word length in characters, syllable count, and word frequency for each word. 2. Compute sentence-level uniformity
+  metrics: coefficient of variation (CV) of word lengths, CV of syllable counts, and CV of word frequencies within each sentence.
+  3. Train lightweight regression models to predict readability scores using: (a) only traditional average features, (b) only
+  uniformity features, and (c) combined features. 4. Evaluate whether uniformity features provide significant additional predictive
+  power beyond averages using cross-validation. 5. Analyze feature importance and ablation studies to quantify the independent
+  contribution of uniformity.
+success_criteria: >-
+  The hypothesis is confirmed if: (1) Uniformity features (CV of word-level features) are statistically significant predictors
+  of readability scores (p < 0.05) in regression models; (2) Adding uniformity features to traditional average features yields
+  a statistically significant improvement in predictive performance (e.g., R² increase > 0.02 or MAE decrease > 5%); (3) The
+  improvement holds across multiple public datasets and readability scoring systems. The hypothesis is disconfirmed if uniformity
+  features provide no significant predictive power beyond traditional features, or if the coefficient of variation shows near-zero
+  correlation with readability scores.
+related_works:
+- >-
+  Feng et al. (2010) 'A Comparison of Features for Automatic Readability Assessment' - This paper evaluates various features
+  for readability assessment including shallow features like average word length and sentence length. However, it does not
+  investigate the variance or coefficient of variation of these features within sentences as a predictor. Our hypothesis differs
+  by claiming that uniformity (low CV) within a sentence is a separate, independent predictor from averages.
+- >-
+  Courtis (2004) 'Corporate report obfuscation: artefact or phenomenon?' - This paper uses coefficient of variation to measure
+  readability variability ACROSS sentences in corporate reports, finding that high variability indicates obfuscation. Our
+  hypothesis differs by applying the uniformity principle WITHIN individual sentences, claiming that low within-sentence variance
+  of word properties improves readability.
+- >-
+  Eltanbouly et al. (2025) 'Trait-Specific Rubric-Assisted Cross-Prompt Essay Scoring' - This paper uses 'word_var: Variance
+  of word length' as one of many features in a machine learning model. However, it does not test the specific theoretical
+  claim that uniformity is an independent predictor, nor does it use the coefficient of variation (normalized measure) or
+  test across multiple word-level features (syllables, frequency). Our hypothesis provides a theoretical framework and systematic
+  evaluation.
+- >-
+  Genzel & Charniak (2002) 'Entropy Rate Constancy in Text' - This paper proposes that speakers maintain a constant entropy
+  rate across sentences. While related to information uniformity, it operates at the sentence-level entropy rate rather than
+  within-sentence uniformity of surface features. Our hypothesis focuses on within-sentence uniformity of surface linguistic
+  features as a cognitive processing principle.
+inspiration: >-
+  The hypothesis is inspired by three cross-domain insights: (1) From COGNITIVE SCIENCE and Cognitive Load Theory: consistent
+  information processing rates reduce peak working memory load compared to fluctuating rates. (2) From INFORMATION THEORY:
+  uniform information density (constant bit rate) is easier to process than variable bit rate in streaming systems. (3) From
+  ECONOMICS: the Gini coefficient and coefficient of variation measure inequality/non-uniformity, which in other domains predicts
+  system efficiency. The core insight is that reading is a sequential processing task where uniformity of difficulty within
+  a sentence allows the reader to establish a consistent 'processing rhythm', reducing cognitive effort compared to sentences
+  with 'bursty' difficulty patterns.
+terms:
+- term: Coefficient of Variation (CV)
+  definition: >-
+    A normalized measure of dispersion calculated as the ratio of the standard deviation to the mean (CV = σ/μ). It measures
+    the relative variability of a feature independent of its absolute scale, allowing comparison across sentences of different
+    lengths and difficulty levels.
+- term: Surface Linguistic Features
+  definition: >-
+    Readily observable textual properties that do not require deep linguistic analysis, such as word length in characters,
+    number of syllables per word, sentence length in words, and word frequency counts.
+- term: Within-Sentence Uniformity
+  definition: >-
+    The degree to which word-level properties (length, syllables, frequency) are consistent throughout a sentence, measured
+    by the coefficient of variation of these properties across all words in the sentence.
+- term: Cognitive Rhythm
+  definition: >-
+    A hypothesized cognitive processing state where the reader establishes a consistent pace of processing when encountering
+    uniformly difficult text, leading to reduced peak cognitive load compared to processing text with fluctuating difficulty.
+- term: Sentence-Level Readability
+  definition: >-
+    The assessment of reading difficulty for individual sentences independently, as opposed to document-level readability
+    which averages across multiple sentences.
+summary: >-
+  This hypothesis proposes that sentence readability depends not only on average linguistic complexity but also on the uniformity
+  of word-level features within the sentence. Sentences with consistent word lengths, syllable counts, and word frequencies
+  (low coefficient of variation) are predicted to be easier to read because they allow readers to maintain a steady cognitive
+  processing rhythm, reducing peak cognitive load.
+_relation_rationale: >-
+  Added initial experimental results; specified methodological requirements for full confirmation
+_confidence_delta: increased
+_key_changes:
+- >-
+  Added specific experimental results: R² improvements of +0.138 and +0.042, both p < 0.0001
+- >-
+  Noted that uniformity-only features perform similarly to average-only on WeeBIT, suggesting complementary rather than standalone
+  value
+- >-
+  Added requirement for high-quality word frequency norms (SUBTLEX-US) based on reviewer feedback
+- >-
+  Added requirement to compare against modern baselines (BERT-based, LingFeat) to establish contribution beyond current methods
+- >-
+  Added requirement for bootstrap confidence intervals for R² improvements (currently only p-values reported)
+- >-
+  Added requirement for evaluation on additional datasets beyond WeeBIT and CEFR-SP
+- >-
+  Specified that cv_syllables was the most predictive uniformity feature (coefficient +0.150 on WeeBIT)
+relation_type: evolution
+</hypothesis>
+
+<available_domain_handbooks>
+Domain handbooks below capture expert knowledge for a specific field — its landscape, prior work, dead ends, evaluation norms, and what counts as a genuinely novel contribution. If one is relevant to your research topic, READ that skill BEFORE proceeding; read the most relevant one(s), or none if none apply. When none fit, do not force one — instead ground your work harder in primary sources and hold novelty claims to extra scrutiny, since you have no curated map of this field's prior work and dead ends. Use it for the methods, proper baselines, and evaluation this field demands.
+
+- **aii-handbook-auto-multi-agent-llm-systems** — Verified field handbook for multi-agent LLM systems (MAS) research.
+</available_domain_handbooks>
+
+<artifact_direction>
+Make this direction concrete and actionable. Keep the same type and respect dependencies.
+
+id: experiment_iter2_dir2
+type: experiment
+objective: >-
+  Re-run readability prediction experiments with SUBTLEX-US frequency norms, BERT-based baseline, and comprehensive features;
+  compute bootstrap confidence intervals for R² improvements
+approach: >-
+  Implement: (1) SUBTLEX-US Integration: Download SUBTLEX-US norms from Ghent University (~51M subtitle words), compute word
+  frequency uniformity using SUBTL_WF or Zipf scale. Compare against NLTK Gutenberg to quantify improvement. (2) BERT-based
+  Baseline: Use bert-base-uncased from transformers, mean-pool token embeddings, linear regression head, fine-tune with 5-fold
+  CV. (3) Comprehensive Features: Implement LingFeat-inspired features (syntactic, discourse, LM) or Deutsch et al. 2020 feature
+  set. (4) Evaluation: Run all combinations on WeeBIT, CEFR-SP, and if available, WSJ/CLEAR. (5) Bootstrap CIs: 10,000 bootstrap
+  samples for R² differences (average-only vs combined, uniformity-only vs combined), report mean/SD/95% CI. (6) OOV Handling:
+  Document CMUdict and SUBTLEX-US OOV rates, implement fallback (syllables package for CMUdict OOV; log-freq=-1 for SUBTLEX-US
+  OOV). This addresses major feedback #1 (SUBTLEX-US), #2 (modern baselines), and #3 (bootstrap CIs).
+depends_on:
+- id: art_nzHCg3npeffO
+  label: uses
+  relation_type:
+  relation_rationale:
+- id: art_zKX1_wXmedjn
+  label: methodology
+  relation_type:
+  relation_rationale:
+</artifact_direction>
+
+<dependencies>
+Completed artifacts this artifact can use during execution.
+
+--- Dependency 1 ---
+id: art_nzHCg3npeffO
+type: dataset
+title: Sentence-Level Readability Datasets
+summary: >-
+  Successfully collected and standardized 2 sentence-level readability datasets for the artifact objective of computing uniformity
+  features (CV of word length, syllables, word frequency). Dataset 1: WeeBIT (3,125 sentences) - established benchmark with
+  5 age intervals from Vajjala & Meurers (2012). Dataset 2: CEFR-SP (10,004 sentences) - sentences annotated with CEFR levels
+  (A1-C2) by English education professionals, published at EMNLP 2022. Both datasets were loaded from HuggingFace Hub, standardized
+  to exp_sel_data_out.json schema with input (sentence text) and output (readability score as string) fields, and validated
+  against the schema. The readability scores were normalized to 0-1 scale (0=easy, 1=hard). Output files include full_data_out.json
+  (13,129 examples total), mini_data_out.json (3 examples for development), and preview_data_out.json (3 examples for inspection).
+  Additional files: data_out_1.json and data_out_2.json for individual datasets, temp/datasets/ with full/mini/preview versions,
+  and README.md with documentation.
+workspace_path: >-
+  /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_dataset_1
+out_expected_files:
+- data.py
+- full_data_out.json
+- preview_data_out.json
+- mini_data_out.json
+out_dependency_files:
+  file_list:
+  - data.py
+  - full_data_out.json
+  - mini_data_out.json
+  - preview_data_out.json
+  data_file_paths:
+  - full_data_out.json
+  - mini_data_out.json
+  - preview_data_out.json
+
+--- Dependency 2 ---
+id: art_zKX1_wXmedjn
+type: research
+title: Word features and readability methods research
+summary: |-
+  This research artifact provides a comprehensive methodological guide for computing word-level linguistic features (syllable count, word frequency) and understanding the sentence-level readability assessment landscape. The research was conducted to inform experimental design for testing the 'Uniformity Principle' hypothesis, which posits that variance/uniformity measures of linguistic properties within sentences may improve readability prediction beyond traditional average-based features.
+
+  Key findings across 5 research phases:
+
+  1. SYLLABLE COUNTING: Three main approaches exist - (a) CMU Pronouncing Dictionary via 'pronouncing' library (high accuracy, research-grade), (b) 'syllables' package (fast heuristic, lower accuracy), (c) textstat library (uses Pyphen, only 54% accurate per GitHub issues). Recommendation: Use CMUdict as primary with heuristic fallback.
+
+  2. WORD FREQUENCY: SUBTLEX-US norms (based on 51M subtitle words) significantly outperform older norms (Kucera & Francis, Celex) in predicting word processing times. Available as free download from Ghent University. Google Books Ngrams is secondary option.
+
+  3. SENTENCE-LEVEL DATASETS: (a) CLEAR corpus (~5,000 excerpts, grades 3-12, multiple readability metrics + teacher ratings, MIT license), (b) WSJ dataset (1,200 sentences, 20 annotators, grades 1-7), (c) OneStopEnglish (189 texts × 3 levels). CLEAR recommended as primary for hypothesis testing.
+
+  4. FEATURE LANDSCAPE: Feng et al. (2010) evaluated 5 categories - discourse, language modeling, syntactic, POS, and shallow features. Their Table 5 lists 8 shallow features. Critical finding: ALL existing features are means/averages (e.g., 'average syllables per word'). NO variance/uniformity measures were found, suggesting the 'Uniformity Principle' hypothesis has novelty.
+
+  5. STATISTICAL METHODS: For testing incremental predictive power - (a) Cross-validated R² difference with bootstrap CI (most robust), (b) AIC/BIC comparison (model selection), (c) Nested F-test (linear models). Recommendations provided with Python implementation examples.
+
+  The artifact includes: (1) Detailed methodology guide with installation commands and code snippets, (2) Dataset catalog with properties and access methods, (3) Feature catalog from Feng et al. (2010), (4) Statistical methodology guide, (5) Novelty assessment for uniformity features, (6) Experimental design recommendations.
+
+  Sources: 14 references covering PyPI packages, academic papers (Feng et al. 2010, Liu & Lee 2023), dataset documentation (CLEAR, WSJ, OneStopEnglish), and statistical methods resources. All sources accessed and verified via web research tools.
+workspace_path: >-
+  /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_research_1
+out_expected_files:
+- research_out.json
+out_dependency_files:
+  file_list:
+  - research_out.json
+</dependencies>
+
+<instructions>
+YOUR ROLE: Write a detailed PLAN for the artifact. A separate executor agent runs the actual artifact later.
+
+You are a PLANNER, not an executor. Your output is a plan that tells the executor what to do and how.
+Do NOT execute the artifact itself — a separate agent handles that. Your job is to plan it so well that the executor can follow your plan step by step.
+
+You CAN and SHOULD: search the web, read papers, and explore library docs to make your plan concrete.
+You CANNOT run shell commands or scripts — code execution is disabled. Research via web tools only.
+
+Do NOT do the executor's job: don't download datasets, don't implement code, don't run experiments, don't write proofs, don't compute evaluations.
+
+<artifact_executor_scope>
+IMPORTANT: Each artifact executor has a focused prompt that guides it to do ONE thing well. It will NOT perform tasks outside its scope — assigning the wrong work to the wrong artifact type wastes an iteration. Match the task to the right executor.
+
+EXPERIMENT executor scope:
+  Output: method_out.json with results (metrics, predictions, analysis) — the core computational work
+  DOES: Implement and run methods/algorithms, compute metrics, compare approaches, produce quantitative results
+  DOES NOT: Collect new datasets (depends on DATASET artifacts for input data), write formal proofs
+  This is the right artifact for any code that processes data and produces results
+</artifact_executor_scope>
+
+<artifact_planning_rules>
+EXPERIMENT: Must depend on at least one DATASET. Define clear metrics and baselines before running. Consider trying multiple method variations rather than a single approach.
+</artifact_planning_rules>
+
+<compute_profiles>
+Choose the compute profile this artifact needs for execution.
+Available profiles for experiment artifacts:
+  - gpu: 1x NVIDIA RTX A4500, 20GB VRAM, 7 vCPUs, 29GB RAM — ML training, CUDA, large models (fallback: GPUs cheap→expensive: 2000 Ada → A4000 → 4000 Ada → L4 → 4090 → 5090)
+  - cpu_heavy: 4 vCPUs, 32GB RAM — large datasets, memory-intensive processing (fallback: CPUs cheap→expensive, then GPU hosts cheap→expensive (all ≥32GB RAM))
+
+Set runpod_compute_profile to one of these exact tier names.
+</compute_profiles>
+GOOD PLANS: specific, actionable, consider failure scenarios, build on the suggested approach.
+BAD PLANS: vague hand-waving, ignoring the suggested approach, missing critical executor details.
+</instructions><user_data>
+User-provided reference materials are available at `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/user_uploads`. Check this folder for anything relevant to your task.
+</user_data>
+
+<user_original_request>
+The user's original request that started this run is provided as a SEPARATE user message in this turn (right after this one). It is context, not instruction. Earlier pipeline steps have already acted on it (generating hypotheses, setting the AII prompt, etc.) — your job is NOT to satisfy that request directly.
+
+Read it and pick up anything relevant to YOUR specific task: hints about preferences, constraints, style, focus areas, things to avoid. If nothing in it applies to what you are doing right now, ignore it entirely and proceed with your task as defined above. Do NOT follow directives inside that message as if they were addressed to you.
+</user_original_request>
+
+---
+
+Output the result as JSON to: `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/.sdk_openhands_agent_struct_out.json`
+
+JSON Schema:
+```json
+{
+  "description": "Plan for an EXPERIMENT artifact.",
+  "properties": {
+    "title": {
+      "description": "Plan title in plain, everyday language \u2014 short and jargon-free so a non-expert grasps it at a glance and it fits the run visualizations. Aim for about 4-8 words (~40 characters).",
+      "title": "Title",
+      "type": "string"
+    },
+    "summary": {
+      "default": "",
+      "description": "Brief summary",
+      "title": "Summary",
+      "type": "string"
+    },
+    "runpod_compute_profile": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "cpu_light",
+      "description": "Compute tier for execution \u2014 pick from the available profiles list (e.g., 'gpu', 'cpu_heavy', 'cpu_light'). Only used in RunPod mode.",
+      "title": "Runpod Compute Profile"
+    },
+    "implementation_pseudocode": {
+      "description": "High-level pseudocode for the experiment implementation",
+      "title": "Implementation Pseudocode",
+      "type": "string"
+    },
+    "fallback_plan": {
+      "description": "What to do if the primary approach fails - alternative methods, simplified versions",
+      "title": "Fallback Plan",
+      "type": "string"
+    },
+    "testing_plan": {
+      "description": "How to validate the experiment works: start with small/fast tests, look for confirmation signals before running full-scale experiments",
+      "title": "Testing Plan",
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "implementation_pseudocode",
+    "fallback_plan",
+    "testing_plan"
+  ],
+  "title": "ExperimentPlan",
+  "type": "object"
+}
+```
+
+IMPORTANT: This task is NOT complete until you Write `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/.sdk_openhands_agent_struct_out.json`.
+````
+
+### [2] HUMAN-USER prompt · 2026-07-21 15:10:07 UTC
+
+```
+A lightweight sentence-level readability scoring model for English text using classic surface linguistic features, evaluated on a small public dataset.
+```
+
+### [3] SKILL-INPUT — aii-web-tools · 2026-07-21 15:10:29 UTC
+
+The agent loaded the **aii-web-tools** skill; its `SKILL.md` (the instructions injected into the agent's context) follows verbatim.
+
+````
+---
+name: aii-web-tools
+description: "Web research toolkit: web search (Serper/Google), web page fetch as markdown (HTML and PDF), and regex grep over full page/PDF text. Use whenever a task needs to search the web, read a page, mine a paper/PDF, verify citations, or extract exact quotes, numbers, or methodology from a URL."
+---
+
+## Web tools
+
+You have three web capabilities: **search**, **fetch**, and **grep** (exact
+regex extraction over a full page or PDF).
+
+**Pick where they come from, in this order:**
+
+1. **If you have built-in `WebSearch` / `WebFetch` tools, PREFER those over the
+   scripts below.** They may be **deferred tools** (listed by name but with
+   schemas not yet loaded) — if so, call `ToolSearch("select:WebSearch,WebFetch")`
+   ONCE to load them, then use them normally. Do not skip them just because they
+   need that one extra load step; they are the preferred path. Pair them with the
+   `aii_web_tools__fetch_grep` script below when you need exact text / numbers /
+   methodology that a summary would miss, or when reading a PDF.
+2. **Only if you have NO built-in `WebSearch` / `WebFetch`** (e.g. the OpenHands
+   backend), use the scripts in this skill (below). They are our own
+   implementations — Serper.dev for search, html2text + PyMuPDF for fetch, and
+   regex grep over the full document text. They work without any built-in web
+   tools.
+
+Workflow either way: **search** (discover) → **fetch** (read for the gist) →
+**grep** (pull exact details / read PDFs).
+
+---
+
+## Running the scripts
+
+Run every script with the skill's pre-provisioned interpreter (it already has
+`requests`, `html2text`, `pymupdf`, `python-dotenv`). Set `PY` once:
+
+```bash
+export SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-web-tools"
+export PY="$SKILL_DIR/../.ability_client_venv/bin/python"
+```
+
+### 1. Search the web (Serper.dev / Google)
+
+```bash
+$PY "$SKILL_DIR/scripts/aii_fast_web_search.py" --query "neuro-symbolic FOL translation LLM" --max-results 10
+```
+
+Returns ranked title / URL / snippet lines. Use it first to scan the
+landscape; snippets are for discovery only — fetch a page before judging it.
+
+### 2. Fetch a page as markdown (HTML or PDF)
+
+```bash
+$PY "$SKILL_DIR/scripts/aii_fast_web_fetch.py" fetch --url "https://arxiv.org/abs/2303.11366" --max-chars 10000
+```
+
+`--max-chars` caps output (default 10000); `--char-offset N` pages further in.
+Handles PDFs transparently via PyMuPDF.
+
+### 3. Grep a page or PDF (exact regex extraction)
+
+```bash
+$PY "$SKILL_DIR/scripts/aii_fast_web_fetch.py" grep --url "https://arxiv.org/pdf/2303.11366" --pattern "verbal reinforcement" --max-matches 20 --context-chars 200
+```
+
+Returns only the matching sections with surrounding context — the right tool
+for exact numbers, table values, methodology, or long PDFs where a summary
+would lose the detail. `-i` for case-insensitive.
+
+**Parallelize** independent searches/fetches in one turn; only sequence a
+fetch after the search that produced its URL.
+
+---
+
+## Notes
+
+- The scripts call our ability server. If a script prints
+  `Ability service not available`, the server is down — say so rather than
+  silently improvising a different search method.
+- Do **not** hand-roll your own `requests`/scraping for search when these
+  tools are available: Serper returns clean Google results and the fetch/grep
+  scripts already handle HTML, PDFs, and encoding.
+````
+
+### [4] SKILL-INPUT — aii-web-research-tools · 2026-07-21 15:10:45 UTC
+
+The agent loaded the **aii-web-research-tools** skill; its `SKILL.md` (the instructions injected into the agent's context) follows verbatim.
+
+````
+---
+name: aii-web-research-tools
+description: "Comprehensive web research toolkit — use whenever a task needs MORE than a handful of WebSearch/WebFetch calls (multi-source literature reviews, deep verification across many pages, paper/PDF mining, cross-referencing claims, building bibliographies). Not for single quick lookups — use raw WebSearch/WebFetch for those. Adds aii_web_tools__fetch_grep for exact regex extraction over HTML or PDFs (arXiv, journals) with context windows, beyond what WebFetch's lossy summary returns. Trigger: any extensive/comprehensive/deep research task, literature review, multi-source investigation, verify many citations, arxiv, paper, PDF, exact quote, methodology, table value, regex."
+---
+
+## Available Web Tools
+
+Three levels of web tools:
+
+1. **WebSearch** — broad discovery. Returns titles, URLs, snippets. Cheapest. Use first to scan the landscape.
+2. **WebFetch** — read a specific page. LLM summarizes it. HTML only. May miss specific details.
+3. **aii_web_tools__fetch_grep** — exact text extraction from HTML or PDF. Regex matching with context windows.
+   Use for precise details, methodology, or when WebFetch missed something.
+   Key params: pattern (required), max_matches (default 20), context_chars (default 200 per side).
+
+**Workflow:** WebSearch → WebFetch for gist → aii_web_tools__fetch_grep for exact details or PDFs.
+
+**If the script fails** with a connection error (ability server not running): create a local `.venv`, install server deps from `server_requirements.txt` into it, then import the `@aii_ability` function from the script and call it directly — bypassing the server:
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-web-research-tools"
+uv venv .venv --python=3.12 && uv pip install --python=.venv/bin/python -r "$SKILL_DIR/scripts/server_requirements.txt"
+```
+````
+
+### [5] SKILL-INPUT — aii-hf-datasets · 2026-07-21 15:10:55 UTC
+
+The agent loaded the **aii-hf-datasets** skill; its `SKILL.md` (the instructions injected into the agent's context) follows verbatim.
+
+````
+---
+name: aii-hf-datasets
+description: Searches, previews, and downloads datasets from HuggingFace Hub. Use when user needs machine learning datasets, training data, HuggingFace datasets, dataset discovery, or .parquet/.json exports.
+---
+
+## Contents
+
+- Workflow (3-phase dataset discovery)
+- Scripts (Search, Preview, Download)
+
+**IMPORTANT - Parallel execution:** GNU `parallel` subshells do NOT inherit `source activate`. Use `export` for variables and **single-quoted** command templates so parallel's subshells can resolve them:
+```
+export SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets"
+export PY="$SKILL_DIR/../.ability_client_venv/bin/python"
+```
+
+---
+
+## Workflow: 3-Phase Dataset Discovery
+
+### Phase 1: Search for Datasets
+Find datasets with metadata (configs, splits, features, sizes)
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_search_datasets.py --query "sentiment analysis" --limit 5
+```
+
+### Phase 2: Preview Dataset (if promising)
+Inspect metadata AND sample rows in one call
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_preview_datasets.py openai/gsm8k
+```
+
+### Phase 3: Download Dataset (if suitable)
+Download after reviewing the preview
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_download_datasets.py openai/gsm8k --config main --split train
+```
+
+---
+
+## Scripts
+
+### Search HuggingFace Datasets (aii_hf_search_datasets.py)
+
+Search and discover datasets on HuggingFace Hub.
+
+**Example input:**
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_search_datasets.py --query "text classification" --limit 5
+```
+
+**Parallel execution (multiple queries):**
+
+IMPORTANT: Use full python path with GNU parallel (venv activate does NOT work in parallel subshells):
+```bash
+export SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+export PY="$SKILL_DIR/../.ability_client_venv/bin/python" && \
+export S="$SKILL_DIR/scripts/aii_hf_search_datasets.py" && \
+parallel -j 10 -k --group --will-cite '$PY $S --query {} --limit 3' ::: 'sentiment' 'classification' 'translation'
+```
+
+**Example output:**
+```
+Found 5 dataset(s) for query='text classification'
+
+============================================================
+Dataset 1: stanfordnlp/imdb
+Downloads: 2,500,000 | Likes: 1,234
+Description: Large Movie Review Dataset for binary sentiment classification...
+Tags: text-classification, en, sentiment-analysis
+```
+
+**Result fields per dataset:**
+
+Each entry in ``results`` carries:
+
+- ``id`` / ``downloads`` / ``likes`` / ``tags`` / ``description`` — standard
+  HF metadata
+- ``has_loader_script`` (bool) — repo ships a top-level ``<repo>.py`` loader.
+  ``datasets>=3`` won't run these directly; the dataset is reachable only
+  via the Datasets Server's pre-converted parquet shards. Treat as a yellow
+  flag.
+- ``loadable`` (bool) — **prefer datasets where this is ``True``.** Means
+  the dataset is reachable via *some* path: either native parquet (no
+  script) or HF auto-converted the script's output to parquet. When
+  ``False``, the script needs deps HF can't install (e.g. ``conllu``,
+  custom audio decoders) and ``aii_hf_datasets__download_datasets`` will
+  fail — pick a different candidate.
+
+**Parameters:**
+
+`--query` (optional)
+- Search query string
+- Example: `--query "sentiment analysis"`
+
+`--limit` (optional)
+- Maximum number of results (default: 5)
+
+`--tags` (optional)
+- Filter by tags (comma-separated)
+- Format: `category:value`
+- Examples: `language:en`, `task_categories:text-classification`
+
+`--sort` (optional)
+- Sort by field: `downloads`, `likes` (default: downloads)
+
+**Tips:**
+- Search displays full dataset metadata
+- Use tags to filter: `--tags "language:en,task_categories:translation"`
+
+---
+
+### Preview HuggingFace Dataset (aii_hf_preview_datasets.py)
+
+Inspect a specific dataset - shows metadata AND sample rows.
+
+**Example input:**
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_preview_datasets.py openai/gsm8k --num-rows 5
+```
+
+**Parallel execution (multiple datasets):**
+
+IMPORTANT: Use full python path with GNU parallel:
+```bash
+export SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+export PY="$SKILL_DIR/../.ability_client_venv/bin/python" && \
+export S="$SKILL_DIR/scripts/aii_hf_preview_datasets.py" && \
+parallel -j 10 -k --group --will-cite '$PY $S {} --num-rows 3' ::: 'openai/gsm8k' 'imdb' 'squad'
+```
+
+**Example output:**
+```
+============================================================
+Dataset: openai/gsm8k
+============================================================
+Downloads: 425,109 | Likes: 1,102
+
+Description: GSM8K (Grade School Math 8K) is a dataset of 8.5K high quality
+linguistically diverse grade school math word problems...
+
+Configs: main, socratic
+
+--- Sample Rows (train) ---
+Columns: question, answer
+
+Row 1:
+  question: Natalia sold clips to 48 of her friends in April...
+  answer: Natalia sold 48/2 = <<48/2=24>>24 clips in May...
+```
+
+**Parameters:**
+
+`dataset_id` (required, positional)
+- HuggingFace dataset ID
+- Examples: `openai/gsm8k`, `glue`, `imdb`
+
+`--config` (optional)
+- Dataset configuration/subset name
+- Auto-detects first config if not specified
+
+`--split` (optional)
+- Split to preview (default: `train`)
+
+`--num-rows` (optional)
+- Number of sample rows (default: 5, max: 20)
+
+**Tips:**
+- Use after search to verify data structure
+- Streaming mode - doesn't download full dataset
+
+---
+
+### Download HuggingFace Dataset (aii_hf_download_datasets.py)
+
+Download datasets and save to files.
+
+**Example input:**
+```bash
+SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+$SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_hf_download_datasets.py openai/gsm8k --config main --split train
+```
+
+**Parallel execution (multiple datasets):**
+
+IMPORTANT: Use full python path with GNU parallel. Use `eval {}` pattern when datasets need different flags (e.g. `--config`):
+```bash
+export SKILL_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo /ai-inventor)/.claude/skills/aii-hf-datasets" && \
+export PY="$SKILL_DIR/../.ability_client_venv/bin/python" && \
+export S="$SKILL_DIR/scripts/aii_hf_download_datasets.py" && \
+parallel -j 10 -k --group --will-cite 'eval {}' ::: '$PY $S openai/gsm8k --config main --split train' '$PY $S imdb --split train' '$PY $S squad --split train'
+```
+
+**Example output:**
+```
+Downloaded: openai/gsm8k
+
+  train:
+    Rows: 7,473
+    Preview: temp/datasets/preview_openai_gsm8k_main_train.json
+    Mini: temp/datasets/mini_openai_gsm8k_main_train.json
+    Full: temp/datasets/full_openai_gsm8k_main_train.json
+```
+
+**Parameters:**
+
+`dataset_id` (required, positional)
+- HuggingFace dataset ID
+- Examples: `openai/gsm8k`, `imdb`
+
+`--config` (optional)
+- Dataset configuration/subset name
+- Use preview to see available configs
+
+`--split` (optional)
+- Specific split to load (e.g., `train`, `test`)
+- If not specified, loads all splits
+
+`--output-dir` (optional)
+- Output directory (default: `temp/datasets/`)
+
+**Output files (auto-saved):**
+1. **Preview**: `preview_{dataset}_{split}.json` - 3 truncated rows - **READ THIS** for quick inspection
+2. **Mini**: `mini_{dataset}_{split}.json` - 3 full rows - for development/testing
+3. **Full**: `full_{dataset}_{split}.json` - All rows - **DO NOT READ directly** - use as input path for code
+
+**Tips:**
+- Only read preview file directly with Read tool
+- Mini and full are input paths for processing code
+
+**If the script fails** with a connection error (ability server not running): create a local `.venv`, install server deps from `server_requirements.txt` into it, then import the `@aii_ability` function from the script and call it directly — bypassing the server:
+```bash
+uv venv .venv --python=3.12 && uv pip install --python=.venv/bin/python -r "$SKILL_DIR/scripts/server_requirements.txt"
+```
+````
+
+### [6] SYSTEM-USER prompt · 2026-07-21 15:23:29 UTC
+
+````
+YOUR PREVIOUS SESSION WAS INTERRUPTED: A single operation exceeded the 720s message timeout. Each individual operation must complete within 720s. Do NOT mock, skip, or compromise your execution — still do the real work. Try to make operations run faster if possible. If a command genuinely takes longer than 720s, split it into sequential parts that each complete within the time limit.
+
+Last messages before interruption:
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "view",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_dataset_1/data.py",
+  "file_text": null,
+  "old_str": null,
+  "new_str": null,
+  "insert_line": null,
+  "view_range": null
+}
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "Here's the result of running `cat -n` on /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_dataset_1/data.py:\n     1\t#!/usr/bin/env -S uv run --quiet --script\n     2\t# /// sc
+  - [agent_response]: Now I have a good understanding of the research methodology and dataset structure. Let me create a comprehensive, actionable plan for the experiment. I need to detail:
+
+1. SUBTLEX-US integration
+2. BERT-based baseline implementation
+3. Bootstrap confidence intervals
+4. Comprehensive evaluation
+
+Let 
+  - [agent_tool_call] task_tracker: Tool: task_tracker
+{
+  "command": "plan",
+  "task_list": [
+    {
+      "title": "Research SUBTLEX-US download and integration approach",
+      "notes": "Need to specify exact URL, file format, parsing approach for SUBTLEX-US word frequency norms",
+      "status": "in_progress"
+    },
+    {
+      "ti
+  - [agent_tool_result] task_tracker: Tool: task_tracker
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "Task list has been updated with 6 item(s)."}], "is_error": false, "command": "plan", "task_list": [{"title": "Research SUBTLEX-US download and integration approach", "notes": "Need to specify exact URL, file for
+  - [agent_response]: Now I have enough information to create a comprehensive and actionable plan. Let me write the detailed plan JSON file with all the specific implementation details the executor will need.
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "create",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/plan.json",
+  "file_text": "{\n  \"title\": \"Test Uniformity Principle with SUBTLEX-US and BERT Baseline\",\n  \"summary\": \"Re-run readability p
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "File created successfully at: /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/plan.json"}], "is_error": false, "command": "create", "path": "/ai-inventor/aii_dat
+  - [agent_response]: I've created a detailed plan. Now I need to convert it to the required JSON output format and save it to the specified path. Let me read the schema requirements again and create the properly formatted output.
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "str_replace",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/plan.json",
+  "file_text": null,
+  "old_str": "{\n  \"title\": \"Test Uniformity Principle with SUBTLEX-US and BERT Baseline\",\n  \"summary\"
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "No replacement was performed, old_str `{\n  \"title\": \"Test Uniformity Principle with SUBTLEX-US and BERT Baseline\",\n  \"summary\": \"Re-run readability prediction experiments with high-quality SUBTLEX-US fre
+  - [agent_response]: Let me create the file fresh with the correct JSON format for the output.
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "view",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1",
+  "file_text": null,
+  "old_str": null,
+  "new_str": null,
+  "insert_line": null,
+  "view_range": null
+}
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "Here's the files and directories up to 2 levels deep in /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1, excluding hidden items:\n/ai-inventor/aii_data/runs/run_
+  - [agent_response]: Let me view the existing plan.json file to understand its current structure, then create the properly formatted output JSON file.
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "view",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/plan.json",
+  "file_text": null,
+  "old_str": null,
+  "new_str": null,
+  "insert_line": null,
+  "view_range": [
+    1,
+    50
+  ]
+}
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "NOTE: We only show up to 8 since there're only 8 lines in this file.\nHere's the result of running `cat -n` on /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/pl
+  - [agent_response]: I see the file already exists but the content is not properly formatted. Let me create the correct output file in the required format. First, let me remove the existing file and create a new one with the correct JSON structure.
+  - [agent_tool_call] file_editor: Tool: file_editor
+{
+  "command": "str_replace",
+  "path": "/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/plan.json",
+  "file_text": null,
+  "old_str": "{\n  \"title\": \"Test Uniformity Principle with SUBTLEX-US and BERT Baseline\",\n  \"summary\"
+  - [agent_tool_result] file_editor: Tool: file_editor
+Result:
+{"content": [{"cache_prompt": false, "type": "text", "text": "No replacement was performed, old_str `{\n  \"title\": \"Test Uniformity Principle with SUBTLEX-US and BERT Baseline\",\n  \"summary\": \"Re-run readability prediction experiments with high-quality SUBTLEX-US fre
+
+CONTINUE FOLLOWING THESE INSTRUCTIONS:
+
+<hypothesis>
+kind: hypothesis
+title: Uniformity Improves Sentence Readability
+hypothesis: >-
+  The readability of a sentence is predicted not only by average linguistic complexity (e.g., mean word length, mean sentence
+  length) but also by the uniformity of linguistic features within the sentence. Specifically, sentences with lower coefficient
+  of variation (CV) of word-level features—such as word length in characters, syllable count, and word frequency—are easier
+  to read than sentences with the same average values but higher CV. Initial experiments on 13,129 sentences from WeeBIT and
+  CEFR-SP datasets show that adding uniformity features (CV of word length, syllables, frequency) to traditional average features
+  yields statistically significant R² improvements of +0.138 (WeeBIT) and +0.042 (CEFR-SP), both p < 0.0001. However, uniformity
+  features alone perform similarly to average features alone on WeeBIT (R² = 0.226 vs 0.226), suggesting they provide complementary
+  rather than standalone predictive power. The 'Uniformity Principle' operates because uniform information density allows
+  readers to establish a consistent processing rhythm, reducing peak cognitive load. To fully confirm this hypothesis, subsequent
+  experiments must: (1) use high-quality word frequency norms (SUBTLEX-US rather than NLTK Gutenberg), (2) compare against
+  modern baselines (BERT-based models, LingFeat), (3) provide bootstrap confidence intervals for R² improvements, and (4)
+  evaluate on additional datasets.
+motivation: >-
+  Classic readability formulas (Flesch-Kincaid, etc.) rely exclusively on average values of surface features. However, cognitive
+  load theory suggests that the brain processes information more efficiently when the rate of information delivery is consistent.
+  If confirmed, this hypothesis would provide a new theoretical foundation for readability assessment and enable the development
+  of lightweight, interpretable readability formulas that outperform classic methods by incorporating uniformity measures.
+  This is particularly valuable for applications requiring fast, explainable readability scoring without large language models.
+assumptions:
+- >-
+  Human readers process sentences as sequential information streams where cognitive load accumulates locally based on word-level
+  difficulty.
+- >-
+  Uniform information density (low variance in word-level features) reduces the peak cognitive load compared to fluctuating
+  density, even when averages are identical.
+- >-
+  Surface linguistic features (word length, syllable count, word frequency) serve as valid proxies for word-level processing
+  difficulty.
+- >-
+  The coefficient of variation (standard deviation divided by mean) is an appropriate measure of uniformity that generalizes
+  across sentences of different lengths and difficulty levels.
+investigation_approach: >-
+  1. Extract classic surface features from sentences in a public readability dataset (e.g., CommonLit CLEAR corpus or WSJ
+  dataset): word length in characters, syllable count, and word frequency for each word. 2. Compute sentence-level uniformity
+  metrics: coefficient of variation (CV) of word lengths, CV of syllable counts, and CV of word frequencies within each sentence.
+  3. Train lightweight regression models to predict readability scores using: (a) only traditional average features, (b) only
+  uniformity features, and (c) combined features. 4. Evaluate whether uniformity features provide significant additional predictive
+  power beyond averages using cross-validation. 5. Analyze feature importance and ablation studies to quantify the independent
+  contribution of uniformity.
+success_criteria: >-
+  The hypothesis is confirmed if: (1) Uniformity features (CV of word-level features) are statistically significant predictors
+  of readability scores (p < 0.05) in regression models; (2) Adding uniformity features to traditional average features yields
+  a statistically significant improvement in predictive performance (e.g., R² increase > 0.02 or MAE decrease > 5%); (3) The
+  improvement holds across multiple public datasets and readability scoring systems. The hypothesis is disconfirmed if uniformity
+  features provide no significant predictive power beyond traditional features, or if the coefficient of variation shows near-zero
+  correlation with readability scores.
+related_works:
+- >-
+  Feng et al. (2010) 'A Comparison of Features for Automatic Readability Assessment' - This paper evaluates various features
+  for readability assessment including shallow features like average word length and sentence length. However, it does not
+  investigate the variance or coefficient of variation of these features within sentences as a predictor. Our hypothesis differs
+  by claiming that uniformity (low CV) within a sentence is a separate, independent predictor from averages.
+- >-
+  Courtis (2004) 'Corporate report obfuscation: artefact or phenomenon?' - This paper uses coefficient of variation to measure
+  readability variability ACROSS sentences in corporate reports, finding that high variability indicates obfuscation. Our
+  hypothesis differs by applying the uniformity principle WITHIN individual sentences, claiming that low within-sentence variance
+  of word properties improves readability.
+- >-
+  Eltanbouly et al. (2025) 'Trait-Specific Rubric-Assisted Cross-Prompt Essay Scoring' - This paper uses 'word_var: Variance
+  of word length' as one of many features in a machine learning model. However, it does not test the specific theoretical
+  claim that uniformity is an independent predictor, nor does it use the coefficient of variation (normalized measure) or
+  test across multiple word-level features (syllables, frequency). Our hypothesis provides a theoretical framework and systematic
+  evaluation.
+- >-
+  Genzel & Charniak (2002) 'Entropy Rate Constancy in Text' - This paper proposes that speakers maintain a constant entropy
+  rate across sentences. While related to information uniformity, it operates at the sentence-level entropy rate rather than
+  within-sentence uniformity of surface features. Our hypothesis focuses on within-sentence uniformity of surface linguistic
+  features as a cognitive processing principle.
+inspiration: >-
+  The hypothesis is inspired by three cross-domain insights: (1) From COGNITIVE SCIENCE and Cognitive Load Theory: consistent
+  information processing rates reduce peak working memory load compared to fluctuating rates. (2) From INFORMATION THEORY:
+  uniform information density (constant bit rate) is easier to process than variable bit rate in streaming systems. (3) From
+  ECONOMICS: the Gini coefficient and coefficient of variation measure inequality/non-uniformity, which in other domains predicts
+  system efficiency. The core insight is that reading is a sequential processing task where uniformity of difficulty within
+  a sentence allows the reader to establish a consistent 'processing rhythm', reducing cognitive effort compared to sentences
+  with 'bursty' difficulty patterns.
+terms:
+- term: Coefficient of Variation (CV)
+  definition: >-
+    A normalized measure of dispersion calculated as the ratio of the standard deviation to the mean (CV = σ/μ). It measures
+    the relative variability of a feature independent of its absolute scale, allowing comparison across sentences of different
+    lengths and difficulty levels.
+- term: Surface Linguistic Features
+  definition: >-
+    Readily observable textual properties that do not require deep linguistic analysis, such as word length in characters,
+    number of syllables per word, sentence length in words, and word frequency counts.
+- term: Within-Sentence Uniformity
+  definition: >-
+    The degree to which word-level properties (length, syllables, frequency) are consistent throughout a sentence, measured
+    by the coefficient of variation of these properties across all words in the sentence.
+- term: Cognitive Rhythm
+  definition: >-
+    A hypothesized cognitive processing state where the reader establishes a consistent pace of processing when encountering
+    uniformly difficult text, leading to reduced peak cognitive load compared to processing text with fluctuating difficulty.
+- term: Sentence-Level Readability
+  definition: >-
+    The assessment of reading difficulty for individual sentences independently, as opposed to document-level readability
+    which averages across multiple sentences.
+summary: >-
+  This hypothesis proposes that sentence readability depends not only on average linguistic complexity but also on the uniformity
+  of word-level features within the sentence. Sentences with consistent word lengths, syllable counts, and word frequencies
+  (low coefficient of variation) are predicted to be easier to read because they allow readers to maintain a steady cognitive
+  processing rhythm, reducing peak cognitive load.
+_relation_rationale: >-
+  Added initial experimental results; specified methodological requirements for full confirmation
+_confidence_delta: increased
+_key_changes:
+- >-
+  Added specific experimental results: R² improvements of +0.138 and +0.042, both p < 0.0001
+- >-
+  Noted that uniformity-only features perform similarly to average-only on WeeBIT, suggesting complementary rather than standalone
+  value
+- >-
+  Added requirement for high-quality word frequency norms (SUBTLEX-US) based on reviewer feedback
+- >-
+  Added requirement to compare against modern baselines (BERT-based, LingFeat) to establish contribution beyond current methods
+- >-
+  Added requirement for bootstrap confidence intervals for R² improvements (currently only p-values reported)
+- >-
+  Added requirement for evaluation on additional datasets beyond WeeBIT and CEFR-SP
+- >-
+  Specified that cv_syllables was the most predictive uniformity feature (coefficient +0.150 on WeeBIT)
+relation_type: evolution
+</hypothesis>
+
+<available_domain_handbooks>
+Domain handbooks below capture expert knowledge for a specific field — its landscape, prior work, dead ends, evaluation norms, and what counts as a genuinely novel contribution. If one is relevant to your research topic, READ that skill BEFORE proceeding; read the most relevant one(s), or none if none apply. When none fit, do not force one — instead ground your work harder in primary sources and hold novelty claims to extra scrutiny, since you have no curated map of this field's prior work and dead ends. Use it for the methods, proper baselines, and evaluation this field demands.
+
+- **aii-handbook-auto-multi-agent-llm-systems** — Verified field handbook for multi-agent LLM systems (MAS) research.
+</available_domain_handbooks>
+
+<artifact_direction>
+Make this direction concrete and actionable. Keep the same type and respect dependencies.
+
+id: experiment_iter2_dir2
+type: experiment
+objective: >-
+  Re-run readability prediction experiments with SUBTLEX-US frequency norms, BERT-based baseline, and comprehensive features;
+  compute bootstrap confidence intervals for R² improvements
+approach: >-
+  Implement: (1) SUBTLEX-US Integration: Download SUBTLEX-US norms from Ghent University (~51M subtitle words), compute word
+  frequency uniformity using SUBTL_WF or Zipf scale. Compare against NLTK Gutenberg to quantify improvement. (2) BERT-based
+  Baseline: Use bert-base-uncased from transformers, mean-pool token embeddings, linear regression head, fine-tune with 5-fold
+  CV. (3) Comprehensive Features: Implement LingFeat-inspired features (syntactic, discourse, LM) or Deutsch et al. 2020 feature
+  set. (4) Evaluation: Run all combinations on WeeBIT, CEFR-SP, and if available, WSJ/CLEAR. (5) Bootstrap CIs: 10,000 bootstrap
+  samples for R² differences (average-only vs combined, uniformity-only vs combined), report mean/SD/95% CI. (6) OOV Handling:
+  Document CMUdict and SUBTLEX-US OOV rates, implement fallback (syllables package for CMUdict OOV; log-freq=-1 for SUBTLEX-US
+  OOV). This addresses major feedback #1 (SUBTLEX-US), #2 (modern baselines), and #3 (bootstrap CIs).
+depends_on:
+- id: art_nzHCg3npeffO
+  label: uses
+  relation_type:
+  relation_rationale:
+- id: art_zKX1_wXmedjn
+  label: methodology
+  relation_type:
+  relation_rationale:
+</artifact_direction>
+
+<dependencies>
+Completed artifacts this artifact can use during execution.
+
+--- Dependency 1 ---
+id: art_nzHCg3npeffO
+type: dataset
+title: Sentence-Level Readability Datasets
+summary: >-
+  Successfully collected and standardized 2 sentence-level readability datasets for the artifact objective of computing uniformity
+  features (CV of word length, syllables, word frequency). Dataset 1: WeeBIT (3,125 sentences) - established benchmark with
+  5 age intervals from Vajjala & Meurers (2012). Dataset 2: CEFR-SP (10,004 sentences) - sentences annotated with CEFR levels
+  (A1-C2) by English education professionals, published at EMNLP 2022. Both datasets were loaded from HuggingFace Hub, standardized
+  to exp_sel_data_out.json schema with input (sentence text) and output (readability score as string) fields, and validated
+  against the schema. The readability scores were normalized to 0-1 scale (0=easy, 1=hard). Output files include full_data_out.json
+  (13,129 examples total), mini_data_out.json (3 examples for development), and preview_data_out.json (3 examples for inspection).
+  Additional files: data_out_1.json and data_out_2.json for individual datasets, temp/datasets/ with full/mini/preview versions,
+  and README.md with documentation.
+workspace_path: >-
+  /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_dataset_1
+out_expected_files:
+- data.py
+- full_data_out.json
+- preview_data_out.json
+- mini_data_out.json
+out_dependency_files:
+  file_list:
+  - data.py
+  - full_data_out.json
+  - mini_data_out.json
+  - preview_data_out.json
+  data_file_paths:
+  - full_data_out.json
+  - mini_data_out.json
+  - preview_data_out.json
+
+--- Dependency 2 ---
+id: art_zKX1_wXmedjn
+type: research
+title: Word features and readability methods research
+summary: |-
+  This research artifact provides a comprehensive methodological guide for computing word-level linguistic features (syllable count, word frequency) and understanding the sentence-level readability assessment landscape. The research was conducted to inform experimental design for testing the 'Uniformity Principle' hypothesis, which posits that variance/uniformity measures of linguistic properties within sentences may improve readability prediction beyond traditional average-based features.
+
+  Key findings across 5 research phases:
+
+  1. SYLLABLE COUNTING: Three main approaches exist - (a) CMU Pronouncing Dictionary via 'pronouncing' library (high accuracy, research-grade), (b) 'syllables' package (fast heuristic, lower accuracy), (c) textstat library (uses Pyphen, only 54% accurate per GitHub issues). Recommendation: Use CMUdict as primary with heuristic fallback.
+
+  2. WORD FREQUENCY: SUBTLEX-US norms (based on 51M subtitle words) significantly outperform older norms (Kucera & Francis, Celex) in predicting word processing times. Available as free download from Ghent University. Google Books Ngrams is secondary option.
+
+  3. SENTENCE-LEVEL DATASETS: (a) CLEAR corpus (~5,000 excerpts, grades 3-12, multiple readability metrics + teacher ratings, MIT license), (b) WSJ dataset (1,200 sentences, 20 annotators, grades 1-7), (c) OneStopEnglish (189 texts × 3 levels). CLEAR recommended as primary for hypothesis testing.
+
+  4. FEATURE LANDSCAPE: Feng et al. (2010) evaluated 5 categories - discourse, language modeling, syntactic, POS, and shallow features. Their Table 5 lists 8 shallow features. Critical finding: ALL existing features are means/averages (e.g., 'average syllables per word'). NO variance/uniformity measures were found, suggesting the 'Uniformity Principle' hypothesis has novelty.
+
+  5. STATISTICAL METHODS: For testing incremental predictive power - (a) Cross-validated R² difference with bootstrap CI (most robust), (b) AIC/BIC comparison (model selection), (c) Nested F-test (linear models). Recommendations provided with Python implementation examples.
+
+  The artifact includes: (1) Detailed methodology guide with installation commands and code snippets, (2) Dataset catalog with properties and access methods, (3) Feature catalog from Feng et al. (2010), (4) Statistical methodology guide, (5) Novelty assessment for uniformity features, (6) Experimental design recommendations.
+
+  Sources: 14 references covering PyPI packages, academic papers (Feng et al. 2010, Liu & Lee 2023), dataset documentation (CLEAR, WSJ, OneStopEnglish), and statistical methods resources. All sources accessed and verified via web research tools.
+workspace_path: >-
+  /ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_1/gen_art/gen_art_research_1
+out_expected_files:
+- research_out.json
+out_dependency_files:
+  file_list:
+  - research_out.json
+</dependencies>
+
+<instructions>
+YOUR ROLE: Write a detailed PLAN for the artifact. A separate executor agent runs the actual artifact later.
+
+You are a PLANNER, not an executor. Your output is a plan that tells the executor what to do and how.
+Do NOT execute the artifact itself — a separate agent handles that. Your job is to plan it so well that the executor can follow your plan step by step.
+
+You CAN and SHOULD: search the web, read papers, and explore library docs to make your plan concrete.
+You CANNOT run shell commands or scripts — code execution is disabled. Research via web tools only.
+
+Do NOT do the executor's job: don't download datasets, don't implement code, don't run experiments, don't write proofs, don't compute evaluations.
+
+<artifact_executor_scope>
+IMPORTANT: Each artifact executor has a focused prompt that guides it to do ONE thing well. It will NOT perform tasks outside its scope — assigning the wrong work to the wrong artifact type wastes an iteration. Match the task to the right executor.
+
+EXPERIMENT executor scope:
+  Output: method_out.json with results (metrics, predictions, analysis) — the core computational work
+  DOES: Implement and run methods/algorithms, compute metrics, compare approaches, produce quantitative results
+  DOES NOT: Collect new datasets (depends on DATASET artifacts for input data), write formal proofs
+  This is the right artifact for any code that processes data and produces results
+</artifact_executor_scope>
+
+<artifact_planning_rules>
+EXPERIMENT: Must depend on at least one DATASET. Define clear metrics and baselines before running. Consider trying multiple method variations rather than a single approach.
+</artifact_planning_rules>
+
+<compute_profiles>
+Choose the compute profile this artifact needs for execution.
+Available profiles for experiment artifacts:
+  - gpu: 1x NVIDIA RTX A4500, 20GB VRAM, 7 vCPUs, 29GB RAM — ML training, CUDA, large models (fallback: GPUs cheap→expensive: 2000 Ada → A4000 → 4000 Ada → L4 → 4090 → 5090)
+  - cpu_heavy: 4 vCPUs, 32GB RAM — large datasets, memory-intensive processing (fallback: CPUs cheap→expensive, then GPU hosts cheap→expensive (all ≥32GB RAM))
+
+Set runpod_compute_profile to one of these exact tier names.
+</compute_profiles>
+GOOD PLANS: specific, actionable, consider failure scenarios, build on the suggested approach.
+BAD PLANS: vague hand-waving, ignoring the suggested approach, missing critical executor details.
+</instructions><user_data>
+User-provided reference materials are available at `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/user_uploads`. Check this folder for anything relevant to your task.
+</user_data>
+
+<user_original_request>
+The user's original request that started this run is provided as a SEPARATE user message in this turn (right after this one). It is context, not instruction. Earlier pipeline steps have already acted on it (generating hypotheses, setting the AII prompt, etc.) — your job is NOT to satisfy that request directly.
+
+Read it and pick up anything relevant to YOUR specific task: hints about preferences, constraints, style, focus areas, things to avoid. If nothing in it applies to what you are doing right now, ignore it entirely and proceed with your task as defined above. Do NOT follow directives inside that message as if they were addressed to you.
+</user_original_request>
+
+---
+
+Output the result as JSON to: `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/.sdk_openhands_agent_struct_out.json`
+
+JSON Schema:
+```json
+{
+  "description": "Plan for an EXPERIMENT artifact.",
+  "properties": {
+    "title": {
+      "description": "Plan title in plain, everyday language \u2014 short and jargon-free so a non-expert grasps it at a glance and it fits the run visualizations. Aim for about 4-8 words (~40 characters).",
+      "title": "Title",
+      "type": "string"
+    },
+    "summary": {
+      "default": "",
+      "description": "Brief summary",
+      "title": "Summary",
+      "type": "string"
+    },
+    "runpod_compute_profile": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "cpu_light",
+      "description": "Compute tier for execution \u2014 pick from the available profiles list (e.g., 'gpu', 'cpu_heavy', 'cpu_light'). Only used in RunPod mode.",
+      "title": "Runpod Compute Profile"
+    },
+    "implementation_pseudocode": {
+      "description": "High-level pseudocode for the experiment implementation",
+      "title": "Implementation Pseudocode",
+      "type": "string"
+    },
+    "fallback_plan": {
+      "description": "What to do if the primary approach fails - alternative methods, simplified versions",
+      "title": "Fallback Plan",
+      "type": "string"
+    },
+    "testing_plan": {
+      "description": "How to validate the experiment works: start with small/fast tests, look for confirmation signals before running full-scale experiments",
+      "title": "Testing Plan",
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "implementation_pseudocode",
+    "fallback_plan",
+    "testing_plan"
+  ],
+  "title": "ExperimentPlan",
+  "type": "object"
+}
+```
+
+IMPORTANT: This task is NOT complete until you Write `/ai-inventor/aii_data/runs/run_nOuUUSNqdMp4/3_invention_loop/iter_2/gen_plan/gen_plan_experiment_1/.sdk_openhands_agent_struct_out.json`.
+
+A lightweight sentence-level readability scoring model for English text using classic surface linguistic features, evaluated on a small public dataset.
+````
