@@ -1,0 +1,71 @@
+{
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest ...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most p...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        }
+      ]
+    },
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "Is that your bike ?",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 0,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "She had a beautiful necklace around her neck .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 1,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "I forgot to bring my umbrella .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 2,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        }
+      ]
+    }
+  ]
+}

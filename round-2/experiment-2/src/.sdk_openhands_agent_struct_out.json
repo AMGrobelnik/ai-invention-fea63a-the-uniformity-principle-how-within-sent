@@ -1,0 +1,12 @@
+{
+  "title": "Statistical evaluation of uniformity features for readability",
+  "layman_summary": "This experiment tests whether measuring the consistency (uniformity) of word properties like length and syllables within sentences helps predict how easy or hard the sentence is to read, compared to just using average values.",
+  "summary": "Comprehensive statistical evaluation of the Uniformity Principle hypothesis for readability assessment. The experiment evaluated whether adding variance/uniformity measures of linguistic properties (coefficient of variation of word length, syllables, and word frequency) improves readability prediction beyond traditional average-based features. Using two datasets (WeeBIT: 3,125 sentences, CEFR-SP: 10,004 sentences), five statistical tests were conducted: (1) Paired bootstrap MSE test showing 12.44% MSE reduction for WeeBIT and 4.57% for CEFR-SP (p < 0.001), (2) Bootstrap 95% confidence intervals for Ridge regression coefficients showing cv_syllables and cv_frequency are significant predictors, (3) Proper 5-fold cross-validation with train/test separation showing R² improvement of 0.1275 (WeeBIT) and 0.0459 (CEFR-SP), (4) Effect size analysis revealing large effect sizes (Cohen's d = 1.55 and 2.40), and (5) Ablation study confirming all uniformity features contribute positively. The results strongly support the Uniformity Principle hypothesis, demonstrating that variance/uniformity measures provide significant incremental predictive power for readability assessment beyond traditional average-based features.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Uniformity Principle Readability Experiment",
+  "layman_summary": "Tests whether measuring variation in word properties (length, syllables) within sentences improves readability prediction beyond traditional average-based features.",
+  "summary": "Implemented and executed experiment testing the Uniformity Principle for sentence-level readability prediction. Extracted linguistic features from 13,129 sentences (WeeBIT + CEFR-SP datasets): (1) average features (word length, syllables, frequency heuristic), (2) uniformity features (coefficient of variation within sentences). Compared three feature sets using 5-fold cross-validation with Ridge regression: average-only (R²=0.191), uniformity-only (R²=0.166), combined (R²=0.237). Bootstrap confidence intervals (2000 samples) confirmed combined significantly outperforms average-only (p<0.001, 95% CI [0.042, 0.053]). Output validates against exp_gen_sol_out schema. Key finding: uniformity features provide significant additional predictive power beyond average features.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": []
+}

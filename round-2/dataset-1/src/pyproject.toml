@@ -1,0 +1,11 @@
+[project]
+name = "readability-dataset-artifact"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.0.2",
+    "pandas==2.2.2",
+    "loguru==0.7.2",
+    "requests==2.32.3",
+    "json5==0.9.25",
+]

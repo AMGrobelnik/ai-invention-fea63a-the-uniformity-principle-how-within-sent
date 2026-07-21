@@ -1,0 +1,409 @@
+{
+  "datasets": [
+    {
+      "dataset": "agentlans_readability",
+      "examples": [
+        {
+          "input": "Work on the first tube of the Simplon Tunnel commenced in 1898. The Italian king Victor Emmanuel III of Italy and the president of the Swiss Confederation (presiding the Federal Council of Switzerland for that year) Ludwig Forrer opened the tunnel at Brig on 19 May 1906. The builders of the tunnel were Hermann H\u00e4ustler and Hugo von Kager. Work on the second tube of the tunnel started in 1912 and it was opened in 1921.",
+          "output": "0.30844155844155846",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 9830,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 9.15
+        },
+        {
+          "input": "In 2019 with the Phillies, he batted .293/.307/.579 with eight home runs and 34 RBIs in 133 at-bats. His season was cut short by a fractured navicular bone in his left foot.",
+          "output": "0.1646825396825397",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 43505,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.165
+        },
+        {
+          "input": "79% of children aged 6 to 17 with mental disorders do not receive appropriate care.\nChildren with mental health needs are best served with early detection and treatment, which can prevent them from having more expensive and intense forms of treatment later on.\nUntreated mental illnesses may increase the risk of a child being involved in the juvenile justice system. According to one study, 66% of boys and almost 75% of girls in juvenile detention have at least one mental disorder.\nAnxiety disorders, mood disorders and disruptive disorders are the most common mental disorders among children.",
+          "output": "0.437950937950938",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 101863,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.74
+        },
+        {
+          "input": "Compressive summarization systems typically rely on a crafted set of\nsyntactic rules to determine what spans of possible summary sentences can be\ndeleted, then learn a model of what to actually delete by optimizing for\ncontent selection (ROUGE). In this work, we propose to relax the rigid\nsyntactic constraints on candidate spans and instead leave compression\ndecisions to two data-driven criteria: plausibility and salience. Deleting a\nspan is plausible if removing it maintains the grammaticality and factuality of\na sentence, and spans are salient if they contain important information from\nthe summary. Each of these is judged by a pre-trained Transformer model, and\nonly deletions that are both plausible and not salient can be applied. When\nintegrated into a simple extraction-compression pipeline, our method achieves\nstrong in-domain results on benchmark summarization datasets, and human\nevaluation shows that the plausibility model generally selects for grammatical\nand factual deletions. Furthermore, the flexibility of our approach allows it\nto generalize cross-domain: our system fine-tuned on only 500 samples from a\nnew domain can match or exceed an in-domain extractive model trained on much\nmore data.",
+          "output": "0.6268037518037518",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 102505,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 17.975
+        },
+        {
+          "input": "Steve was feeling sad because his favorite toy was broken. He sat in his room and couldn't figure out how to fix it. Suddenly, he heard a voice, but he couldn't see who it belonged to. \n\nThe voice said, \u00e2\u20ac\u0153I can help you fix your toy.\u00e2\u20ac Steve was surprised and asked how. The voice said, \u00e2\u20ac\u0153Just give me your opinion on how it should be fixed.\u00e2\u20ac \n\nSteve thought about it and said, \u00e2\u20ac\u0153I think it should be glued back together.\u00e2\u20ac The voice replied, \u00e2\u20ac\u0153That\u00e2\u20ac\u2122s a great idea. Let\u00e2\u20ac\u2122s try it.\u00e2\u20ac \n\nSteve was amazed! He quickly found the glue and put it on his toy. When it was all fixed he was super happy.\n\nThe mysterious voice said, \u00e2\u20ac\u0153Well done. I knew you could do it.\u00e2\u20ac Steve said thank you, but he never did figure out where the voice came from.",
+          "output": "0.12134330316148499",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 103636,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 3.963636363636364
+        },
+        {
+          "input": "Anastasio Somoza Debayle responded to the increasing opposition brought about by the FLSN by imposing a state of siege and censoring the press. During this time, the National Guard engaged in widespread torture, rape, arbitrary imprisonment and execution of opponents and peasants. These human rights violations led to national and international condemnation of the Somoza regime and built support for the FSLN.",
+          "output": "0.5345117845117846",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 94941,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 15.416666666666668
+        },
+        {
+          "input": "Anna and Ben are friends. They like to draw and color. Today is Anna's birthday. She is very happy. She has a cake and balloons and presents.\n\n\"Happy birthday, Anna!\" Ben says. He gives her a big hug and a small box. \"This is for you. I hope you like it.\"\n\nAnna opens the box. Inside is a pencil. But not a normal pencil. A magic pencil. It has many colors and sparkles. Anna gasps. She loves it.\n\n\"Wow, thank you, Ben! This is the best pencil ever! How does it work?\" Anna asks.\n\nBen smiles. He takes the pencil and draws a star on a paper. The star shines and flies out of the paper. Anna claps.\n\n\"It's magic! You can draw anything you want and it will come to life. But be careful. Some things are spicy.\" Ben says.\n\n\"Spicy? What do you mean?\" Anna says.\n\nBen draws a pepper on the paper. The pepper jumps out and lands on the cake. It makes the cake very hot and spicy. Anna and Ben laugh.\n\n\"Oops! That was a spicy pepper. Let's draw something else. Something sweet and nice.\" Ben says.\n\nAnna nods. She takes the pencil and draws a flower on the paper. The flower grows and smells good. Anna and Ben smile.\n\n\"That's better. This is a fun pencil. Thank you, Ben. You are a good friend.\" Anna says.\n\n\"You're welcome, Anna. Happy birthday. Let's draw more things and have fun.\" Ben says.\n\nAnna and Ben draw and play with the magic pencil. They have a wonderful birthday party. They are very happy.",
+          "output": "0.04440077466393255",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 43047,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 1.8307894736842103
+        },
+        {
+          "input": "A Chubb-made ATM appeared in Sydney in 1969. This was the first ATM installed in Australia. The machine only dispensed $25 at a time and the bank card itself would be mailed to the user after the bank had processed the withdrawal.",
+          "output": "0.21194083694083696",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 81183,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 6.475
+        },
+        {
+          "input": "Hammer Logan: David Logan's older brother and Cassie's uncle. Hammer is a black veteran of World War I, during which he nearly lost his left leg. He moved to Chicago before the events of the novel to escape Mississippi's virulent racism. He is portrayed as having a hair-trigger temper, which is something a black man \"isn't allowed to have\" in the Jim Crow South. He provides financial assistance to the rest of the family several times, which they secretly appreciate.",
+          "output": "0.32521645021645024",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 40623,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 9.615
+        },
+        {
+          "input": "In order to support the efficient development of NL generation systems, two\northogonal methods are currently pursued with emphasis: (1) reusable, general,\nand linguistically motivated surface realization components, and (2) simple,\ntask-oriented template-based techniques. In this paper we argue that, from an\napplication-oriented perspective, the benefits of both are still limited. In\norder to improve this situation, we suggest and evaluate shallow generation\nmethods associated with increased flexibility. We advise a close connection\nbetween domain-motivated and linguistic ontologies that supports the quick\nadaptation to new tasks and domains, rather than the reuse of general\nresources. Our method is especially designed for generating reports with\nlimited linguistic variations.",
+          "output": "0.6347402597402597",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 19778,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 18.195
+        },
+        {
+          "input": "In more complicated usage, O(\u00b7) can appear in different places in an equation, even several times on each side. For example, the following are true for :",
+          "output": "0.2732683982683983",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 21413,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 8.175
+        },
+        {
+          "input": "Due to their unique two-dimensional nature, charge carriers in semiconducting\ntransition metal dichalcogenides (TMDs) exhibit strong unscreened Coulomb\ninteractions and sensitivity to defects and impurities. The versatility of van\nder Waals layer stacking allows spatially separating electrons and holes\nbetween different TMD layers with staggered band structure, yielding interlayer\nfew-body excitonic complexes whose nature is still debated. Here we combine\nquantum Monte Carlo calculations with spectrally and temporally resolved\nphotoluminescence measurements on a top- and bottom-gated MoSe2/WSe2\nheterostructure, and identify the emitters as impurity-bound interlayer\nexcitonic complexes. Using independent electrostatic control of doping and\nout-of-plane electric field, we demonstrate control of the relative populations\nof neutral and charged complexes, their emission energies on a scale larger\nthan their linewidth, and an increase of their lifetime into the microsecond\nregime. This work unveils new physics of confined carriers and is key to the\ndevelopment of novel optoelectronics applications.",
+          "output": "0.7128427128427128",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 67968,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 20.36
+        },
+        {
+          "input": "The idea that Junior gets Roger to pay him respect by punching him in the face may suit our idea of the rewards that come from standing up to a bully, but do you think Roger's response is realistic? Why or why not?\n1 Answer | Add Yours\nI think that the answer to this depends on whether or not you have an optimistic or pessimistic view of adolescents.\nJunior already knew that life would be difficult in the all- white school because he would be seen as an outsider. When he endures harassment and bullying after a particularly rude joke, Junior stands up for himself through the \"Unofficial and Unwritten Spokane Indian Rules of Fisticuffs.\"\nOptimistically speaking, Roger's response represents how bullies need to be confronted. In standing up to bullies, the logic goes that they will recognize that someone is worthy of their respect. Junior \"speaks\" the language that Roger understands. As a result, Roger acquires a newly discovered perception that he cannot mess with Junior anymore.\nIn seeing this a bit more negatively, Roger's response might be seen as a bit unrealistic. Many bullies do what they do because of wanting to be perceived as being in control and the one in charge. When Junior punches him, it is an insult. It causes him to lose face. In many cases, bullies might \"double down\" and want to inflict even more harm on their intended target. Roger would not have respect for Junior. Rather, he would be incensed at being shown up by him.\nWe\u2019ve answered 319,645 questions. We can answer yours, too.Ask a question",
+          "output": "0.29094516594516595",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 69061,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 8.665
+        },
+        {
+          "input": "Once upon a time, there was a little boy named Timmy who loved to play in the park. One day, he saw a big, strong man lifting heavy weights. Timmy thought to himself, \"I want to be strong like him!\"\n\nThe next day, Timmy went to the park with his chest puffed out, ready to show off his muscles. But when he tried to lift a heavy rock, he couldn't do it. He felt sad and disappointed.\n\nJust then, the strong man walked by and offered to help Timmy lift the rock. Timmy was surprised and grateful. The man showed him how to use his muscles properly and soon, Timmy was able to lift the rock on his own.\n\nFrom that day on, Timmy learned that it's okay to ask for help when you need it. And he also learned that being strong isn't just about lifting heavy things, it's about having a strong heart that is willing to offer help to others.",
+          "output": "0.1626984126984127",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 24840,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.109999999999999
+        },
+        {
+          "input": "The Peter Dierks House, also known as the Preston Creveling House, is an historic residence located in rural Clinton County, Iowa, United States.  It was listed on the National Register of Historic Places in 1998.",
+          "output": "0.3778860028860029",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 48313,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 11.075
+        },
+        {
+          "input": "Muon tomography is a relatively new method of radiography that utilizes muons\nfrom cosmic rays and their multiple Coulomb scattering property to distinguish\nmaterials. Researchers around the world have been developing various detection\nsystems and image reconstruction algorithms for muon tomography applications,\nsuch as nuclear reactor monitoring and cargo inspection for contraband. This\npaper studies the principle in image reconstruction of muon tomography.\nImplementation and comparison of some popular algorithms with our simulation\ndataset will be presented as well as some ideas of future improvements for\nbetter image qualities and material discrimination performances.",
+          "output": "0.6944444444444444",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 19010,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 19.85
+        },
+        {
+          "input": "Many anti-war activists cited the port protests as being inspirational.  Among them, 1st Lt Ehren Watada cited the May 2006 PMR protests as inspiration for his decision to publicly refuse to deploy with the 3rd Brigade, 2nd Infantry Division.  During the May 2006 protests at the Port of Olympia, author Ron Jacobs called for \"One, Two, Three, Many Olympias.\"  PMR also gained the support of international organizations, like the Japan Peace Committee.",
+          "output": "0.3804112554112554",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 55089,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 11.145
+        },
+        {
+          "input": "Once upon a time, there were two friends called Tom and Sam. They lived in a big city and needed to go away for one week. So, they packed their luggage and went to the airport.\n\nHowever, when they reached there, they realised that they had lost their luggage! They couldn't find it anywhere. Tom and Sam started to worry, but then they decided to be persistent and look for it. \n\nThey searched for a really long time. Finally, Tom saw their luggage near the entrance. They had been so persistent that they found it. Tom and Sam were very happy.\n\nNow, Tom and Sam can enjoy their one week away!",
+          "output": "0.1471861471861472",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 71302,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 4.68
+        },
+        {
+          "input": "Information about Andorra.\n|ISO code/s||AD / AND|\nAndorra (officially the Principality of Andorra), is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France. It is the sixth smallest nation in Europe, having an area of 468 km2 and an estimated population of 85,000 in 2012. Its capital, Andorra la Vella, is the highest capital city in Europe, at an elevation of 1,023 metres above sea level. The official language is Catalan, although Spanish, Portuguese, and French are also commonly spoken.",
+          "output": "0.4276695526695527",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 69084,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.455
+        },
+        {
+          "input": "When Harry reported that Voldemort had returned, towards the end of Harry Potter and the Goblet of Fire, Dumbledore reactivated the Order. Many of the original members returned and were soon joined by recruits who effectively replaced those who had died in service during the first conflict. The Order established their headquarters at Number Twelve, Grimmauld Place, Sirius Black's family home, during the interval between the fourth and fifth books in the series. Dumbledore was the Secret-Keeper for the Order, meaning that only he could reveal the location of the Order's headquarters to others. Dumbledore's death in book six made the location vulnerable and it was abandoned in favour of The Burrow as a result.",
+          "output": "0.44426406926406925",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 15113,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.915
+        },
+        {
+          "input": "Iron Marines is a real-time strategy (RTS) video game that takes inspiration from StarCraft. In the game, players act as the commander of the Iron Marines, a military group tasked with saving a space colony from extraterrestrial invaders. To fight off the invaders, the player is given control of a powerful hero unit that features its own distinct abilities in combat and can be leveled up. The player is also given control of a number of different troops such as mechs, soldiers, and snipers. Levels involve a number of objectives, such as defending military bases from attack, and searching for and destroying enemy armies. The player constantly gains resources throughout combat, which they can use to recruit more troops and build powerful defensive buildings at set points around the level.",
+          "output": "0.4195526695526696",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 63317,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.23
+        },
+        {
+          "input": "Let $X,X_1,\\dots, X_n$ be i.i.d. Gaussian random variables in a separable\nHilbert space ${\\mathbb H}$ with zero mean and covariance operator\n$\\Sigma={\\mathbb E}(X\\otimes X),$ and let $\\hat \\Sigma:=n^{-1}\\sum_{j=1}^n\n(X_j\\otimes X_j)$ be the sample (empirical) covariance operator based on\n$(X_1,\\dots, X_n).$ Denote by $P_r$ the spectral projector of $\\Sigma$\ncorresponding to its $r$-th eigenvalue $\\mu_r$ and by $\\hat P_r$ the empirical\ncounterpart of $P_r.$ The main goal of the paper is to obtain tight bounds on\n$$ \\sup_{x\\in {\\mathbb R}} \\left|{\\mathbb P}\\left\\{\\frac{\\|\\hat\nP_r-P_r\\|_2^2-{\\mathbb E}\\|\\hat P_r-P_r\\|_2^2}{{\\rm Var}^{1/2}(\\|\\hat\nP_r-P_r\\|_2^2)}\\leq x\\right\\}-\\Phi(x)\\right|, $$ where $\\|\\cdot\\|_2$ denotes\nthe Hilbert--Schmidt norm and $\\Phi$ is the standard normal distribution\nfunction. Such accuracy of normal approximation of the distribution of squared\nHilbert--Schmidt error is characterized in terms of so called effective rank of\n$\\Sigma$ defined as ${\\bf r}(\\Sigma)=\\frac{{\\rm\ntr}(\\Sigma)}{\\|\\Sigma\\|_{\\infty}},$ where ${\\rm tr}(\\Sigma)$ is the trace of\n$\\Sigma$ and $\\|\\Sigma\\|_{\\infty}$ is its operator norm, as well as another\nparameter characterizing the size of ${\\rm Var}(\\|\\hat P_r-P_r\\|_2^2).$ Other\nresults include non-asymptotic bounds and asymptotic representations for the\nmean squared Hilbert--Schmidt norm error ${\\mathbb E}\\|\\hat P_r-P_r\\|_2^2$ and\nthe variance ${\\rm Var}(\\|\\hat P_r-P_r\\|_2^2),$ and concentration inequalities\nfor $\\|\\hat P_r-P_r\\|_2^2$ around its expectation.",
+          "output": "0.5800865800865801",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 9562,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 16.68
+        },
+        {
+          "input": "Once there was a snowman named Jack. Jack was having a great day outside and he saw an igloo. He thought it looked very interesting and he wanted to explore. He walked up to the igloo and knocked on the side of it. \n\nThe door opened and a small penguin popped out. He was wearing a funny hat and had a big smile on his face.\n\n\"Hello there!\" said the penguin. \"What brings you here today?\"\n\n\"I wanted to see your igloo,\" said Jack. \"It looks very interesting.\"\n\n\"I'm glad you think so,\" said the penguin. \"Spread the word to your friends and family and let them know all about it!\"\n\nSo Jack did just that. He spread the word and soon everyone knew about the igloo. Pretty soon, they were all visiting the igloo and having a great time. \n\nThe End!",
+          "output": "0.10900673400673401",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 87516,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 3.6216666666666666
+        },
+        {
+          "input": "Second-harmonic generation is of paramount importance in several fields of\nscience and technology, including frequency conversion, self-referencing of\nfrequency combs, nonlinear spectroscopy and pulse characterization. Advanced\nfunctionalities are enabled by modulation of the harmonic generation\nefficiency, which can be achieved with electrical or all-optical triggers.\nElectrical control of the harmonic generation efficiency offers large\nmodulation depth at the cost of low switching speed, by contrast to all-optical\nnonlinear devices, which provide high speed and low modulation depth. Here we\ndemonstrate all-optical modulation of second-harmonic generation in MoS2 with a\nmodulation depth of close to 100% and speed limited only by the fundamental\npulse duration. This result arises from a combination of D3h crystal symmetry\nand the deep subwavelength thickness of the sample, it can therefore be\nextended to the whole family of transition metal dichalcogenides to provide\ngreat flexibility in the design of advanced nonlinear optical devices such as\nhigh-speed integrated frequency converters, broadband autocorrelators for\nultrashort pulse characterization, and tunable nanoscale holograms.",
+          "output": "0.726010101010101",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 48823,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 20.725
+        },
+        {
+          "input": "Weegy: cog?ni?tive? ?[kog-ni-tiv] Show IPA\nof or pertaining to cognition.\nof or pertaining to the mental processes of perception, memory, judgment, and reasoning, as contrasted with emotional and volitional processes. [ ] User: structuralism Weegy: structuralism, in psychology, a systematic movement founded in Germany by Wilhelm Wundt (1832\u20131920) and mainly identified with Edward B. Titchener (1867\u20131927). [ Structuralism ... (More)",
+          "output": "0.6318542568542568",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 76983,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 18.115
+        },
+        {
+          "input": "About - Energy Hub (Uganda)\nIn Uganda, less than 10% of the country\u2019s household\u2019s are connected to the national grid for electricity and instead mostly use kerosene, which has human health, environment, and high financial costs (CIRCODU). Access to high-quality, affordable light could improve standards of living by providing households with substantial savings, better nighttime light quality, reduced health risks, and environmental consequences.\nThis report assesses the feasibility of different community-based energy hub models in Kasese District, Uganda. In this report, the D-Lab team provides background context to the energy situation in Uganda and Kasese District, in particular, develops and analyzes different solar energy hub scenarios through social, technical, financial, and environmental perspectives, and recommends the most optimal scenario.\nIn this analysis, we found that a community-based energy hub is socially beneficial, financially sound, technically viable, and environmentally positive (compared to current energy sources). We found that a system using 0.5 watt LED lights and mobile phone charging at a central location (no household batteries) was the most viable and profitable scenario, providing a payback period just over 1 year and a 706% return on investment, given a 10 year system lifespan (a low estimate).",
+          "output": "0.6358225108225108",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 34993,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 18.225
+        },
+        {
+          "input": "Robinson was traded along with Pete Richert from the Orioles to the Los Angeles Dodgers for Doyle Alexander, Bob O'Brien, Sergio Robles and Royle Stillman at the Winter Meetings on December 2, 1971. When the 1972 Major League Baseball strike occurred, Robinson was one of three Dodgers out of thirty who voted against it. When the vote was announced, he said, \"I don't believe in the strike, and I voted against it. But I was voted down, so now I'm on your side. I'm with you guys.\" The 1972 season was his first season in the National League since playing with the 1965 Reds. He played 103 games while compiling a .251 batting average, 59 RBIs, 86 hits, and 19 home runs. Teammate Tommy John said, \"Frank didn't have a great year in 1972, but he played hard all year...He set a positive role model for the team.\"",
+          "output": "0.23935786435786435",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 25050,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 7.234999999999999
+        },
+        {
+          "input": "Provide a Fire Defense - Clearances\nClearing dead or highly-flammable vegetation from around your home can help protect it from fire.\nMost importantly, remove all dry grass, brush, and dead leaves within 100 feet of your home. Slopes, depending on the degree of slope, should be cleared even further. This \"defensible space\" may stop a fire or provide an area from which firefighters can work. Any landscaping within this area should be fire-resistive, such as ice plant, periwinkle, or African daisy. Space trees and shrubs at least 10 feet apart.\nTrim the lower 6 feet of branches growing from any trees that are more than 18 feet tall. Aerial canopies should be cleared 20 to 100 feet away from any structures to prevent overhead travel of fire. Fuel breaks, if needed, should be 100 to 300 feet wide.\nSlash piles should be eliminated prior to fire season. At no time should they exceed 5 feet in height, 15 feet in length, or 8 feet in width. They should be at least 30 feet apart. Stack firewood and scrap woodpiles at least 30 feet from a structure and eliminate all flammable vegetation within 10 feet. Keep the area within 10 feet of a LPG tank clear of combustible plants and materials.\nClear pine needles, leaves, and other debris from the roof and gutters. Remove all tree branches within 10 feet of the chimney. Also, remove any dead branches hanging over your roof. Clear all combustible vegetation out from under balconies and above-ground decks.",
+          "output": "0.2545093795093795",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 72290,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 7.654999999999999
+        },
+        {
+          "input": "Once upon a time, there was a little chicken named Chucky. Chucky was very happy because he loved life. Every day he went out and played with all the other animals, and he enjoyed being outdoors.\n\nOne day, Chucky decided to quit playing and he started getting serious. He said to all the other animals, \"I think it's time for me to quit having fun and get to work!\".\n\nThe other animals were very surprised and they said, \"But Chucky, why do you want to quit having fun?\"\n\nChucky smiled and said, \"Well, I need to start being more responsible and take care of myself!\" The other animals all agreed and said goodbye as Chucky started his new life of seriousness.\n\nFrom that day onwards, Chucky was a very responsible little chicken. He worked hard, took care of himself, and still had fun too!",
+          "output": "0.22889610389610393",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 23044,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 6.945
+        },
+        {
+          "input": "Stochastic simulation is a widely used method for estimating quantities in\nmodels of chemical reaction networks where uncertainty plays a crucial role.\nHowever, reducing the statistical uncertainty of the corresponding estimators\nrequires the generation of a large number of simulation runs, which is\ncomputationally expensive. To reduce the number of necessary runs, we propose a\nvariance reduction technique based on control variates. We exploit constraints\non the statistical moments of the stochastic process to reduce the estimators'\nvariances. We develop an algorithm that selects appropriate control variates in\nan on-line fashion and demonstrate the efficiency of our approach on several\ncase studies.",
+          "output": "0.5699855699855699",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6748,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 16.4
+        },
+        {
+          "input": "Global Bird Diversity\nA new map of global bird diversity provides far more detail on patterns of distribution than was previously known. This is good on many levels, not least of which that scientific knowledge for its own sake is valuable. But to suggest as is frequently the case with such findings that this information should be used to target conservation is dangerous.\nThe Earth has far surpassed the amount of natural ecosystems that can be lost while sustaining life of all sorts. To suggest that these small albeit diverse areas should be more likely to be protected inherently dooms other much more widespread areas to continued degradation. This is unacceptable. If humanity is to avoid endangerment we need extensive areas of natural ecosystems to be protected and restored far beyond but perhaps including biodiversity hotspots.",
+          "output": "0.43470418470418476",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 76397,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.65
+        },
+        {
+          "input": "What Colors Mean - Yellow\nYellow is the color of gold, butter, or ripe lemons. In the spectrum of visible light, and in the traditional color wheel used by painters, yellow is located between greenand orange.\nThe word \"yellow\" comes from the Old English geolu, geolwe, meaning \"yellow, yellowish\", derived from the Proto-Germanic wordgelwaz. It has the same Indo-European base, -ghel, as the word yell; -ghel means both bright and gleaming, and to cry out. Yellow is a color which cries out for attention.\nThe English term is related to other Germanic words for yellow, namely Scots yella, East Frisian jeel, West Frisian giel, Dutch geel, German gelb, and Swedish gul. According to the Oxford English Dictionary, the oldest known use of this word in English is from The Epinal Glossary in the year 700.\nIn Egypt and Burma, yellow signifies mourning.\nIn Spain, executioners once wore yellow.\nIn India, yellow is the symbol for a merchant or farmer.\nIn tenth-century France, the doors of traitors and criminals were paintedyellow.\nHindus in India wear yellow to celebrate the festival of spring.\nIf someone is said to have a \u201cyellow streak,\u201d? that person is considered a coward.\nIn Japan during the War of Dynasty in 1357, each warrior wore a yellowchrysanthemum as a pledge of courage.\nA yellow ribbon is a sign of support for soldiers at the front.\nYellow is a symbol of jealousy and deceit.\nIn the Middle Ages, actors portraying the dead in a play wore yellow.\nTo holistic healers, yellow is the color of peace.\nYellow has good visibility and is often used as a color of warning. It is also a symbol for quarantine, an area marked off because of danger.\n\u201cYellow journalism\u201d? refers to irresponsible and alarmist reporting.\nShare this article",
+          "output": "0.2967171717171717",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 70707,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 8.825
+        },
+        {
+          "input": "Transition Planning for Aged 3-21\nTRANSITION PLANNING FOR STUDENTS AGES 3-21\nIt is important to begin the transition planning process early to allow time for planning and accessing the support services needed in the future.\nThe passage of the Individuals with Disabilities Act (IDEA) in 1990 and the subsequent reauthorization in 1997 mandate school districts to provide transition services for students with disabilities in order to improve post-school outcomes for these youth. To help meet the requirements for transition. District 205 has developed a community-based transition program. This program is called the 18-21 program because of the age-range of students involved, and is designated to support students with disabilities who may have met the requirements for graduation, but who may need to continue to work on their transition goals. IDEA defines transition services as:\nA coordinated set of activities for a student, designed within an outcome-oriented process, which promotes movement from school to post-school activities, including post-secondary education, vocational training, integrated employment (including supported employment), continuing and adult education, adult services, independent living, or community participation. The coordinated set of activities shall be based upon the individual student's needs taking into account the student's preference and interests, and shall include instruction, community experiences, the development of employment and other post-school adult living objectives, and when appropriate, acquisition of daily living skills and functional vocational evaluation.\nProviding transition services and supports in community settings to students ages 18-21 with intellectual disabilities allows students to expand their independence, self-advocacy, employment, and social and community integration during their final years of mandated public schooling.",
+          "output": "0.6785714285714286",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 101006,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 19.41
+        },
+        {
+          "input": "Kona Pacific Public Charter School is the first public school in Hawaii to use a Waldorf education model and one of the things that they are teaching under this new model is how to crochet according to a recent news report by Susan Essoyan. This makes sense since crocheting is a creative art that kids can begin learning at a young age and Waldorf education is all about using the imagination to develop both creative and analytical skills in children.\nThe Waldorf school had been a private school but it was closed and then eventually re-opened as a public tuition-free charter school. One of its primary goals is to teach children to love learning, stimulating them to explore the talents that they already have. Crochet is a talent that many kids can easily have.\nAnd it arguably has many benefits for kids. It improves their attention to detail, their ability to read (if using patterns), their motor skills and allows them to create products, which in turn boosts self-esteem. Crochet can also be used to teach students about volunteerism, science and math.\nI think it\u2019s interesting to note that this school is considered a school that serves low-income students. Four out of ten students qualify for subsidized lunches at this school (which incidentally come primarily from food grown in gardens on campus). I think it\u2019s great to stimulate creative thinking in such populations.\nThere is a lot of controversy about Waldorf schools. The kids don\u2019t always rank the highest on standardized tests since this type of academic education isn\u2019t emphasized at these schools. Personally I think a school that uses crochet as a teaching tool is a school that has at least one good thing going for it!\nWhat do you think about kids learning through crochet?",
+          "output": "0.3943001443001443",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 104681,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 11.53
+        },
+        {
+          "input": "We explore value-based solutions for multi-agent reinforcement learning\n(MARL) tasks in the centralized training with decentralized execution (CTDE)\nregime popularized recently. However, VDN and QMIX are representative examples\nthat use the idea of factorization of the joint action-value function into\nindividual ones for decentralized execution. VDN and QMIX address only a\nfraction of factorizable MARL tasks due to their structural constraint in\nfactorization such as additivity and monotonicity. In this paper, we propose a\nnew factorization method for MARL, QTRAN, which is free from such structural\nconstraints and takes on a new approach to transforming the original joint\naction-value function into an easily factorizable one, with the same optimal\nactions. QTRAN guarantees more general factorization than VDN or QMIX, thus\ncovering a much wider class of MARL tasks than does previous methods. Our\nexperiments for the tasks of multi-domain Gaussian-squeeze and modified\npredator-prey demonstrate QTRAN's superior performance with especially larger\nmargins in games whose payoffs penalize non-cooperative behavior more\naggressively.",
+          "output": "0.6444805194805194",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 25783,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 18.465
+        },
+        {
+          "input": "John was a competitive sack. He wanted to be the best sack in his office. Every day, he tried to sack as much as he could.\n\nJohn was very proud of himself. He was the fastest and strongest sack in his office. Everyone was amazed at how he managed to sack so much.\n\nJohn wanted to be even better. He practised every day and worked hard to be even faster and stronger. He wanted to become the best sack around.\n\nOne day, John reached his goal. He was the best sack in his office and everyone congratulated him. He was proud to be the most competitive sack in the office.",
+          "output": "0.12570510297783025",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 93444,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 4.084545454545454
+        },
+        {
+          "input": "Lily was hungry. She wanted to eat something yummy. She went to the kitchen and opened the refrigerator. She saw a bowl of pudding. She liked pudding. She took the bowl and a spoon.\n\nShe sat on the floor and started to eat the pudding. But it tasted bad. It was sour and bitter. She made a face and spat it out. \"Yuck!\" she said. \"This pudding is spoiled!\"\n\nMommy heard Lily and came to the kitchen. She saw the bowl of pudding and smelled it. She frowned and threw it in the trash. \"Lily, this pudding is old. It was in the refrigerator for too long. You can't eat it. It will make you sick.\"\n\nLily felt sorry. She didn't know the pudding was old. She wanted to eat something good. She looked at Mommy and said, \"I'm sorry, Mommy. I was hungry. Can I have something else?\"\n\nMommy smiled and hugged Lily. She said, \"It's okay, Lily. You didn't mean to eat the spoiled pudding. I have some fresh fruit for you. Do you want a banana or an apple?\"\n\nLily thought for a moment. She liked both fruits. She said, \"Can I have both, Mommy?\"\n\nMommy nodded and said, \"Sure, Lily. You can have both. Let's find them in the refrigerator. They are not spoiled. They are sweet and juicy.\"\n\nLily and Mommy went to the refrigerator and found the banana and the apple. They washed them and peeled them. They shared them and enjoyed them. Lily was happy. She said, \"Thank you, Mommy. You are the best.\"\n\nMommy kissed Lily and said, \"You're welcome, Lily. You are the best, too.\"",
+          "output": "0.06836219336219336",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 52574,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 2.495
+        },
+        {
+          "input": "Jack was in the park with his mother. He saw three fat geese running in his direction. He was so excited that he ran after them.\n\nJack shouted, \u00e2\u20ac\u0153Wait for me! I want to play too!\u00e2\u20ac But the geese kept running away.\n\nJack's mother smiled and called out to him, \u00e2\u20ac\u0153Come back, Jack! You can't catch them.\u00e2\u20ac\n\nBut Jack wasn't listening. He kept running. He wanted to catch up with the geese.\n\nThen, he slipped and fell on the ground. He was so sad that he started to cry.\n\nHis mother came and picked him up. She wiped away his tears and said, \u00e2\u20ac\u0153It's ok, Jack. It's time to go home now.\u00e2\u20ac\n\nJack nodded and took his mother's hand. Together, they walked away from the park. Although he didn't catch the geese, Jack still had a fun day.",
+          "output": "0.07762145262145263",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 56983,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 2.751666666666667
+        },
+        {
+          "input": "Once upon a time, there was a little bird named Tweet. Tweet loved to fly up high in the sky and soar like a superhero. One day, Tweet was flying over a field when she saw a blueberry bush. She decided to land and have a snack.\n\nAs she was eating, Tweet noticed an unusual bug crawling on one of the blueberries. \"Hello there, little bug,\" said Tweet. \"What are you doing on this blueberry?\"\n\n\"I'm just having a snack like you,\" replied the bug. \"But this blueberry is extra special. It's the biggest and juiciest one I've ever seen!\"\n\nTweet was curious. \"Why is it so special?\" she asked.\n\n\"Well,\" said the bug, \"it's because it's been soaking up all the sunshine and rain for weeks. That's why it's so big and delicious.\"\n\nTweet was amazed. She had never thought about blueberries like that before. From that day on, she always made sure to stop by the blueberry bush whenever she was flying by.",
+          "output": "0.15584415584415587",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 84364,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 4.92
+        },
+        {
+          "input": "Termites are a group of insect that mostly feed on dead plant materials, with the ability to digest cellulose. Ecologically, termites are important for nutrient recycling. In human society, however, they are viewed as pests because they cause damage to wooden structures and bring economic loss to property owners. Termite Control in Delhi\nSubterranean termites, the most destructive wooden pest in the world, build their colonies in the soil and usually work their way above ground to reach wood or any other cellulose source. In search for food, subterranean termites will forage into homes from below the ground level right up to the highest point of the roof thrust. Over time, termite damage can become significant on door frames, kitchen cabinets, staircase and wooden flooring. Termite Control In Noida\nTermite infestation is usually not apparent until severe damages have incurred. They live in dark, humid and protected environment, which make them so hard to find \u2013 until it\u2019s too late.\nAs termites devour their way through wood from the inside, it can be rather challenging to detect a termite infestation but there are some tell-tale signs that indicate their presence. Termite Killer In Gurgaon\nHere are a few common signs of termites that you might see (or hear) around your home or business premises:",
+          "output": "0.4217171717171717",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 52306,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.29
+        },
+        {
+          "input": "In this paper, we consider an unmanned aerial vehicle (UAV) aided mobile\nrelaying system under a buffer constraint. We propose a new relaying protocol\nemploying mixed free-space optical/radio frequency (FSO/RF) communication,\ni.e., the source-relay and relay-destination links utilize FSO and RF links,\nrespectively, under the buffer constraint at the UAV relay node. Taking the\nconditions of an imbalance in transmission rate between RF and FSO links into\nconsideration, we study the trajectory optimization problem of\nbuffer-constrained UAV relay node in order to maximize the end-to-end data\nthroughput. Especially, we classify two relaying transmission schemes according\nto the delay requirements, i.e., i) delay-limited transmission and ii)\ndelay-tolerant transmission. We solve the locally optimal trajectory problem of\nthe UAV to maximize the throughput of ground user terminal. As a result, we\npropose an iterative algorithm that efficiently finds a local optimum solution\nfor the throughput maximization problems. Through this algorithm, we present\nthe resulting trajectories over the the atmospheric condition, the buffer size,\nand the delay requirement. Also, we show the optimum buffer size and the\nthroughput-delay tradeoff for a given system. Our numerical results validate\nthat the proposed buffer-aided mobile relaying scheme achieves 65.55%\nthroughput gains compared to conventional static relaying scheme.",
+          "output": "0.5212842712842713",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 28761,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 15.05
+        },
+        {
+          "input": "Platinum Laboratory Instruments by Tanaka Precious Metals- Equipment and Measuring Devices -\nPlatinum has a high melting point and is chemically stable, which prevents it from easily reacting with other materials. For these reasons, there is a high demand for platinum in laboratory instruments (crucibles, bead dishes, evaporating dishes, boats, etc.) Because acids and alkalis are used and instruments are subject to high temperatures in chemical experiments, platinum with its high durability is an optimal material. The laboratory instruments manufactured and sold by Tanaka Precious Metals are processed with higher precision than that applied to conventional models, and our products meet a variety of needs, such as marking curved surfaces with a laser marker.\nBead dish thickness distribution graph\nOxide-dispersion-strengthened materials (Strengthened platinum)\nBy adding oxides, not only platinum but also other precious metal materials develop higher creep rupture strength and tensile strength at high temperatures than conventional materials, which extends their service life. Since these materials maintain a strength equivalent to or higher than that of conventional materials at smaller thickness, the amount of precious metals used is reduced, resulting in cost reductions. At Tanaka Precious Metals, we use oxidized zirconium (ZrO2\uff09by taking into consideration the reaction with glass.\nWe can also produce laboratory instruments by using precious metals materials besides pure platinum and suggest an optimal specification for each laboratory instrument suited to its purpose.\nComparison of pure platinum and strengthened platinum cross-sections\n* Cross-sections after annealing one hour at each temperature after completing 90% of processing (Scale bar: 500\u03bcm\uff09",
+          "output": "0.6147186147186147",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 66434,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 17.64
+        },
+        {
+          "input": "Using the maximum entropy method, we derive the \"adaptive cluster expansion\"\n(ACE), which can be trained to estimate probability density functions in high\ndimensional spaces. The main advantage of ACE over other Bayesian networks is\nits ability to capture high order statistics after short training times, which\nit achieves by making use of a hierarchical vector quantisation of the input\ndata. We derive a scheme for representing the state of an ACE network as a\n\"probability image\", which allows us to identify statistically anomalous\nregions in an otherwise statistically homogeneous image, for instance. Finally,\nwe present some probability images that we obtained after training ACE on some\nBrodatz texture images - these demonstrate the ability of ACE to detect subtle\ntextural anomalies.",
+          "output": "0.6080447330447329",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 27078,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 17.455
+        },
+        {
+          "input": "Once upon a time, there was a strong bear. He liked to pretend he was the king of the woods. Every day, he would take his tray and go around the woods making sure everything was okay. \n\nOne day, the bear decided to use his tray for a pretend tea party. He put stones and leaves on the tray and pretended they were tiny teacups and plates. He also found some twigs and used them as pretend knives and forks. \n\nThe bear was having so much fun, he didn't even notice the baby rabbit behind him. When the bear turned around, the rabbit had already started eating the pretend teacups and plates. The bear was very sad his pretend tea party was ruined. \n\nThe rabbit was so sorry, he promised to make things right. He brought the bear some flowers and fruits and put them on the tray so the bear could have a real tea party. The bear was so delighted, he invited the rabbit to join him and together they had a wonderful tea party.",
+          "output": "0.18452380952380953",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 72152,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.715
+        },
+        {
+          "input": "Ben and Lily were twins who liked to play in the park. One day, they saw a big slide that looked fun. Ben wanted to go first, but Lily said no.\n\n\"Me first, me first!\" Lily shouted. \"You always go first!\"\n\n\"No, me first, me first!\" Ben shouted back. \"You are too slow!\"\n\nThey pushed and pulled each other, trying to get to the slide. They did not yield to each other. They did not see the big dog that was running towards them.\n\nThe dog barked loudly and jumped on them. Ben and Lily screamed and fell to the ground. The dog licked their faces and wagged its tail. It was not a mean dog, but a friendly dog. But Ben and Lily were scared and cried.\n\nA man came and took the dog away. He said he was sorry and that the dog was just playful. He said Ben and Lily should be more careful and not fight. He said they should yield to each other and take turns.\n\nBen and Lily said they were sorry too. They hugged each other and said they were sorry for fighting. They said they would yield to each other and share the slide.\n\nThey went to the slide and had fun. They were clever and learned their lesson. They did not want to have a nightmare about the big dog again. They wanted to have a good night and a good dream.",
+          "output": "0.08560883560883562",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 96618,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 2.973076923076923
+        },
+        {
+          "input": "Lily and Ben are friends. They like to play with toys. One day, they find a big drum in the garage. It is red and shiny. They want to make noise with it.\n\n\"Can I hit the drum?\" Lily asks.\n\n\"OK, but let me hit it too,\" Ben says.\n\nThey take turns hitting the drum with their hands. It makes a loud sound. Boom, boom, boom! They laugh and clap.\n\nBut soon, they get bored. They want to make the drum more interesting.\n\n\"Let's fill the drum with something,\" Lily says.\n\n\"What can we fill it with?\" Ben asks.\n\nThey look around the garage. They see many things. They see balls, books, shoes, and cans.\n\nThey start to fill the drum with the things. They put the balls, books, shoes, and cans inside the drum. The drum gets heavier and heavier.\n\n\"Is it full yet?\" Lily asks.\n\n\"Let's hit it and see,\" Ben says.\n\nThey hit the drum again. But it does not make a loud sound. It makes a strange sound. Clang, clang, clang!\n\nThey look at each other. They are surprised.\n\n\"That sounds funny,\" Lily says.\n\n\"It sounds different,\" Ben says.\n\nThey hit the drum some more. They listen to the strange sound. They smile and giggle.\n\nThey think the drum is more interesting now. They like to fill the drum with things. They have fun with the drum.",
+          "output": "0.05916305916305917",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 57206,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 2.24
+        },
+        {
+          "input": "Once upon a time, there were two friends named Lucy and Max. Lucy was a brave girl and Max was a happy boy. \n\nOne day Lucy and Max were walking in the park when they saw something very special - a wide tunnel! It was so wide that both Lucy and Max could fit through. They looked inside the tunnel and admired how long and wide it was. \n\nMax said, \"Let's go inside the tunnel and explore it!\"\n\nLucy said, \"Let's go! I'm excited to see what's inside.\"\n\nThey excitedly walked into the tunnel and they were surprised to find a big surprise - lots of colourful lights! They were so happy and admired the lights. They twinkled in different colours and they made the tunnel look very magical. \n\nMax said, \"This is the best tunnel ever! I'm so happy we found it!\"\n\nLucy said, \"Me too! I'm so glad we came here!\"\n\nThey smiled and admired the tunnel for a little more before going on their way. They would never forget the wonderful tunnel that they found.",
+          "output": "0.14768718935385605",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 1570,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 4.693888888888889
+        },
+        {
+          "input": "Once upon a time, there was a crab. He wanted to increase his speed. He asked his friends if they knew how to help him.\n\nThe turtle said, \u00e2\u20ac\u0153I can teach you some tricks.\u00e2\u20ac \n\nThe crab asked, \u00e2\u20ac\u0153Will it help me increase my speed?\u00e2\u20ac \n\nThe turtle said, \u00e2\u20ac\u0153Yes, it will.\u00e2\u20ac\n\nThe crab was very happy. \n\nHe tried the tricks and soon he was running very fast. But then he hurt his foot. \n\nHe said to the turtle, \u00e2\u20ac\u0153It hurts! What should I do?\u00e2\u20ac \n\nThe turtle said, \u00e2\u20ac\u0153Rest and put some cold water on your foot.\u00e2\u20ac \n\nThe crab did that and soon his foot was not hurt anymore. He was happy and thanked the turtle for his help.",
+          "output": "0.08344433344433344",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 21272,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 2.913076923076923
+        },
+        {
+          "input": "This paper describes a system by which Unmanned Aerial Vehicles (UAVs) can\ngather high-quality face images that can be used in biometric identification\ntasks. Success in face-based identification depends in large part on the image\nquality, and a major factor is how frontal the view is. Face recognition\nsoftware pipelines can improve identification rates by synthesizing frontal\nviews from non-frontal views by a process call {\\em frontalization}. Here we\nexploit the high mobility of UAVs to actively gather frontal images using\ncomponents of a synthetic frontalization pipeline. We define a frontalization\nerror and show that it can be used to guide an UAVs to capture frontal views.\nFurther, we show that the resulting image stream improves matching quality of a\ntypical face recognition similarity metric. The system is implemented using an\noff-the-shelf hardware and software components and can be easily transfered to\nany ROS enabled UAVs.",
+          "output": "0.46356421356421357",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 93124,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 13.45
+        },
+        {
+          "input": "The next league game that United actually played was a home fixture against Sunderland. Dimitar Berbatov opened the scoring after just five minutes, when he headed home Wayne Rooney's cross. After that, Berbatov hit the post and Anderson's shot crashed off the crossbar as United created numerous chances. after the break Anton Ferdinand, Rio Ferdinand's younger brother, deflected a Berbatov kick into his own net and wrap up the 2\u20130 win for United.",
+          "output": "0.40187590187590183",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 100896,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 11.739999999999998
+        }
+      ]
+    }
+  ]
+}

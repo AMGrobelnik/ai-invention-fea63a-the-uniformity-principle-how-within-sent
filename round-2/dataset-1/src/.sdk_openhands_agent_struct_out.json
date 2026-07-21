@@ -1,0 +1,16 @@
+{
+  "title": "Readability datasets for sentence-level assessment",
+  "layman_summary": "Acquired and standardized two English readability datasets (CLEAR corpus and agentlans/readability) with 5,543 total examples for evaluating readability scoring models.",
+  "summary": "Successfully acquired 3 readability datasets from HuggingFace, evaluated quality, and selected the best 2 datasets for the artifact. Primary acquisition: CLEAR corpus (3,543 excerpts from CommonLit with multiple readability metrics including Flesch-Kincaid Grade Level) and agentlans/readability (2,000 sampled paragraphs with continuous grade level scores from arxiv, tinystories, fineweb-edu, and wikipedia-en). Both datasets were standardized to exp_sel_data_out.json schema with input (text) and output (normalized 0-1 readability score) fields. Created full_data_out.json (5,543 examples), mini_data_out.json (6 examples for development), and preview_data_out.json (6 examples with truncated text). All files validated against schema. Documentation includes README.md with dataset descriptions, loading instructions, comparison table, and known limitations. WSJ dataset (Liu & Lee 2023) was not acquired due to form-based access requirements. OneStopEnglish corpus was acquired but not included in final selection due to longer texts and data leakage concerns.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": ["full_data_out.json"],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  },
+  "upload_ignore_regexes": []
+}

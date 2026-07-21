@@ -1,0 +1,17 @@
+{
+  "dataset_name": "CLEAR_corpus",
+  "source_url": "https://huggingface.co/datasets/casey-martin/CommonLit-Ease-of-Readability",
+  "license": "Unknown - from HuggingFace",
+  "n_sentences": 3543,
+  "score_distribution": {
+    "mean": 0.5,
+    "std": 0.29,
+    "min": 0.0,
+    "max": 1.0,
+    "description": "Normalized Flesch-Kincaid Grade Level (0=easiest, 1=hardest)"
+  },
+  "preprocessing": "None - used excerpts as-is with Flesch-Kincaid Grade Level normalized to 0-1",
+  "schema_version": "exp_sel_data_out.json v1.0",
+  "description": "CommonLit Ease of Readability (CLEAR) Corpus with ~3,500 reading passage excerpts with multiple readability metrics",
+  "citation": "Crossley, S., et al. (2023). The CommonLit Ease of Readability (CLEAR) Corpus. Springer."
+}

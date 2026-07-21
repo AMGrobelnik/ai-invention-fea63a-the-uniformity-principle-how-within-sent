@@ -1,0 +1,506 @@
+{
+  "experiment_info": {
+    "n_sentences_total": 200,
+    "n_bootstrap": 500,
+    "n_cv_splits": 5,
+    "hardware": {
+      "num_cpus": 10,
+      "total_ram_gb": 61.999996928,
+      "available_ram_gb": 61.999996928
+    }
+  },
+  "datasets": {
+    "WeeBIT": {
+      "bootstrap_mse_test": {
+        "p_value_one_sided": 0.578,
+        "p_value_two_sided": 0.6,
+        "ci_95": [
+          -0.11633459590991856,
+          0.0391088425146943
+        ],
+        "mse_reduction_mean": -0.012238743252872799,
+        "mse_reduction_pct": -9.37688130103853,
+        "n_bootstrap": 500
+      },
+      "coefficient_ci": [
+        {
+          "feature": "avg_word_length",
+          "mean_coef": -0.2030941266474615,
+          "ci_95_lower": -0.3509670522389466,
+          "ci_95_upper": -0.059319908716086146,
+          "significant": true,
+          "coef_range": [
+            -0.4799230177050568,
+            0.12068576686385836
+          ]
+        },
+        {
+          "feature": "avg_syllables",
+          "mean_coef": 0.15523189377150745,
+          "ci_95_lower": -0.0068636145823937535,
+          "ci_95_upper": 0.3278220605658088,
+          "significant": false,
+          "coef_range": [
+            -0.14252893151187793,
+            0.4804348889113297
+          ]
+        },
+        {
+          "feature": "avg_frequency",
+          "mean_coef": -0.08021491053326707,
+          "ci_95_lower": -0.2737213208119296,
+          "ci_95_upper": 0.10526277537223758,
+          "significant": false,
+          "coef_range": [
+            -0.38487703986224275,
+            0.2784156981821733
+          ]
+        },
+        {
+          "feature": "sentence_length",
+          "mean_coef": 0.09994106385487221,
+          "ci_95_lower": 0.009712907353425658,
+          "ci_95_upper": 0.1786974997039625,
+          "significant": true,
+          "coef_range": [
+            -0.06431525730295098,
+            0.22619220609879226
+          ]
+        },
+        {
+          "feature": "cv_word_length",
+          "mean_coef": 0.04198341463577654,
+          "ci_95_lower": -0.0860334944088095,
+          "ci_95_upper": 0.19208122356338536,
+          "significant": false,
+          "coef_range": [
+            -0.1429523152933245,
+            0.25999381685665734
+          ]
+        },
+        {
+          "feature": "cv_syllables",
+          "mean_coef": 0.08484617576256612,
+          "ci_95_lower": -0.05418641790117829,
+          "ci_95_upper": 0.21013310288674583,
+          "significant": false,
+          "coef_range": [
+            -0.11760571294937965,
+            0.30755646749515
+          ]
+        },
+        {
+          "feature": "cv_frequency",
+          "mean_coef": 0.07064687071621623,
+          "ci_95_lower": -0.11640819768894634,
+          "ci_95_upper": 0.271180183012545,
+          "significant": false,
+          "coef_range": [
+            -0.21559881346584395,
+            0.3594942492298835
+          ]
+        }
+      ],
+      "cv_avg_only": {
+        "test_r2_mean": 0.015499664665963975,
+        "test_r2_sd": 0.28617138415277155,
+        "test_r2_values": [
+          -0.4350843787572989,
+          0.27318607804475603,
+          0.33417197544265265,
+          0.07626579351823792,
+          -0.17104114491852784
+        ],
+        "test_mse_mean": 0.11458482254308704,
+        "test_mse_sd": 0.029277566663492783,
+        "test_mse_values": [
+          0.14173672876615295,
+          0.13123029146414128,
+          0.08117347830251613,
+          0.07697785054014683,
+          0.141805763642478
+        ]
+      },
+      "cv_combined": {
+        "test_r2_mean": -0.037390593644369294,
+        "test_r2_sd": 0.3250686360805281,
+        "test_r2_values": [
+          -0.25028975690352584,
+          0.31889482732556806,
+          0.2724118939188884,
+          -0.5445336565137513,
+          0.016563723950974163
+        ],
+        "test_mse_mean": 0.11659294529725513,
+        "test_mse_sd": 0.014277243382145852,
+        "test_mse_values": [
+          0.12348540808923711,
+          0.12297732284399467,
+          0.08870287095741948,
+          0.1287111380428126,
+          0.11908798655281172
+        ]
+      },
+      "effect_size": {
+        "r2_avg": 0.015499664665963975,
+        "r2_combined": -0.037390593644369294,
+        "r2_difference": -0.05289025831033327,
+        "r2_difference_ci_95": [
+          -1.073797967997378,
+          0.35819823052869476
+        ],
+        "correlation_avg": 0.1244976492387064,
+        "correlation_combined": 0.0,
+        "cohens_d": 0.0,
+        "effect_interpretation": "negligible"
+      },
+      "ablation": [
+        {
+          "condition": "baseline_avg_only",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length"
+          ],
+          "test_r2": 0.015499664665963975
+        },
+        {
+          "condition": "add_cv_word_length",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length"
+          ],
+          "test_r2": 0.07692156783409829,
+          "r2_improvement": 0.06142190316813431
+        },
+        {
+          "condition": "add_cv_syllables",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_syllables"
+          ],
+          "test_r2": 0.08352029452919604,
+          "r2_improvement": 0.06802062986323207
+        },
+        {
+          "condition": "add_cv_frequency",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_frequency"
+          ],
+          "test_r2": -0.01846435433623177,
+          "r2_improvement": -0.03396401900219574
+        },
+        {
+          "condition": "combined_all",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_syllables",
+            "cv_frequency"
+          ],
+          "test_r2": -0.037390593644369294,
+          "r2_improvement": -0.05289025831033327
+        },
+        {
+          "condition": "remove_cv_word_length",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_syllables",
+            "cv_frequency"
+          ],
+          "test_r2": -0.014032321285108807,
+          "r2_change": 0.02335827235926049
+        },
+        {
+          "condition": "remove_cv_syllables",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_frequency"
+          ],
+          "test_r2": 0.008507089483699182,
+          "r2_change": 0.045897683128068474
+        },
+        {
+          "condition": "remove_cv_frequency",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_syllables"
+          ],
+          "test_r2": 0.057167290227128784,
+          "r2_change": 0.09455788387149808
+        }
+      ]
+    },
+    "CEFR-SP": {
+      "bootstrap_mse_test": {
+        "p_value_one_sided": 0.584,
+        "p_value_two_sided": 0.576,
+        "ci_95": [
+          -0.004894521347005859,
+          0.0013993594578668577
+        ],
+        "mse_reduction_mean": -0.000705861688389329,
+        "mse_reduction_pct": -1.752931276967469,
+        "n_bootstrap": 500
+      },
+      "coefficient_ci": [
+        {
+          "feature": "avg_word_length",
+          "mean_coef": 0.022896196081106705,
+          "ci_95_lower": -0.02889943010134587,
+          "ci_95_upper": 0.07846681441542752,
+          "significant": false,
+          "coef_range": [
+            -0.06423822174886802,
+            0.11597555579142522
+          ]
+        },
+        {
+          "feature": "avg_syllables",
+          "mean_coef": 0.027018825196272536,
+          "ci_95_lower": -0.02310673935269766,
+          "ci_95_upper": 0.07475802709575968,
+          "significant": false,
+          "coef_range": [
+            -0.04841823783137122,
+            0.09413872820404738
+          ]
+        },
+        {
+          "feature": "avg_frequency",
+          "mean_coef": -0.0059084052425411645,
+          "ci_95_lower": -0.05092906343474613,
+          "ci_95_upper": 0.04178677311886641,
+          "significant": false,
+          "coef_range": [
+            -0.08517439939148619,
+            0.06853616663394176
+          ]
+        },
+        {
+          "feature": "sentence_length",
+          "mean_coef": 0.10429561026120253,
+          "ci_95_lower": 0.07657919234538867,
+          "ci_95_upper": 0.13198758160767268,
+          "significant": true,
+          "coef_range": [
+            0.06735931307367178,
+            0.1531927901813183
+          ]
+        },
+        {
+          "feature": "cv_word_length",
+          "mean_coef": 0.0034338803026100987,
+          "ci_95_lower": -0.03060677730739037,
+          "ci_95_upper": 0.03442056565607113,
+          "significant": false,
+          "coef_range": [
+            -0.04520191963842222,
+            0.04778136314316072
+          ]
+        },
+        {
+          "feature": "cv_syllables",
+          "mean_coef": 0.013353916318534859,
+          "ci_95_lower": -0.020912345210146774,
+          "ci_95_upper": 0.04995347016147083,
+          "significant": false,
+          "coef_range": [
+            -0.05897289202465709,
+            0.07011242849856734
+          ]
+        },
+        {
+          "feature": "cv_frequency",
+          "mean_coef": 0.04488350886252441,
+          "ci_95_lower": -0.00500276235579282,
+          "ci_95_upper": 0.09367929748973444,
+          "significant": false,
+          "coef_range": [
+            -0.031290786750004955,
+            0.12145769324663937
+          ]
+        }
+      ],
+      "cv_avg_only": {
+        "test_r2_mean": 0.5080673601295637,
+        "test_r2_sd": 0.0731748015092316,
+        "test_r2_values": [
+          0.5735349133564691,
+          0.39900289297337077,
+          0.44137914580839244,
+          0.5575984773808251,
+          0.5688213711287607
+        ],
+        "test_mse_mean": 0.019091061799802002,
+        "test_mse_sd": 0.002116755975185582,
+        "test_mse_values": [
+          0.01971984555915155,
+          0.017385764386410287,
+          0.022972628676016987,
+          0.017465883213497912,
+          0.01791118716393327
+        ]
+      },
+      "cv_combined": {
+        "test_r2_mean": 0.4926825272101481,
+        "test_r2_sd": 0.0910587110535756,
+        "test_r2_values": [
+          0.6101385710279319,
+          0.46123855611558007,
+          0.3481051872383517,
+          0.4769304728211833,
+          0.5669998488476935
+        ],
+        "test_mse_mean": 0.01981171588237341,
+        "test_mse_sd": 0.003847950161692628,
+        "test_mse_values": [
+          0.018027283849440842,
+          0.015585398688852102,
+          0.02680841103053104,
+          0.02065063252982758,
+          0.017986853313215482
+        ]
+      },
+      "effect_size": {
+        "r2_avg": 0.5080673601295637,
+        "r2_combined": 0.4926825272101481,
+        "r2_difference": -0.015384832919415559,
+        "r2_difference_ci_95": [
+          -0.11763951646269166,
+          0.039668828097115395
+        ],
+        "correlation_avg": 0.7127884399522509,
+        "correlation_combined": 0.7019134755866624,
+        "cohens_d": 1.9709411898440437,
+        "effect_interpretation": "large"
+      },
+      "ablation": [
+        {
+          "condition": "baseline_avg_only",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length"
+          ],
+          "test_r2": 0.5080673601295637
+        },
+        {
+          "condition": "add_cv_word_length",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length"
+          ],
+          "test_r2": 0.504822369007751,
+          "r2_improvement": -0.003244991121812646
+        },
+        {
+          "condition": "add_cv_syllables",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_syllables"
+          ],
+          "test_r2": 0.510403803817052,
+          "r2_improvement": 0.00233644368748831
+        },
+        {
+          "condition": "add_cv_frequency",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_frequency"
+          ],
+          "test_r2": 0.5028628858965571,
+          "r2_improvement": -0.0052044742330065175
+        },
+        {
+          "condition": "combined_all",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_syllables",
+            "cv_frequency"
+          ],
+          "test_r2": 0.4926825272101481,
+          "r2_improvement": -0.015384832919415559
+        },
+        {
+          "condition": "remove_cv_word_length",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_syllables",
+            "cv_frequency"
+          ],
+          "test_r2": 0.5039647880213026,
+          "r2_change": 0.01128226081115452
+        },
+        {
+          "condition": "remove_cv_syllables",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_frequency"
+          ],
+          "test_r2": 0.49500491048060535,
+          "r2_change": 0.002322383270457251
+        },
+        {
+          "condition": "remove_cv_frequency",
+          "features": [
+            "avg_word_length",
+            "avg_syllables",
+            "avg_frequency",
+            "sentence_length",
+            "cv_word_length",
+            "cv_syllables"
+          ],
+          "test_r2": 0.5029929324925426,
+          "r2_change": 0.01031040528239452
+        }
+      ]
+    }
+  }
+}

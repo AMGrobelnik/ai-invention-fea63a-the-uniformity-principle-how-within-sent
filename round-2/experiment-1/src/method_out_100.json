@@ -1,0 +1,1022 @@
+{
+  "metadata": {
+    "experiment": "uniformity_principle_minimal",
+    "num_examples": 100,
+    "feature_names": [
+      "avg_word_length",
+      "avg_syllables",
+      "sentence_length",
+      "cv_word_length",
+      "cv_syllables"
+    ],
+    "r2_mean": 1.0,
+    "r2_std": 0.0
+  },
+  "datasets": [
+    {
+      "dataset": "combined",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest movie.\nThe movie is about the 2000 presidential election.\nFor the movie, Chaille talked to the two main candidates.\nHe talked to Texas Governor George W. Bush at the governor's home.\nChaille also traveled with Vice President Al Gore on his campaign bus.\nChaille has been making films since he was 8 years old.\nChaille's first movie was\nThe movie explored what people think about boy ballet dancers.\nChaille won two awards for the movie.\nChaille has also made movies about religion, how kids cope with pain, and musicians.\nHow did you get started making movies?\nThen people at HBO [a cable TV company] saw it, and they said they wanted to show the film.\nHow do you decide what your movies will be about?\nI just take stuff that's a part of everyday issues.\nIt's mostly about the 2000 election.\nThe movie asks why a kid should care about politics.\nWhat was it like talking to Governor George W. Bush and Vice President Al Gore?\nVery surprising.\nGeorge W. Bush said his daughters weren't so happy with him running in the election because they didn't want to leave their school or stay inside all the time.\nWhen I first went to speak to Al Gore in New Hampshire, he knelt down in the snow.\nIt was sort of like he understood children.\nThey both seemed like very nice men.\nFilmmakers have their own language.\nHere are some words they use and their meanings.\n--an actor who is hired to play a small, nonspeaking part, such as someone in a crowd\n--a worker who helps move the scenery and cameras during filming\n--a scene that is filmed but is not used in the movie\n--a movable arm that holds a microphone over an actor's head during filming\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most paper?\n2.\nOn which day did the Smith family recycle the fewest paper items?\n3.\nOn which day did the Smith family recycle four plastic items?\n4.\nWhat is the total number of metal items that the Smith family recycled?\n5.\nHow man items in all did the Smith family recycle on Thursday?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows information about the five\nor kinds, of rhinos.\nChoose the answer that completes each sentence or answers each question.\nWhich of these rhinos is found in Asia?\nHow many horns does a black rhino have?\nHow many species of rhinos come from Africa?\nBesides the Indian rhino, what other type of rhino has only one horn?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 3,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The Crazy Horse statue is in South Dakota.\nThe map shows where the statue and other important places are located.\nThe Crazy Horse Statue is in South Dakota.\nThe map shows where the statue and other important places are located.\nUse the map to answer the questions.\nCircle your answers.\nWhat is the capital of South Dakota?\nWhich city on the map is the farthest north?\nWhich state is south of South Dakota?\nWhich of these states is east of South Dakota?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 4,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Do you know how to count in Spanish?\nLearn to how to spell and say these words.\nUse what you have learned to solve thse math problems.\nWrite the Spanish word for the sum on the line.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 5,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The graph shows the number of tornadoes that happened in the United States during some months of 1999.\nUse the graph to answer the questions.\nFill in the circle next to the correct answer.\n1.\nIn which month did the most tornadoes happen?\n2.\nHow many tornadoes happened in April?\n3.\nIn which month did the fewest tornadoes happen?\n4.\nHow many tornadoes happened in February and March altogether?\n5.\nIn which month did 289 tornadoes happen?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 6,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Whiskers's class went to the museum for a field trip.\nBut, oops, the story of their trip is in the wrong order.\nUse the clues to put the story in order.\nFourth, Whiskers and his class went to see the train display.\nThey saw an old locomotive--a train's engine.\nThe first locomotives used steam to move.\nThis steam locomotive could pull many train cars, or parts of a train.\nFirst, the students went to see the dinosaurs.\nDinosaurs lived long ago.\nDinosaurs are now extinct, or all gone.\nScientists use dinosaur fossils, old bones or marks made by body parts or plants, to learn about dinosaurs.\nFifth, Whiskers saw real moon rocks and pictures of astronauts, the people trained to visit space.\nAstronaut Neil Armstrong was the first man to step onto the moon.\nHe put an American flag up on the moon.\nHe brought moon rocks back to Earth.\nSecond, Whiskers's class went to see an Egyptian mummy, or a dead body that has been kept in a special way.\nEgyptians buried their pharaohs, or kings, as mummies.\nThe bodies were wrapped and put in fancy boxes.\nThe boxes were decorated with paintings and writing.\nSixth, Whiskers's class met by the main door.\nThey looked at a statue,or form of something or somebody.\nThe statue is a copy of one called The Thinker.\nWhiskers was thinking, too.\nHe was thinking about his day.\nHe was glad he had visited the museum!\nThird, Whiskers went with his class to see knights, or soldiers from long ago.\nKnights wore armor, or metal clothing, for protection.\nThey used shields and swords to fight off enemies.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 7,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The map shows how many Black Bears live in some states.\nIn which state so 50 to 150 black bears live?\nAbout how many black bears live in Alaska?\nIn which state would you not find black bears?\nAbout how many black bears live in Florida?\nIn which state dod 3,000 to 6,000 black bears live?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 8,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "What do birds and people have in common?\nDreaming, scientists say.\nPeople often dream of events that happened during the day.\nScientists say birds dream about singing.\nScientists attached a special device to the head of a bird called the zebra finch.\nScientists watched how the bird's brain acted while it was singing.\nThen they watched how the bird's brain behaved while it slept.\nThe bird's brain acted the same way!\nScientists say the zebra finch probably dreams about singing in order to remember its songs.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 9,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The Amazon rain forest is the largest tropical rain forest in the world.\nA tropical rain forest is a thick, warm, and wet place.\nThe Amazon rain forest is found in South America.\nThe rain forest is home to many animals.\nThe tallest trees make up the emergent layer.\nMany birds, such as the\n, live here.\nThe Scarlet Macaw is a parrot.\nIt can fly up to 35 miles per hour.\nIt is about 3 feet long.\nScarlet Macaws eat fruit, seeds, and nuts.\nThe next layer is called the canopy.\nThe leaves of the trees in the canopy are very thick.\nAnimals, like the\n, live here.\nThe Howler Monkey is very loud.\nHowlers eat leaves, flowers, fruits, and nuts.\nThe undertory is the nest layer.\nSmall trees and shrubs grow here.\nIt is cool and dark many insects, such as the\n, live here.\nThis Morpho is right blue.\nEach of its wings can be 3 to 5 inches wide!\nThe next layer is the forest floor.\nIt is soft, dark, and wet.\nMany animals, such as the\n, live here.\nGiant Anteaters eat ants and termites.\nGiant Anteaters catch their food with their long tongues.\nTheir tongues can be 2 feet long!\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 10,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Rev.\nMartin Luther King, Jr. with Pres.\nLyndon Johnson in the background in 1966\nMartin Luther King Jr. had an American dream.\nHe dreamed that all people would be treated equally.\nHe dreamed that all American people would be treated the same, no matter how they looked or what they believed.\nIn 1963, Martin Luther King Jr. told Americans about his dream.\nHe gave a speech in Washington, D.C., on the steps of the Lincoln Memorial.\nHe reminded people that the Constitution of the United States promised everyone equal rights.\nEqual rights means that everyone should be treated the same.\nHe asked all people to share and follow his dream.\nMany memorials are in Washington, D.C. A memorial is a special statue or place built to honor a person or an event.\nThis is how the memorial for King will look.\nThe memorial will be built near the Potomac River in Washington, D.C.\nThe memorial is meant to remind people of justice, democracy, and hope-all things King worked for.\nMartin Luther King Jr. was a leader.\nHe stood up for the freedoms and rights of African Americans and other people.\nThis year, Martin Luther King Jr. Day is on January 20.\nOn that day, people will think about and honor Martin Luther King Jr. What will you do to honor him?\nThe King memorial will help people remember him.\nHow else can you remember him?\nThe National Mall is the name for the place in Washington, D.C., that has many memorials.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 11,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows other animals that live in cold places.\nIt shows how they stay warm.\nStudy the table.\nThen write the correct answer on the line.\nIt makes a den between the snow and ground.\nIt has hairs that are like tubes.It has hairs that are like tubes.\nThe hair holds warm air close to the skin.The hair holds warm air close to the skin.\nWhich animal huddles with its friends to stay warm?\n_______________\nWhich animal's hair holds warm air close to its skin?\n_____________\nWhich animal makes a den to stay warm?\n________________\nWhich animal grows fluffy, long fur to stay warm?\n______________\nHow else might these animals stay warm?\n______________________________\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 12,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Earth Day is a time for people to think about taking care of Earth.\nPeople can celebrate Earth Day by keeping plants and animals healthy.\nThey can also help keep Earth clean.\nBut taking care of Earth is important all of the time.\nTurn the page to see how you can be Earth-friendly every day!\nEach person in the United States makes about 4 pounds of trash per day!\nSo landfills, or places where people dump trash, are starting to get full.\nPeople should reduce, or make smaller, the amount of trash they throw away.\nPaper takes up the largest amount of space in most landfills.\nPaper does not easily biodegrade, or break down.\nBut paper is easily recycled, or used again, after going through a special process.\nRecycle by taking old newspapers or old homework to a recycling center.\nSome trash in landfills could be used for other things!\nInstead of throwing trash away, people should find more ways to reuse it, or use trash again.\nReuse the top of a pizza box as an easel.\nUse the bottom part of the box to store your art supplies.\nMany times people forget to respect, or care for, Earth.\nOne way to show respect for Earth is to use less water, electricity, and gasoline.\nRespect Earth by turning off the water faucet while you are brushing your teeth.\nList three ways you can reuse Weekly Reader magazines.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 13,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The bones in your body are made of a hard material.\nBones help you stand up.\nThey protect body parts such as your brain, heart, and lungs.\nWithout bones, people wouldn't be able to move and they would have no shape.\nA set of bones is called a\nGrown-ups have 206 bones in their skeleton.\nThe smallest bone in the skeleton is in the ear.\nIt is call the\nbone.\nThe biggest bone is a leg bone called the\nPeople go to the doctors when they break their bones.\nBecause bones are inside the body, doctors need to use X-rays to see them.\nX-rays make special pictures of bones.\nThe pictures help doctors find where a bone is broken.\nOnce the doctos knows where the break is, he or she can help it heal.\nbone - a hard material inside the body\nX-ray - a special pictures of bones inside the body\nbone is not really a bone.\nIt is the nickname for a place at the back of the elbow.\nWhen that place is hit, you get a funny feeling.\nThe funny bone is found at the end of the\nEvery bone in your body has a job to do.\nSome bones are meant to protect you.\nThe\nhelps protect your brain.\nOther bones like the ribs work to keep the body's shape.\nThe\nhelps hold people up when they stand.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 14,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "When you smile, people can see your teeth and your gums.\nExperts say you need healthy teeth and gums.\nTeeth help you talk and eat.\nPeople need to care for their teeth.\nTurn the page to learn some ways to take care of your teeth.\nBrush your teeth after every meal and before you go to bed.\nUse a soft toothbrush and a pea-sized amount of toothpaste.\nBrush all parts of your teeth and even your tongue!\nBrush with short back-and-forth movements.\nFloss your teeth once a day.\nDental floss is thin thread that helps clean in between your teeth.\nUse it to get rid of food you might have missed with a toothbrush.\nHave a grown-up help you floss.\nVisit a dentist once or twice a year.\nThe dentist will clean your teeth, take X-rays, and give you fluoride.\nFluoride helps keep your teeth strong.\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 15,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Experts say that Antarctica is the coldest place on Earth.\nThey say that some of the coldest temperatures in the world have been noted in Antarctica.\nPeople there wear special clothes to stay warm.\nBut how do animals stay warm in Antarctica?\nAntarctica is a big icy continent.\nIt is around the South Pole.\nThe South Pole is found at the bottom of Earth.\nPenguins are birds.\nEmperor and Adelie penguins live in Antarctica.\nThe penguins stay warm because they have feathers that are very small and close together.\nThe feathers have oil on them.\nCold water can't get through the feathers to touch the penguins' skin.\nEach year, penguins molt, or lose, their feathers and grow new ones.\nPenguins can waddle faster than humans can walk.\nPenguins like to line up and dive into the water again and again.\nPenguins sometimes toboggan, or slide, on their bellies.\nPenguins surf waves to get back to shore.\nWeddell seals live in Antarctica.\nWeddell seals swim in the cold ocean water to catch fish and other ocean animals to eat.\nThese seals don't chew their food.\nThey swallow the food in big pieces.\nWeddell seals stay warm because they have a layer of blubber, or fat.\nThey also have a coat of thick fur.\nThe fur keeps water from touching the seal's skin.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 16,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Deitte (DEE-et) Curry's dog was having trouble breathing.\nDoctors said the 12-year-old dog was sick.\nThe dog had a weak heart and needed an operation.\nDoctors put a\nin the dog's heart.\nA pacemaker is a small device that helps the heart beat evenly.\nThe dog's pacemaker came from a woman who had died.\nShe wanted her pacemaker to help an animal.\nA pacemaker cannot be used again in a person, but a pacemaker can be used again in an animal.\nThe dog is healthy now that it has the pacemaker.\n\"He's as good as new,\" Deitte said.\n\"He's a puppy all over again!\"\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 17,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Summer is almost here!\nWhy do experts say that summer is the most dangerous time of the year for kids?\nDuring the summer, most schools are closed.\nKids have more time to play outside, ride bikes, and swim.\nThat means kids have more chances to get hurt.\nPlaying outside gives you a chance to breathe fresh air, but it also exposes you to harmful sun rays.\nHarmful sun rays can cause sunburns.\nYou can get a sunburn even if you are outside for a short amount of time.\nSo when you are in the sun, always wear sunscreen.\nUse a sunscreen with a sun protection factor (SPF) of 15 or higher, and be sure to rub it evenly into your skin.\nYou should also wear a hat and try to play in the shade.\nWhether you ride a bike, ride a scooter, or use in-line skates, be wheel safe.\nThe most serious way kids get hurt while on wheels is by hitting their heads.\nSo always wear a helmet when you are playing on wheels.\nWhen you ride scooters and use in-line skates, always wear wrist guards, kneepads, and elbow pads.\nWhat's the Right Way to Wear a Helmet?\nA helmet should be straight on the head, just above the eyebrows.\nThe chin strap should be snug but not too tight.\nThe rear straps go behind the ears; the front straps should run up and down.\nOne way to beat the summer heat is by swimming in a cool pool.\nTo stay safe when you swim, you need to follow water-safety rules.\nBe water safe by swimming only when a grown-up is nearby.\nYou should always swim with a buddy.\nHow else can you be safe this summer?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 18,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Giving Thanks: The Story of the Pilgrims\nDuring the fall, people have always celebrated harvests.\nIn the past, most people grew their own food.\nThey knew that having a large harvest of food would help them through the winter.\nToday, many people celebrate Thanksgiving by sharing food.\nThey are thankful for many different things.\nWhat are you thankful for?\n1.\nThe Pilgrims came to this country long ago.\nThey sailed from England on a ship.\nThe ship was called the\n2.\nAt first, the Pilgrims did not have much food.\nThe Wampanoag already lived on the land.\nthese native people helped the Pilgrims.\nThey taught the Pilgrims how to grow corn and showed them where to hunt.\n...can have a heart attack if they are scared.\n...can fly more than 50 miles per hour.\n3.\nThe Pilgrims and the Wampanoag became friends.\nThe Pilgrims were thankful for their friends' help.\nThe Pilgrims and the Wampanoag decided to have a harvest celebration.\nThey ate, played games, and told stories.\nEach fall, Americans celebrate Thanksgiving.\nAmericans have many Thanksgiving traditions.\nThey have parades with big floats.\nThey eat turkey dinners.\nSome people help feed others.\nWhat do you do for Thanksgiving?\nthe gathering of a crop when it is ripe\nto honor something special with a party\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 19,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "A Long Winter Sleep: How Do Animals Hibernate?\nMany animals hibernate (HIGH-behr-nayt) during the winter.\nWhen an animal hibernates, it goes into a deep sleep.\nAnimals hibernate when the weather gets cold and it is hard to find food.\nAnimals like frogs, chipmunks, and bears hibernate.\nIn the fall, brown bears eat a lot of food.\nThey eat berries, plants, and fish.\nBears eat to build up fat.\nBy the end of the fall, the bears start to hibernate in dens, which are caves or openings in the ground.\nThey breathe slower and their hearts beat slower.\nThey don't need to eat or drink because they use their fat to stay alive.\nWhen fall comes, a chipmunk gathers extra food.\nIt stores the extra food in its\n, or hole in the ground.\nThe chipmunk hibernates in its burrow for the winter.\nSometimes, a hibernating chipmunk wakes up.\nIt wakes up to eat some of its stored food.\nIt eats berries, mushrooms, and nuts.\nSome frogs hibernate in mud at the bottom of lakes or rivers.\nAs they hibernate, they are very still and seem to be frozen.\nFrogs that hibernate take in oxygen from the water.\nis a gas that living things need.\nThe frogs take in the oxygen through their skin.\nA brown bear can be about 5 feet tall while standing on all four feet.\nA brown bear can run up to 30 miles per hour.\nA baby brown bear can weigh less than 1 pound when it is born.\nto spend the winter sleeping to conserve energy\nJust before a bear begins to hibernate, it is very big.\nWhat might a bear look like after hibernating?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 20,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "People celebrate holidays in many ways.\nSome people decorate their homes.\nSome people give gifts to one another.\nMany holidays fall at the end of 2002.\nSome people celebrate Hanukkah.\nHanukkah lasts for eight days.\nSpinning the dreidel is one tradition of Hanukkah.\nA dreidel is a top.\nWhen the dreidel stops, the player get or gives a little gift such as candy or coins.\nSome people celebrate Las Posadas.\nLas Posadas lasts for nine days.\nSinging is one tradition of Las Posadas.\nEach night of Las Posadas, some people gather and sing together.\nThey walk through their towns, stopping at many homes.\nAt the last home, everyone celebrates with a party.\nSome people celebrate Christmas.\nChristmas is on December 25.\nDecorating a tree is one tradition of Christmas.\nPeople decorate evergreen trees with colorful decorations and lights inside their homes.\nSome people celebrate Ramadan.\nRamadan is a holiday that lasts for a month.\nFasting is one tradition of Ramadan.\nDuring the day, grown-ups do not eat food.\nAt night, people gather to eat a special meal.\nSome people celebrate Kwanzaa.\nKwanzaa is a holiday that lasts for seven days.\nDancing is one tradition of Kwanzaa.\nOn the last day of Kwanzaa, people play music and dance.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 21,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "An insect is an animal with six legs.\nIt has three main body parts: the head, the thorax, and the abdomen.\nThere are many different species, or kinds, of bees.\nSome species are known as honeybees.\nHoneybees are hard workers.\nHoneybees are also very helpful.\nHoneybees live in a large group called a\nA colony lives in a hive.\nThere are three different kinds of honeybees in a colony.\nEach kind of honeybee has a different job to do.\n, a sweet liquid made by flowers.\nWorker bees store nectar in tiny holes inside the hive.\nThe bees move their wings back and forth over the nectar.\nThe nectar gets thick.\nIt becomes honey.\nWorker bees put little caps on each hole filled with honey.\nThe rows of holes are called a\nbee lives in a colony.\nThe queen bee lays the eggs.\nShe is the largest honeybee.\nThe worker bees take care of the queen bee and bring her food.\nShe never needs to leave the hive.\nbees live in a colony.\nWorker bees are the smallest bees in the colony.\nWorker bees have many jobs.\nThey clean the hive, feed other bees, make wax for the hive, and even hunt for food.\nThey have a special body part called a honey stomach to hold the nectar they gather from flowers.\nWhat differences can you find among the three kinds of honeybees?\nlive in a colony.\nDrones are bigger than worker bees.\nDrones do not have a honey stomach as the worker bees do.\nSo drones are not able to collect their own nectar.\nThey need the worker bees to go out and get food for them.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 22,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "It took 100,000 people about 20 years to build the Great Pyramid.\nIt is made of more than 2 million blocks of stone.\nMost of the blocks weigh about 6,000 pounds each!\nWorkers poured water onto the logs so the blocks would roll more easily.\nThe Earth has many mysteries, or things that are not known or explained.\nPeople use science to try to understand those mysteries.\nThe pyramids are giant tombs, or graves, for Egyptian kings.\nPyramids are made of huge stone blocks.\nExperts know that the Egyptians didn't have the same tools that we have today.\nSo, how were those heavy blocks moved and lifted?\nSome experts believe that the Egyptians pushed and pulled them into place.\n1.\nWorkers cut and shaped the stone into blocks.\n2.\nThe workers floated the blocks down the Nile River on big barges.\n3.\nThe workers rolled the blocks over logs from the river to the pyramid.\n4.\nThe workers built dirt ramps so the blocks could be rolled to the top of the pyramid.\n5.\nWorkers carefully fit the stone blocks into place on the pyramid.\nNo one knows for sure what the dinosaurs looked like.\nSome experts think that dinosaur skin might have looked and felt like the scaly skin of reptiles today.\nExperts study how animals today use skin color to survive.\nSome animals, like the chameleon, can change skin color in order to hide.\nExperts also say that other animals, like poison arrow frogs, have brightly colored skin to keep away their enemies.\nIt is likely that dinosaurs also used skin color to survive, say experts.\nFor example, some experts say that Stegosaurus's plates might have changed color and size to scare its enemies.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 23,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Read the nutrition facts taken from a box of Fruity Flakes cereal.\nUse the label to answer the questions.\nHow much is one serving of this cereal?\nHow much fat is in one serving of this cereal?\nHow many calories are in one serving of this cereal?\nHow much protein is in one serving of this cereal?\nHow much sodium is in one serving of this cereal?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 24,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "George W. Bush is the 43rd president of the United States.\nPresident Bush was elected as president in the year 2000.\nSince then, President Bush has been working to make the United States a better place.\nGeorge W. Bush is the president of the United States.\nGrown-ups elected him to be the leader of our country.\nNow some kids have elected him, too.\nRecently,\nheld a contest called \"Kids Speak Out!\"\nThe contest asked kids to name the three most important people in the world.\nGeorge W. Bush got the most votes.\nOther people that kids voted for were their moms, their dads, and firefighters.\nThis year, Election Day is Tuesday, November 5.\nElection Day takes place every November.\nOn Election Day, Americans vote.\nThey vote to pick some of the leaders of our country.\nAll Americans who are 18 or older can vote on Election Day.\nelect - to choose a person for an office by vote\n vote - a person's choice or decision\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 25,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Hundreds of butterflies will spend the winter in New York City.\nThe butterflies will live in the American Museum of Natural History.\nThe museum has a special room for the butterflies.\nThere are trees, grass, and plants in the room.\nMany of the butterflies are from warm rain forests in places like Africa and Asia.\nSo the temperature in the butterfly room is kept at 80 degrees Fahrenheit.\nPowerful lamps shine down from the ceiling like the sun shines in a rain forest.\nVisitors to the museum can walk along a pathway through the special room.\nThe butterflies often land on the visitors.\nPeople get a close-up look at the butterflies.\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 26,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The map of Egypt shows many of the Egyptian pyramids.\nLook at the map and the key to answer each question.\nWhat is the name of the long river that flows through Egypt?\nThe map shows that some of the pyramids were built close to the Nile River.\nWhy might this be true?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 27,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Robins are birds found in the United States.\nThe robin is one of the first birds to show up in the spring.\nSome people say that seeing a robin is a sign that winter will soon be over!\nRobins build nests to lay thier eggs.\nA robin's nest is made of grass and mud.\nThe mud helps the pieces of grass stick together.\nThe nest is in the shape of a bowl.\nRobins usually build their nests in trees and shrubs.\nA mother robin lays her eggs in the nest.\nThree to five eggs are laid at one time.\nThe robin eggs are light blue.\nThe mother sits on top of the eggs to keep them safe and warm.\nBaby robins hatch in about two weeks.\nWhen a robin hatches from its egg, it has no feathers and it is blind.\nIts parents need to take care of it.\nThe parents bring worms, spiders, and insects for the babies to eat.\nBaby robins grow up fast.\nAfter about two weeks, baby robins will leave their nest.\nWhy might a mother robin build her nest in a tree or shrub?\nA father robin watches the young bird after it leaves the nest.\nHe feeds it and teaches it where to find food.\nWhen fall comes, the young robin is ready to live and fly on its own.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 28,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Earth is a planet.\nNine planets move around the sun.\nTogether, the planets and the sun make up the solar system.\nAnswer the questions below according to the diagram.\nWhich planet's path is between Earth and Mercury?\nWhich planet's path is closest to the sun?\nWhich planet's path is farthest from the sun?\nHow many planets are in the solar system?\n:Earth is the _______ planet from the sun?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 29,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Mr. Fossal asked his class to take a summer-safety test.\nThe table below shows each question of the test and the number of kids who answered yes or no.\nUse the table to answer the questions.\n1.\nDo you always wear sunscreen when you are outdoors?\n2.\nDo you always buckle your seat belt?\n3.\nDo you always wear a bike helmet?\n4.\nDo you swim only when a grown-up is around?\n5.\nDo you always follow the pool rules?\nHow many kids always buckle their seat belts?\nHow many kids always follow the pool rules?\nHow many kids said they don't always wear sunscreen?\nHow many kids said they don't always wear a helmet?\nWhich summer-safety rule do the most kids follow?\n: How many kids took Mr. Fossal's summer-safety test?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 30,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Who do you think is the most important person in the world?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 31,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Whiskers's class voted on where to go for a field trip.\nThe list shows how each person voted.\nMark the correct answer.\nWhere did Doug want to go for the field trip?\nzoo        fire station        park        museum\nHow many children wanted to go to the park?\n3        4        1        2\nWhich of these people wanted to go to the museum?\nWhiskers         Mike        Sandy        Nikki\nWhiskers and _______ wanted to go to the fire station.\nMike        Squeaky        Nikki         Cara\nIf the class goes to the place with the most votes, then where will the class go for this year's field trip?\n_______________________\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 32,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Spring is the season when most apple trees start to bloom.\nA blooming apple tree grows flowers.\nIn the spring, the weather gets warmer.\nSoon apples will grow in the places where the flowers are.\nWinter is the season when most apple trees rest.\nIn the winter, the weather is coldest.\nApple trees have lost their leaves.\nThe branches stay bare until the next spring.\nSummer is the season when apples grow bigger.\nIn the summer, the weather is warmest.\nThe new apples are light green.\nThey are not ready to be picked yet.\nIt takes all summer for an apple to fully grow.\nFall is the season when most apples are ripe.\nRipe apples are ready to be picked.\nIn the fall, the weather is cooler.\nPeople eat the ripe apples.\nPeople make apple juice and applesauce from apples, too.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 33,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Animals build safe places to sleep, eat, and raise their young.\nSome animals build homes that have different rooms, tunnels, and much more!\nLook inside to learn about some awesome animal builders and their homes.\nTermites are insects that live in large groups called\nSome termites build mounds as their homes.\nTermite mounds are made with dirt and saliva.\nTermites build tunnels inside the mound.\nTermites travel through the tunnels.\nThe tunnels help keep the termite mound cool.\nSome mounds can be more than 20 feet tall!\nSome beavers build lodges in rivers or ponds as their homes.\nCliff swallows are birds that live in large groups called\nCliff swallows build nests with thousands of tiny balls of mud.\nThey build their nests on the steep sides of cliffs or under bridges.\nIt is hard for other animals to reach the nests in those places.\nSo the nests are safe places to lay eggs and to raise young.\nPrairie dogs are rodents that live in big groups called\nas their homes.\nBurrows are underground tunnels.\nPrairie dogs sleep and raise their young in small rooms inside the burrows.\nSome prairie dog towns are many miles wide and are home to millions of prairie dogs!\nBeavers are rodents that live in small groups called\nSome beavers build lodges in rivers or ponds as their homes.\nThey use logs, tree branches, and mud to build a lodge.\nA beaver lodge has one room that is above water.\nBeavers have to swim underwater to get inside their lodge.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 34,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "are in some foods we eat.\nA calorie is a measure of how much energy you'll get from a food.\nStudy the table.\nThen choose the correct answer to each question.\nHow many calories does an apple have?\nHow many more calories are in an ounce of cheese than in a spear of broccoli?\nIf you ate an apple and drank a glass of whole milk, how many calories would you have taken in?\nHow many fewer calories are in a slice of white bread than in a helping of ham?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 35,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Mother monarchs lay many eggs.\nTheir eggs are very tiny.\nMonarchs lay their eggs only on the leaves of milkweed plants.\nMonarchs' eggs take about three to five days to hatch.\nA caterpillar hatches from an egg by eating the eggshell.\nA monarch caterpillar then eats milkweed leaves for food.\nMonarch caterpillars feed on leaves for about two weeks.\nA caterpillar finds a safe place to form a hard shell.\nInside the shell, the pupa changes into a butterfly.\nThat takes about 10 to 14 days.\nSoon an adult butterfly comes out.\nIt is wet and wrinkled.\nOnce it is dry, it is ready to fly away.\nIn time, the adult might lay its own eggs.\nWhy might monarchs need to migrate to warm places?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 36,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "is a hole in the outer part of a tooth.\nA cavity can start when food and germs stick to teeth.\nRead about each part and complete the sentences below.\nenamel: the hard, outer layer of a tooth\ncavity: a hole in a tooth's enamel\npulp: center of a tooth, where blood vessels and nerves are found\nroot: the part that connects a tooth to the gum\ngum: the flesh that connects a tooth to bone\nA hole in a tooth is a ___________________________ .\nThe hard, outer layer of a tooth is the ______________________ .\nThe blood vessels and nerves are found in the _________________ .\nThe _________________ connects a tooth to the gum.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 37,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "______ live in the southern part of the world.\nPolar bear ______ usually stay with their mothers for two years.\nPandas live in damp, cold ______ in China.\nDolphins live in most oceans and usually eat ______.\nKoalas eat the leaves of ______ trees.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 38,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Polar bears live near the North Pole.\nasked you to vote for the cutest animal in November.\nWe received nearly 20,000 votes!\nNow it's up to you to put the countdown in order from sixth to first place.\nPolar bears are animals that live near the North Pole.\nThe ground there is mostly ice.\nThe fur on polar bears looks white.\nPolar bears hunt and eat seals and other ocean animals.\nMost polar bear cubs stay with their mothers until they are about 2 years old.\nPandas are animals that live mainly in China.\nThey live on the ground in damp, cold forests.\nPandas' fur is black and white.\nThey eat leaves from bamboo trees.\nExperts say that pandas have an extra thumb near their wrist to hold the bamboo while they eat.\nKoalas are small animals that live in Australia.\nKoalas live in trees and sleep during the day.\nThese animals usually have brown fur.\nThey eat the leaves of eucalyptus (yoo-kuh-LIP-tuhss) trees.\nYoung koalas often ride on their mothers' backs.\nRabbits are animals found all over the world.\nThey usually live on grasslands in\nBurrows are underground tunnels.\nSome rabbits have brown fur, long ears, big, dark eyes, and strong hind legs.\nRabbits eat mostly grass and other vegetables.\nDolphins are gray and have long beaks.\nPenguins are seabirds that live in the southern part of the world.\nMost penguins live near cold ocean water.\nMany penguins are black with white bellies.\nThey eat fish and other ocean animals.\nPenguins stay warm by standing close to one another.\nDolphins live in most oceans.\nThey swim by moving their tails.\nDolphins are gray and have long beaks.\nThey eat mostly fish.\nExperts say that dolphins are some of the smartest animals on Earth.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 39,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Much of the water on Earth is\nPolluted water has harmful chemicals or trash in it.\nThose things can get into water in many ways.\nFor example, chemicals can get into water if a factory dumps them into a river.\nBecause water travels in a cycle, it can carry those chemicals into the ocean, the air, and the ground.\nTrash can get into our water when people dump it in the wrong places.\nTrash in the water can be very harmful to animals and plants.\nYou can help keep Earth's water clean too!\nEverything you do affects Earth's water in some way.\nTake a look at these tips.\nPut chemicals and trash only in the proper place--not in water or down a drain.\nPick up trash you see on the ground and don't litter.\nEarth Day is April 22.\nOn Earth Day, many people help clean up parks, rivers, and beaches.\nGroups of volunteers from schools, churches, and neighborhoods join to help our Earth.\nSome people pick up trash, and others plant trees.\nMany people work to save water from pollution.\nWhat will you do this Earth Day?\nThe plastic rings from six-packs can be dangerous to animals because their heads, necks, and legs can become tangled in the holes.\nEarth has only a certain amount of water.\nEarth's water is used again and again in the\nThe water cycle has four parts.\n--The sun warms water in rivers, lakes, and oceans.\nSoon the water turns into a vapor, or gas, and floats into clouds in the sky.\n--Water vapor in clouds cools and turns back into a liquid.\n--The liquid falls from the clouds to the ground as rain or snow.\n--The rain or snow ends up in rivers, lakes, and oceans again.\nBesides water, what are some things you could care for on Earth Day?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 40,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "In the state where Whiskers lives, stores take back empty bottles and cans and pay the person 5 cents for each.\nWhiskers's class recycled cans and bottles by collecting and returning them.\nRead the word problems and write the correct answers on the lines.\nSqueaky collected 10 cans in the park.\nHow much money did he get when he returned them?\nQuacker found 5 bottles and 10 cans in the playground.\nHow much money did she get when she returned them?\nWhiskers's neighbors gave him their cans and bottles.\nHe got 72 in all!\nIf he got 12 bottles, how many cans did he get?\nMr. Ross had kids recycle their cans and bottles.\nThere were 525 in all.\nIf 220 were bottles, how many were cans?\nWhy might it be a good idea to start a recycling program at school or at home?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 41,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "This firefighter is dressed in about 100 pounds of firefighting equipment.\nSome men and women go to special classes to learn how to become firefighters.\nThose men and women learn how to save people during a fire.\nThey learn how to put out fires.\nIn class, they learn how to use special tools to do their job.\nover and over.\nA drill is a chance for firefighters to practice their jobs.\nSometimes they practice putting out fires.\nOther times, they practice searching for people.\nTheir practice helps them get ready for real fires.\nTurnout gear is special clothing that keeps firefighters safe from fire.\nIt includes a helmet, a mask, a jacket, pants, and boots.\nThe firefighters make sure their gear is always ready.\nThey make sure their tools and fire truck are ready, too.\nFirefighters practice their job.\nHow can you practice being ready for a fire at home?\nFirefighters teach children about fire safety.\nThey teach people how to keep fires from starting and what to do if a fire happens.\nThey also teach people to have a home-escape plan and working smoke alarms.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 42,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The Wright brothers flew the first airplane near Kitty Hawk, North Carolina.\nUse the map to answer the questions.\nWhat is the capital of North Carolina?\nWhich of these states is west of North Carolina?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 43,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Many animals hide in a special way called\nSome animals, like chameleons, have skin color that can change.\nThose animals change their skin color to hide from their enemies.\nThe animal's skin color changes to blend into its setting, such as a tree's bark.\nSome animals, like gecko lizards, have colors that match their settings.\nThose animals use matching color to hide from their enemies.\nThe animal's color matches its setting, such as snow or rock.\nSome animals, like katydids, have special body shapes.\nTheir bodies can look like leaves or sticks.\nThe animal's body shape helps it hide from its enemies.\nWhy might some animals use more than one kind of camouflage?\nSome animals, like tigers, have special patterns in their fur that match their settings.\nThe special pattern helps the animal hide from its enemies.\nThe patterns can look like grass.\nCan you find both tigers in the tall grass?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 44,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows about how long and how heavy four different dinosaurs were.\nLook at the table and answer the questions.\nWhich of the four dinosaurs weighed the most?\nWhich of the four dinosaurs had the shortest length?\nIf -saurus means \"lizard\" and brachio- means \"arm,\" then what might Brachiosaurus mean?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 45,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "What are some other ways people use snow?\nWhiskers's class kept track of how much snow fell during five days in December.\nThey measured the snow each morning and watched the weather.\nBelow is the chart they made.\nUse the chart to answer the questions.\nHow deep was the snow on Tuesday?\nHow deep was the snow on Friday?\nWhat was the weather like on Monday?\nWhat was the weather like on Wednesday?\nOn which day was the snow the deepest?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 46,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Hurricanes are big storms.\nThey bring lots of rain and strong winds.\nMost hurricanes happen in places near oceans.\nHurricane season is from June to November.\nWhy might it be important to stay away from windows during a hurricane?\nThe eye of a hurricane is the calm center of the storm.\nThe storm clouds move around the eye.\nA lot of rain and strong winds are found inside storm clouds.\nHurricane winds spin around and around.\nIn very strong hurricanes, the winds can blow more than 155 miles per hour.\nHurricane winds can harm houses and trees.\nThose winds can also pick up cars and boats.\nHurricane hunters are scientists who fly planes into hurricanes.\nThe hunters study those storms.\nHunters measure the speed of the wind and the amount of rain in a hurricane.\nTheir work helps people learn more about weather.\nThe hunters let people know when a hurricane is on the way.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 47,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "invented in 1906 by Frank Henry Fleer\ninvented in 1948 by George de Mestral\nPeople have been inventing things for years.\nPaper was invented about 2,000 years ago.\nThe wheel was invented more than 5,000 years ago.\nWhat would life be like without paper to write on or bikes to ride?\nThose inventions have made life easier.\nThe Wright brothers invented the first airplane in December 1903.\nThat makes 2003 the 100th anniversary!\nBefore the airplane was invented, most people traveled by cars, boats, and trains.\nToday, airplanes help people travel faster.\nHow do airplanes help you?\nAlexander Graham Bell invented the telephone in 1876.\nBefore the telephone was invented, people kept in touch by writing letters or talking in person.\nToday, the telephone makes it easier for people to talk to one another.\nHow do telephones help you?\nThe first four-wheeled gas-powered car was invented by Karl Benz in 1891.\nBefore people had cars, they couldn't travel easily.\nThey walked or rode horses for short trips.\nThey took trains or boats for long trips.\nToday, cars are one of the main ways people travel.\nHow do cars help you?\nWhat are some other inventions that have changed our world?\nPeople worked for years to make the first computer.\nIt was built in 1946.\nThe first computer was called ENIAC.\nToday, computers are an important part of many people's lives.\nPeople use computers as tools to write, get information, and much more.\nHow do computers help you?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 48,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "April 22 is Earth Day.\nOn Earth Day, millions of people will think of ways to stop pollution.\nThey will talk about recycling and planting trees.\nPeople will look for ways to save energy and water.\nPeople have been celebrating Earth Day since 1970.\nEarth Day was started by a man named Gaylord Nelson.\nNelson was a United States senator from Wisconsin.\nHe was worried about the damage being done to the planet.\nTo celebrate Earth Day, people get together once a year to think about ways to protect Earth.\nBut many people think that every day should be Earth Day.\nThey say people should always work to to stop pollution and clean up the land and water.\nHere are a few ways that you can help make every day Earth Day!\nDon't litter!\nBe a good example for other kids.\nIf you see litter, pick it up and put it in trash cans or recycling bins.\nThat means these objects are put through a special process so they can be used again.\nStart a can recycling program at your school.\nUse the money you earn from returning the cans to buy new playground equipment or to have an Earth Day party.\nPaper is made from trees.\nYou can save a tree by not wasting paper.\nUse both sides.\nCelebrate National Arbor Day on April 27 by planting a tree.\nThis holiday encourages people to plant and care for trees.\n, or save, water.\nTurn the faucet off while brushing your teeth and washing your face.\nSave electricity by turning off the lights when you leave a room.\nDo not leave a radio or TV on if you aren't using it.\nWhiskers' Thinking Page: A State Tree Table\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 49,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Spring is the season when most apple trees start to bloom.\nA blooming apple tree grows flowers.\nIn the spring, the weather gets warmer.\nSoon apples will grow in the places where the flowers are.\nWinter is the season when most apple trees rest.\nIn the winter, the weather is coldest.\nApple trees have lost their leaves.\nThe branches stay bare until the next spring.\nSummer is the season when apples grow bigger.\nIn the summer, the weather is warmest.\nThe new apples are light green.\nThey are not ready to be picked yet.\nIt takes all summer for an apple to fully grow.\nFall is the season when most apples are ripe.\nRipe apples are ready to be picked.\nIn the fall, the weather is cooler.\nPeople eat the ripe apples.\nPeople make apple juice and applesauce from apples, too.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 50,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Martin Luther King Jr. Was a Leader\nThe Rev.\nDr. Martin Luther King addresses a group of followers.\nMartin Luther King Jr. worked to help many people.\nHe became a famous leader.\nToday, people in the United States remember him with a special holiday.\nMartin Luther King Jr. grew up in the South.\nIn the South, black people were treated differently than other people.\nSome black people had to use different bathrooms and water fountains from the ones used by other people.\nMany black people also had to sit in the back seats of buses.\nMartin Luther King Jr. stood up for people who were treated unfairly.\nHe worked to stop the unfair treatment.\nKing wanted all people to be treated the same, no matter how they looked or what they believed.\nMartin Luther King Jr. Day is a national holiday.\nOn this day, people work to honor Martin Luther King Jr. Today, some people are building a\nfor him.\nA memorial is a special statue or place that honors a person.\nThe memorial for King will be built in Washington, D.C. near the Potomac River.\nThe memorial will help people remember Martin Luther King Jr.\nHow will you celebrate Martin Luther King Jr. Day?\nMartin Luther King Jr. Was a Leader\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 51,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Each fall, monarch butterflies leave places that turn cold.\nThe monarchs fly to warmer places.\nTurn the page to learn more about monarch butterflies.\nThe map to the right shows some places where monarch butterflies migrate for the winter.\nmeans to move from one place to another.\nMonarchs migrate to warm places like California, Florida, and Mexico.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 52,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The maps below show the National Mall.\nThe National Mall is an area in Washington, D.C., that has many memorials.\nUse the maps to answer the questions.\nThe Lincoln Memorial is __________ of the Reflecting Pool.\nThe Washington Monument is _________ of the Lincoln Memorial.\nThe Jefferson Memorial is __________ of the White House.\nThe Washington Monument is _________ of the Jefferson Memorial.\n: Between which two buildings is the Reflecting Pool?\nMartin Luther King Jr. Was a Leader\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 53,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Read the sentences below.\nThink about what you have learned from\nAn arctic fox uses changing color to hide.\nA katydid uses its body shape to hide.\nA walking stick insect uses color to hide.\nA chameleon uses matching colors to hide.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 54,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Raccoons are part-time sleepers.\nThe table below shows how many times a raccoon woke up each month from November to February.\nUse the table to answer the questions below.\nIn which month did the raccoon wake up most often?\nIn which month did the raccoon wake up least often?\nHow many times did the raccoon wake up in November?\nThe raccoon woke up most often when the weather was warmer.\nWhich month was warmer?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 55,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Did you know that rainbows often appear after a summer storm has passed?\nContinue reading to learn more about summer storms and rainbows.\n(kyoo-myuh-loh-NIM-buhss) clouds.\nWhen you see those clouds, a\nmight be on its way.\nA thunderstorm brings thunder and lightning and a lot of rain.\nThunderstorms are common in the summer because they usually form when the weather is hot and humid.\nThose storms can be dangerous because they often bring lightning, hail, and strong winds.\ngo to a safe place, such as a building,\nmove to higher ground if flooding is possible.\nuse the telephone unless it is an emergency,\nTiny raindrops stay in the air after a rainstorm.\nWhen storm clouds pass, the sun appears.\nSunlight looks white, but it is actually made up of seven colors.\nWhen sunlight shines through the raindrops in the air, the light separates into all of its colors.\nThose colors form a\ncan help you remember the colors of the rainbow.\nThat name is made up of the first letters of each of the colors.\nDid you know that not all rainbows form from raindrops?\nRainbows can be found wherever there is a fine mist of water in the air.\nBesides raindrops, what might form a rainbow?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 56,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "1.\nCut the washed vegetables into small pieces.\n2.\nCut the beef into cubes and brown it in a pan.\n3.\nPut all ingredients together in a large pot.\n4.\nCook the mixture over low heat until the meat is fully cooked and the vegetables are soft.\n5.\nMix flour and hot water to make a paste.\nAdd the paste slowly to thicken the stew.\nHow many different ingredients are in this stew recipe?\nHow many potatoes does the recipe say to use?\nAccording to the recipe, over what kind of heat should you cook the stew?\nIf you wanted to make this recipe twice, how many pounds of beef would you need?\nHeading West: Learn About a Pioneer\u2019s Life\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 57,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "that live in the United States.\nRodents are animals that have strong front teeth for chewing hard things.\nUse the table to fill in the blanks.\nA squirrel lives in a tree or a __________________.\nA mouse has gray or ___________________ fur.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 58,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "It is important to be ready if a hurricane comes.\nBefore a Hurricane, Be Sure to Have:\ngo to a basement or a room in the center of the house,\nstay inside until the storm is over.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 59,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The H.L.\nHunley in the lifting sling.\nA sunken Civil War submarine was brought out of the water in August.\nbecame the first submarine to sink an enemy ship.\nOn its way back to shore, the sub disappeared.\nIn 1995, a team of divers found the\nin the water off the coast of South Carolina.\nThe sub was filled with 65,000 pounds of sand and water.\nIn August, divers put 32 thick straps around the sub.\nThe straps were attached to a steel frame that surrounded the sub.\nA huge crane lifted the frame and the sub from the water in only three minutes.\nNow scientists will clean and study the sub.\nScientists hope to solve the mystery of the sub's disappearance.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 60,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Children all over the world go to school.\nMost children study reading, writing, science, and math.\nFind out about some schools around the world by reading about them below.\n\"Flag of Tanzania.\"\nFlag, 2003.\nFacts For Learning\nIn Tanzania, some students wear uniforms to school.\nThe school chooses the kind of uniform that the students wear.\nWhat do you wear to school?\nIn Scotland,some schools have only one room.\nStudents from many grades learn in that one room.\nOne-room schools are usually in small towns.\nHow big or small is your school?\n\"Flag of India.\"\nFlag, 2003.\nFacts For Learning\nIn India, students at some schools write on small boards called tablets.\nEach student has his or her own tablet.\nThe students write on the tablets with chalk.\nWhat do you write with in your school?\n\"Flag of Ecuador.\"\nFlag, 2003.\nFacts For Learning\nIn Ecuador, some students share one long desk at school.\nTwo or three students sit at the same desk.\nThere are many rows of desks in each classroom.\nWhere do you sit in your classroom?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 61,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "is the place where the land meets the sea.\nMany animals live at the seashore.\nare sea animals that have a shell and ten legs.\nThe two front legs have claws.\nA crab uses its claws to hunt, grab food, and defend itself.\nCrabs eat small fish and small plants growing on seashore rocks.\nMost crabs can live in and out of water.\nmammal (MAM-uhl) - an animal that drinks milk from its mother\nare mammals.\nSeals swim and hunt for food in the ocean.\nThey rest on rocks on the seashore when they are not swimming or hunting for food.\nThey eat many types of fish and other sea animals.\nare round, flat sea animals that have hard skin.\nSometimes sand dollars wash up on the seashore.\nSand dollars usually bury themselves under sand to hide from their enemies.\nSand dollars eat tiny plants and animals that float in the water.\nare birds that usually live by the seashore.\nThere are many different types of sea gulls in the United States.\nSea gulls sometimes make a lot of noise!\nThey hunt for fish in the sea and insects on the seashore.\nare sea animals.\nMost sea stars have spiny skin and five rays.\nA sea star's rays act as its arms.\nMost sea stars live underwater.\nSometimes sea stars wash up on the seashore.\nSea stars eat mussels, clams, and other shelled animals.\nWhat other animals might you find at the seashore?\nIf a human's tracks were deeper at the heel than at the toes, was that person running or walking?\nHow do you know?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 62,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "When snow first falls, it is usually soft and fluffy.\nBut tightly packed snow is very strong, and it is almost as hard as ice.\nTightly packed snow is so strong that some people use it to build homes called igloos.\nSome Inuit (IN-oo-it) people in Canada use blocks of snow to build igloos.\nSnow is a good insulator.\nAn insulator holds heat inside.\nSometimes people, such as campers and hikers, dig a hole in the snow or make a snow cave to stay warm.\nThe largest snowflake ever measured was almost a foot across.\nStampede Pass, Washington, is called the snow capital of the United States!\nSnow only looks white!\nIt is actually clear.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 63,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Spring brings warmer weather.\nThat weather melts any snow and ice left from winter.\nThe melted water trickles through streams and rivers and into lakes and oceans.\nTrickling water is an important part of life for animals and plants.\nSpring brings baby birds.\nBaby birds usually hatch during the spring.\nThe birds chirp loudly to their mothers and fathers.\nWhen baby birds are chirping, they seem to be saying, \"Feed me!\"\nThey must be hungry!\nSpring brings whooshing winds.\nThe wind blows clouds and kites in the sky.\nWind also helps plants spread their seeds.\nWhen seeds land, they grow into new plants and flowers.\nSpring brings new plants and flowers.\nBusy bees buzz from flower to flower to collect\nNectar is a sweet liquid made by flowers.\nThe buzzing bees collect nectar for food to eat.\nWhoosh has the sh sound.\nList five other words with the same sound.\nPeople have five senses: hearing, sight, smell, taste, and touch.\nWe hear many sounds during spring.\nOur other senses also tell us about spring.\nThe list below gives examples of the ways people use those senses in spring.\nblooming flowers, such as tulips, in a field.\nfreshly cut green grass on a lawn.\nWhat other examples can you think of for each sense above?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 64,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "This table shows the five U.S. states where most hurricanes have happened.\nUse the table to answer the questions.\n- Texas had how many more hurricanes than Louisiana?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 65,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Why might cacao beans need to be cleaned?\nBesides chocolate, the table shows some things we eat that come from tropical places.\nUse the facts from the table to answer the questions.\nIt starts out in the tropics as the...\nstalks of sugar cane plants.\nThe stalks are ground up and used to sweeten foods.\nseeds of vanilla orchids.\nThe seeds are dried and used to flavor some foods.\nsticky liquid from certain trees.\nThe liquid is used to make chewing gum.\nbark of cinnamon tree.\nThe bark is dried and ground into a powder.\nWhat starts as stalks of sugar cane plants?\nWhat are some things you eat that have sugar as an ingredient?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 66,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Read about George Washington and Abraham Lincoln.\nThen answer the questions below.\nwas the first president of the United States,\nhelped write the Constitution of the United States.\nwas the 16th president of the United States,\nWhat did George Washington help to write?\nHow did Abraham Lincoln help the United States?\nHow many years did Washington live?\n_______________ years\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 67,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "President George W. Bush's dog, Spot, loves to explore the White House.\nHi, kids!\nMy name is Spot.\nI am one of the presidents' dogs.\nI live in the White House in Washington, D.C., our capital.\nMany people work in the White House.\nCome inside with me to meet some people I know.\nHere is our president.\nHis name is George W. Bush.\nPresident Bush works in the White House.\nHis office is called the Oval Office.\nHis job is to lead our country.\nI can visit with him even if he is busy.\nWhen I visit, I sit near him and he pets me.\nI really like it when he scratches my ears and back.\n(FLOR-ist).\nA florist is a person who works with flowers and plants.\nThe White House florists use flowers to make the rooms in the White House colorful and pretty.\nThis florist gets flowers ready for the tables at a White House dinner.\nHere is First Lady Laura Bush.\nShe is President Bush's wife.\nShe works in the White House too.\nMrs. Bush works to help kids learn how to read.\nHere, Mrs. Bush reads\nHere are two of the White House chefs.\nThey work in the White House kitchen.\nChefs in the White House make food for many people.\nHere, they dye many eggs to get ready for an egg hunt.\nHow will you celebrate Martin Luther King Jr. Day?\nIf you could meet the president, what would you ask him?\nWhy?\nLet Weekly Reader and ABC News Bring Excitement to Teaching the Election\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 68,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Mammals are animals that drink milk from their mothers.\nWhales live in oceans.\nThere are many kinds of whales.\nWhales are some of the biggest animals alive.\nKrill are tiny animals that look like shrimp.\nThe humpback opens its mouth and takes in water and krill.\nGrooves in the whale's throat stretch to help it hold a lot of water and food.\nThen it pushes the water out and eats the krill.\nAll whales, like blue whales, breathe air through\nA blowhole is an opening on top of a whale's head.\nThe blowhole is closed when the whale is under the water.\nWhen the whale comes to the top, its blowhole opens.\nThe whale breathes out, making water spray into the air.\nThen the whale breathes in and goes under the water again.\nKiller whales breach, or jump out of the water.\nA breaching whale jumps up out of the water.\nThen it comes down and makes a huge splash!\nNo one is sure why whales breach.\nSome people say that they do it just for fun!\nWhales communicate to talk to one another.\nScientists think that a whale communicates by making sounds from its blowhole and from its mouth.\nSome whales can communicate with one another over hundreds of miles of ocean water!\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 69,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The United States government recently said it will clean up the Everglades.\nThe Everglades are\nin southern Florida.\nA wetland is an area of wet and spongy soil.\nBoth pollution and construction have hurt the Everglades.\nA new law will now clean up and protect the Everglades.\nOver the next 36 years, the government will spend $8 billion to clean up pollution in the Everglades.\nThe Everglades take up about 2,344 square miles.\nThat's about the size of Delaware.\nThe Everglades are the only place in the world where both crocodiles and alligators live.\nOther animals that live in the Everglades are snakes, turtles, birds, fish, deer, and the rare Florida panther.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 70,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Thick fur protects this squirrel from the cold during hibernation.\nSome animals go to safe places during the coldest parts of the winter to sleep.\nThose animals are\nThey go into dens, logs, and other places.\nSometimes they wake up to look for food.\nAnimals such as opossums, skunks, and raccoons are part-time sleepers.\n(HIGH-behr-nayt) during the winter.\nAn animal that hibernates goes into a deep sleep.\nIt doesn\u2019t wake up until winter is over.\nAnimals hibernate because they can\u2019t find enough food in the winter.\nAnimals that hibernate breathe slowly as they sleep.\nThen they need less food.\nAnimals such as woodchucks, chipmunks, and bats hibernate.\nwhen winter comes.\nAnimals that migrate go from colder places to warmer places.\nThose animals can find food more easily in warmer places.\nSome whales, insects, and birds migrate.\nMany animals hibernate in groups.\nHow might staying in groups help those animals?\nSome animals stay busy throughout the winter.\nThose animals fix their homes and gather food.\nSometimes when it is very cold outside, they go into their homes.\nThen they eat some of the food they have stored there.\nAnimals such as squirrels, deer, and beavers stay busy all winter.\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 71,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Much of the continent of Africa is a\nA savanna is an open grassland with few trees.\nAfrica's savanna is home to many different types of animals.\nA habitat is a place where an animal lives.\nHere are some animals that live in the African savanna.\nLions are big cats with gold-colored fur.\nLions are\n(KAR-neh-vawrz).\nCarnivores are meat eaters.\nLions live together in a group called a\nElephants are animals with trunks and tusks.\nElephants are\n(ER-beh-vawrz).\nHerbivores are plant eaters.\nElephants live together in a group called a\nGiraffes are the tallest animals in the world.\nThey are plant eaters.\nTheir height helps them reach leaves on tall trees.\nGiraffes live in a herd of about 10 animals.\nGiraffes are the tallest animals in the world.\nWarthogs are a type of wild hog.\nWarthogs are\n(AHM-neh-vawrz).\nOmnivores eat both plants and meat.\nFemale and baby warthogs live in a small group called a\nHippopotamuses are animals that live partly on land and partly in water.\nThey are herbivores that eat mainly grasses.\nHippos live in a herd of up to 15 members.\nVultures are birds that live in Africa.\nWhat other animals can you name that live in Africa?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 72,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The map below shows the continent of South America.\nUse the map and the key to answer the questions below.\nSouth America is bordered on the east by the __________ Ocean.\nThe rain forest __________ covers the northern part of South America.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 73,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The bald eagle is our national bird.\nAn American symbol is a living thing, an object, or a place that stands for the United States.\nRead below to learn more.\nThe bald eagle is our national bird.\nIt lives only in North America.\nAbout 40 years ago, bald eagles were close to dying out.\nPeople worked to help protect the birds.\nExperts now say that the number of eagles has grown.\nSoon, they will be taken off the list of animals that are in danger!\nThe U.S. flag is one of the best-known American symbols.\nIts nickname is \"Old Glory.\"\nOur flag has 13 stripes, which stand for the first 13 Colonies.\nIt also has 50 stars, which stand for the 50 states.\nIts colors are red, white, and blue.\nThe White House is where the president lives and works.\nIt is located in Washington, D.C.\nwant to call the White House home for the next four years.\nOn Election Day, Americans will vote for president.\nThe Statue of Liberty is an American symbol of freedom.\nIt is located on Liberty Island in New York City.\nThe people of France gave the statue to the United States as a gift to celebrate the friendship between the two countries.\nMount Rushmore is a national monument carved into a mountain in South Dakota.\nThe faces of four presidents make up the monument.\nThey are George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 74,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "An American Leader: The Story of Martin Luther King Jr.\nMartin Luther King Jr. lived from 1929 to 1968.\nHe worked to help all people be treated fairly.\nEach January, we honor his work with a holiday.\nDuring the 1950s and 1960s, Martin Luther King Jr. worked to stop the unfair treatment of African American people.\nSome of those people were treated differently than white people were.\nAfrican Americans had to use separate bathrooms and sit in the backseats of buses.\nKing lived in Montgomery, Alabama, when he started working for fairness.\nRecently, his house was fixed up to look exactly the way it did when he lived there.\nVisitors learn about King when they tour the house.\nMartin Luther King Jr. gave his famous \"I Have a Dream\" speech in Washington, D.C. in 1963.\nIn 1963, Martin Luther King Jr. gave his \"I Have a Dream\" speech.\nHe spoke in front of the Lincoln Memorial in Washington, D.C.\nHe told people that he dreamed that everyone would have\nEqual rights make sure that everyone is treated fairly and equally.\nMartin Luther King Jr. Day is a national holiday in the United States.\nOn this day, people honor Martin Luther King Jr. Children around the country learn about his work.\nThey remember King in different ways, including making signs for parades and treating others nicely.\nRosa Parks seated on a Montgomery bus.\nThis year marks the 50th anniversary of an important event in history.\nIn 1955, an African American woman named Rosa Parks was arrested in Montgomery, Alabama, for not giving up her bus seat to a white man.\nRosa Parks's courage inspired many people, including King, to change that law and work for equal rights.\nToday, people can visit the bus that Rosa Parks made famous.\nIt looks like it did in the 1950s.\nNow it is on display at the Henry Ford Museum in Michigan.\nHow will you honor Martin Luther King Jr.?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 75,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Grown-up harp seals do not have fluffy fur.\nInstead, their black-and-white fur is thick and short.\nThe thick fur helps seals stay warm.\nSeals also have a layer of\nunder their skin.\nBlubber is fat that protects seals from the cold.\nPolar bears are large bears that have special fur.\nEach strand of their fur is shaped like a straw.\nThe straw-shaped fur holds in warmth from the sun.\nPolar bears also have a layer of blubber, which keeps them warm when they swim in icy ocean water.\nWalruses are huge, noisy animals that live on or near ice sheets in the Arctic Ocean.\nUnder their skin, walruses have a thick layer of blubber.\nThe blubber helps them stay warm.\nWalruses also spend a lot of time lying in the sun.\nThe sun helps keep walruses warm too.\nWalruses live on or near ice sheets.\nMusk oxen are large, long-haired animals that live in the Arctic area.\nTheir long, shaggy fur helps keep them warm.\nWhen it is really cold outside, musk oxen huddle next to one another and share body heat to stay warm.\nHow do you stay warm when it is cold outside?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 76,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "A space suit keeps an astronaut warm and safe in outer space.\nRead about some of its parts.\nChoose the correct answer to the questions below.\ncovers an astronaut's head and provides air to breathe.\nis the gold plate on the helmet that protects an astronaut's eyes from the sun.\nWhat part of a space suit helps astronauts talk to one another?\nWhat part of a space suit protects an astronaut's feet?\nWhy does a space suit have a visor on the helmet?\nWhat does a helmet do for an astronaut?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 77,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "An elephant digs up food with its tusks.\nAnimal teeth come in different shapes and sizes.\nDifferent teeth are helpful in different ways.\nA tiger slices and cuts through food with its long teeth.\nAn elephant digs up food with its tusks and chews with its teeth.\nA shark grabs and chews food with its razor-sharp teeth.\nA hippo crushes food with its teeth and powerful jaws.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 78,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Some experts say that computers can harm kids.\nThey say kids can hurt their bodies while using computers.\nSome experts say kids can hurt their bodies if they use computers too much.\nFor example, staring at a computer screen for a long time can hurt a kid's eyes.\nMany kids do not sit up straight while using a computer.\nSome kids do not have the proper desk and chair.\nThat means kids have to stretch their arms and wrists to reach the computer's mouse and keyboard.\nKids can hurt their wrists while stretching to use a computer.\nExperts also worry that kids are not getting enough exercise because of computers.\nSome kids would rather use a computer than play a sport or a game.\nKids need exercise to stay healthy.\nImagine a classroom filled with computers and students--but no teacher.\nThat's what some experts think school will be like in 2010.\nThey say that kids will eventually take all their classes\nThat means students will use computers and the Internet to connect with teachers and kids from all over the world.\nFor example, a teacher in Africa might teach you a lesson about elephants!\nTechnology experts say that kids' backpacks will be filled with the latest technology.\nInstead of notebooks and pencils, you might carry a laptop computer and an e-book reader!\nExperts give these suggestions for using a computer the right way.\nSit up straight!\nMake sure you can easily reach the keyboard and the mouse without stretching.\nTry to use a desk and chair that are made for kids your size.\nThe top of the computer screen should be at your eye level.\nIf you have to use a desk and chair made for adults, sit on books or pillows.\nRest your feet on a box.\nBe sure your work area is well lit.\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 79,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "is a hole in the outer part of a tooth.\nThe drawing shows some parts of a tooth and a cavity in the tooth.\nRead about each part, and fill in the blanks below.\nNational Institute of Dental and Craniofacial Research\nthe hard, outer layer of a tooth\nthe bony, main part of a tooth\nthe center of a tooth, where blood vessels and nerves are found\nthe part that connects a tooth to the jawbone\nA tooth is connected to the jawbone by the _______.\nThe blood vessels and nerves are found in the _________.\nA _______ is a hole in a tooth's enamel.\nThe hard, outer layer of a tooth is the ________.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 80,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The graph below lists some more coral reef critters.\nThe yellow bars show about how wide each animal can grow.\nUse the graph to answer the questions below.\nHow wide is a blue sea star?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 81,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "are home to many ocean animals.\nThey are busy underwater places.\nCoral reefs are found near the surface of some oceans.\nA coral reef is home sweet home to many creatures.\nIt is a safe place to live and a great place to find food.\nGreen sea turtles can weigh more than 300 pounds and grow to about 3 feet long.\nThey can live for a long timeup to100 years!\nMost green sea turtles eat plants.\nClown fish have trouble hiding because they are so bright.\nTo stay safe, clown fish live near poisonous sea animals.\nThose animals look like plants.\nDugongs are plant-eating sea animals.\nThey live near some coral reefs.\nDugongs have whiskers and round faces.\nThey are sometimes called sea cows.\nMoray eels are ocean fish that have long, slim, snakelike bodies.\nThey hide in tiny holes throughout coral reefs.\nMoray eels eat small fish and octopuses.\nHammerhead sharks have wide, flat heads.\nThey grow to more than 10 feet long.\nHammerheads have triangle-shaped teeth with sharp bumps for chewing food.\nRegal angelfish live near safe caves of coral reefs.\nThey are brightly striped fish.\nAngelfish usually swim in pairs.\nThey eat sea sponges or tiny coral reef animals.\nCoral reefs are formed by tiny ocean animals called\n(PAH-lips).\nWhen polyps die, their shells are left behind.\nMore polyps grow on top of the shells.\nIn time, the reef gets bigger.\nCorals come in many shapes, colors, and sizes.\nWhy might it be important to protect coral reefs?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 82,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "If you are like most kids, you've probably drawn a picture with crayons.\nHave you ever wondered how crayons are made?\nCrayon wax is melted in pots at the factory.\nColored powder called\nColorful hot liquid wax is poured into crayon-shaped holes called\nThe liquid wax fills up the molds.\nThe crayon wax is left to cool.\nThen it is pushed out of the molds.\nHard crayons come out!\nIt takes about three to five minutes to make a crayon.\nMost 2- to 8-year-olds color for about a half hour every day.\nExperts say that the smell of a crayon is one of the easiest scents to recognize.\nThe nickname for worn-down crayons is \"leftolas.\"\nMost children in the United States will wear down 730 crayons by the time they are 10 years old!\nWorkers check the hard crayons.\nCrayons that are not perfect are put aside to be melted in another batch.\nPerfect crayons are taken to a machine.\nIt puts a label on each crayon.\nFinished crayons are sorted by color.\nThe labeled crayons are placed into boxes, and the tops are closed.\nThe colorful crayons are ready!\nWhat might happen next to a finished box of crayons?\nmeasures published under license with MetaMetrics, Inc.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 83,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Montgomery, Alabama, is nicknamed \"the birthplace of equal rights.\"\nUse the map and the key to answer the questions.\nWhich city is the capital of Alabama?\nWhich body of water is to the south of Alabama?\nAn American Leader: The Story of Martin Luther King Jr.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 84,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Welcome to the Firehouse!\n: Rooms in a Firehouse\nwaits in the radio room for calls.\nIf a call comes in, the dispatcher tells the firefighters.\nWhen firefighters are not busy, they take turns cooking and eating in the kitchen.\nSome firefighters stay overnight in the firehouse.\nThey sleep in beds called\nFirefighters wear turnout gear to help them stay safe.\nTurnout gear is special clothing that helps them stay safe in flames, heat, and smoke.\nThere are different kinds of fire trucks.\nis used to rescue people from tall buildings.\nThis fire truck pumps water from hydrants.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 85,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The Pilgrims landing on Plymouth Rock, December 1620.\nlanded at the place that is now Massachusetts.\nThere were 101 Pilgrims aboard the ship.\nAfter some time, the Pilgrims built a town called Plymouth.\nRead below to learn more.\nThe Pilgrims landed near the area where the Wampanoag (wahm-pah-NOH-ahg) people already lived.\nThe Wampanoag people knew how to stay safe during cold winters.\nThey made homes called\n(weh-TOOZ) to protect themselves from the cold.\nThey also made warm clothing from deerskin.\nThe Pilgrims arrived close to wintertime.\nThat winter was very cold, and many Pilgrims died.\nWhen spring came, a Wampanoag man named Squanto helped the Pilgrims.\nHe showed them where to hunt, and he taught them how to grow corn.\nThis helped the Pilgrims get food to eat.\nWhen the fall harvest came, the Pilgrims had plenty of food to eat!\nThey were very thankful for Squanto's help.\nTogether, the Pilgrims and the Wampanoag people had a harvest celebration.\nFor three days, people ate, played games, and told stories to celebrate and give thanks.\nLibrary of Congress, Prints & Photographs Division [reproduction number LC-USZC4-4961]\nThat harvest celebration helped start the American tradition of Thanksgiving.\nToday, people still share food with their families and friends on this holiday.\nPeople also play games, tell stories, and spend time together to show they are thankful.\nMany people travel to be together on Thanksgiving too.\nHow do you show you are thankful?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 86,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "There are many helpful workers in your community.\nYou see their friendly faces in many places.\nkids voted for their favorites.\nCheck out the top five below.\nSecond graders from the Audubon Elementary School in New York City voted in our kids' choice issue.\nPolice officers were the winner in this class.\nPolice officers received the most votes in the\nPolice officers help keep the community safe.\nThey make sure people follow laws.\nPolice officers wear a badge and a hat.\nThey also carry a walkie-talkie\nDoctors treat sick people to help them get better.\nDoctors also help people stay healthy.\nA person needs to study for many years to become a doctor.\nDifferent kinds of doctors care for different parts of the body.\nFirefighters help protect people from fires.\nThey also help during car accidents.\nSome firefighters are paid, and others are\nA volunteer does a similar job but does not get paid for his or her work.\nTeachers help students learn in school.\nDifferent teachers work with students of all ages in many types of schools.\nSome teachers help kids in only one subject, such as math, and others teach many subjects.\nConstruction workers help make houses, roads and bridges.\nThey also repair broken things, such as sidewalks and water pipes.\nConstruction workers wear safety gear, such as hard hats to keep them safe at work.\nA _____ Is an Important Community Worker\nA _____ Is an Important Community Worker\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 87,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Al Gore is the Vice President of the United States.\nNow Al Gore is running for President.\nHe is the Democratic candidate for President.\nVice President Al Gore hopes Americans will elect him president of the United States.\nIf he wins the election, Gore will stay in Washington, D.C., where he now lives.\nGore also lived in Washington, D.C., as a kid.\nHis father was a United States senator.\nGore also spent time as a kid in Carthage, Tennessee.\nIn Carthage, Gore's family owned a farm.\nGore helped take care of the farm animals.\nGore says he believes the hard work he did on the farm will help him be a good president.\nHe has chosen Senator Joseph Lieberman to run for the vice presidency.\nOn Election Day, voters will decide who will become our president and vice president.\nasked Al Gore some questions.\nHere's what he had to say:\nMy father and mother were heroes for me.\nI really respected the way they lived their lives.\nWhen you were a kid, what was your favorite book?\nby Richard and Florence Atwater.\nI thought it was very funny.\nWill you protect animals that are endangered?\nYes.\nI want to protect the environment--the air, the water, the land, and the Earth itself.\nI believe that we need to build new kinds of cars and machines that [give off] much less pollution.\nMarried to Mary Elizabeth, who is called \"Tipper.\"\nChildren: Karenna, Kristin, Sarah, and Albert III.\nGrandchild: Karenna's son, Wyatt.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 88,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Ann Bancroft and Liv Arnesen are trying to become the first women to ski across Antarctica.\nThey plan to ski 4,200 miles in 100 days.\nThat is the longest distance ever skied by women.\nThe women began their journey in November.\nThat is spring in Antarctica.\nBut the average temperature is 39 degrees below zero!\nFreezing winds blow at 100 miles per hour.\nThe wind is helping Arnesen and Bancroft.\nThey attach themselves and the sleds that carry their supplies to sails, so the wind helps them ski faster.\nThey hope to finish their trip later this month.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 89,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "are born in forests during the springtime.\nA fawn is a baby deer.\nFollow the first few months of a fawn's life.\nWhite-tailed deer live in wooded areas such as forests.\nMother deer give birth to one to three fawns in the spring.\nMany deer stay in the same area during most of their lives.\nMother deer leave their fawns to look for food.\nThe fawn stays very still in a hidden spot.\nFawns have white spots for\nThe fawn stays very still while its mother goes to look for food.\nLater, the mother deer returns to feed her baby.\nShe licks its fur to keep it clean.\nThen the mother deer takes the fawn to a new spot while she looks for more food.\nEventually, the fawn goes with its mother to look for food such as grass and leaves.\nThe fawn learns about the forest and meets other animals too!\nSpring is a wonderful time in the forest!\nMany forest animals are born in the spring.\nMother cardinals lay their eggs in a nest.\nAfter about 12 days, the eggs hatch.\nThe baby birds eat insects and worms.\nRaccoons learn to find food when they are still little.\nMother raccoons make their dens in a tree.\nRaccoons learn to find food when they are still little.\nMother squirrels make their nests in trees.\nBaby squirrels drink their mother's milk.\nLater, they will eat nuts.\nWhat other animals are born in the spring?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 90,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Forget computers and video games!\nTwo hundred years ago, kids played games such as\nIn that game, kids raced wooden hoops.\nRead below to learn about a kid's life long ago.\nDuring the day, children learned reading, writing, and math at school.\nMost schoolhouses had one room and one teacher.\nStudents of all ages were in the same classroom.\nAfter school, children had to do chores.\nBoys usually worked with their fathers in barns and fields.\nGirls usually worked with their mothers, cooking and sewing.\nLibrary of Congress, Prints & Photographs Division, [reproduction number, LC-DIG-ppmsca-05919]\nIn colonial times, children often played with wooden blocks.\nAt night, children spent time with their families.\nBoys might play with their blocks, and girls might play with their dolls.\nMost families long ago were made up of many children.\nStarting at about age 9, children might learn a\nfrom an expert.\nA trade is a job, such as furniture making, that requires special skills.\nA child who learned a trade from an expert was called an\nWould you like to have lived long ago?\nWhy or why not?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 91,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Africa has three main habitats.\nThe chart tells about each habitat and lists some animals that live there.\nUse the chart to answer the questions.\na thick, wet forest in a hot place\na place that gets little or no rain\nan open grassland with very few trees\nIn which habitat does a cobra live?\nIn which habitat does a rhinoceros live?\nWhich habitat gets little or no rain?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 92,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "It is important to brush your teeth every day.\nBrushing helps keep your teeth healthy.\nKeeping your teeth healthy is as easy as 1, 2, 3!\nNational Institute of Dental and Craniofacial Research\nBrush your teeth twice a day.\nBrush all parts of your mouth and even your tongue.\nBrush with short, back-and-forth motions.\nDon't forget to be gentle!\nFloss your teeth once a day.\nDental floss cleans between your teeth.\nUse it to remove food you missed with a toothbrush.\nVisit the dentist twice a year.\nYour dentist will check and clean your teeth, take X-rays, and put\non your teeth.\nFluoride helps keep your teeth strong.\nNational Institute of Dental and Craniofacial Research\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 93,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Americans will choose the president of the United States on Election Day.\nThis year Election Day is November 2.\nGeorge W. Bush and John Kerry want to be president.\nLearn more about each person.\nGeorge W. Bush is the president today.\nHe wants to stay president for another four years.\nBush is a Republican.\nHe was born on July 6, 1946, in New Haven, Connecticut.\nBush is married to Laura Welch Bush.\nThey have twin daughters named Barbara and Jenna.\nThe family has a dog named Barney and a cat named India.\nJohn Kerry is a U.S. senator from Massachusetts.\nHe wants to become president.\nKerry is a Democrat.\nHe was born on December 11, 1943, in Denver, Colorado.\nKerry is married to Teresa Heinz Kerry.\nHe has two daughters, Alexandra and Vanessa.\nHe also has three stepsons, John, Andre, and Christopher.\nThe family has a bird named Sunshine and a dog named Cym (KIM).\nSome of George W. Bush's Favorite Things\nWhat are some qualities that make a good president?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 94,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Winter brings many holidays, they are celebrated in different ways.\nBright lights are a part of each one.\nRead below to learn more!\nCast a glow on winter's dark nights.\nRamadan lanterns burn bright as can be,\nAll of the holiday lights have good reason,\nU.S. Department of Health and Human Services\nHanukkah is a Jewish holiday that lasts for eight nights.\nHanukkah is a Jewish holiday.\nIt is celebrated for eight nights.\nOn each of the eight nights, a candle is lit in a special candleholder called a\nChristmas is a Christian holiday.\nIt is celebrated in most places on December 25.\nPeople sing carols, set up mangers, and decorate trees with ornaments and strings of lights.\nLas Posadas is a Hispanic holiday.\nThis holiday is celebrated for nine nights.\nOn the last night, people carry candles to light their way while walking in a special parade.\nU.S. Department of Health and Human Services\nKwanzaa lasts for seven nights and is a celebration of family, community, and culture.\nKwanzaa is an African American holiday.\nIt lasts for seven nights.\nEach night, people eat special foods and light candles in a special candleholder called a\nRamadan is an Islamic holiday.\nIt is celebrated for one month.\nDuring this holiday, children carry a special lantern called a\nDiwali is a Hindu holiday.\nThis holiday is celebrated for five days.\nAt night, people light candles and oil lamps called\nto brighten their houses and the streets.\nHow do you celebrate the winter holidays with bright lights?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 95,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Outer space is cold and has no air.\nSpace suits protect astronauts in outer space.\nBlast inside to learn more about life in space.\nAstronauts travel into space on a space shuttle.\nSome of those astronauts stay in space to live in the International Space Station (ISS).\nThe ISS is 250 miles above Earth.\nWhen the ISS is finished being built, it will be like a city in outer space.\nIt will\nbe 356 feet across and 290 feet long.\nThat is about the size of a football field!\nWhy might the International Space Station need to be so large?\nPart of an astronaut's job in outer space includes doing science experiments.\nSome of the experiments are for the U.S. space agency, NASA.\nHere, an astronaut tests how plants grow in outer space.\nin outer space, so everything floats.\nGravity is the force that makes things stick to the ground.\nBecause astronauts float, they don't need to use their muscles to move.\nThey exercise to keep their muscles strong.\nEating nutritious food helps keep astronauts healthy.\nEating in space is difficult because food floats.\nAstronauts cannot spill on computers in the space station!\nSo in outer space, food comes in special packages.\nIn outer space, food comes in special packages.\nAt the end of the day, astronauts are tired.\nThey need to sleep, just as you do.\nAstronauts sleep in\nBunks are small spaces that keep the astronauts from floating around and bumping into things while they sleep.\nWould you like to try living in outer space?\nWhy or why not?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 96,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Look at the map of the Arctic.\nThen read the sentences.\nIf a sentence is correct, choose\nIf a sentence is incorrect, choose\nPart of Alaska is inside the Arctic Circle.\nThe North Pole is inside the Arctic Circle.\nAll of Europe is outside the Arctic Circle.\nThe Arctic Ocean is inside the Arctic Circle.\nCanada is part of the continent of North America.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 97,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The map below shows the path that monarchs travel when they migrate in the fall and the spring.\nWhy might monarchs need to migrate twice a year?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 98,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Ann Bancroft and Liv Arnesen are trying to become the first women to ski across Antarctica.\nThey plan to ski 4,200 miles in 100 days.\nThat is the longest distance ever skied by women.\nThe women began their journey in November.\nThat is spring in Antarctica.\nBut the average temperature is 39 degrees below zero!\nFreezing winds blow at 100 miles per hour.\nThe wind is helping Arnesen and Bancroft.\nThey attach themselves and the sleds that carry their supplies to sails, so the wind helps them ski faster.\nThey hope to finish their trip later this month.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 99,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        }
+      ]
+    }
+  ]
+}

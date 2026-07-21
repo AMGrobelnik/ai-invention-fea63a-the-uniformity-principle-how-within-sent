@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "experiment": "uniformity_principle_readability",
+    "num_examples": 13129,
+    "feature_names": [
+      "avg_word_length",
+      "avg_syllables",
+      "avg_word_freq",
+      "sentence_length",
+      "cv_word_length",
+      "cv_syllables",
+      "cv_word_freq"
+    ],
+    "results": {
+      "average_only": {
+        "feature_names": [
+          "avg_word_length",
+          "avg_syllables",
+          "avg_word_freq",
+          "sentence_length"
+        ],
+        "r2_mean": 0.19135649977885816,
+        "r2_std": 0.015433929521017053
+      },
+      "uniformity_only": {
+        "feature_names": [
+          "cv_word_length",
+          "cv_syllables",
+          "cv_word_freq"
+        ],
+        "r2_mean": 0.16562564612965394,
+        "r2_std": 0.011341247281379356
+      },
+      "combined": {
+        "feature_names": [
+          "avg_word_length",
+          "avg_syllables",
+          "avg_word_freq",
+          "sentence_length",
+          "cv_word_length",
+          "cv_syllables",
+          "cv_word_freq"
+        ],
+        "r2_mean": 0.2365400566248252,
+        "r2_std": 0.015558454513718912
+      }
+    },
+    "bootstrap_avg_vs_combined": {
+      "mean_diff": 0.04556243610814067,
+      "ci_lower": 0.04010134398012799,
+      "ci_upper": 0.051081569899309835,
+      "p_value": 0.0,
+      "significant": true
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest movie.\nThe movie is about the 2000 presidential election.\nFor the movie, Chaille talked to the two main candidates.\nHe talked to Texas Governor George W. Bush at the governor's home.\nChaille also traveled with Vice President Al Gore on his campaign bus.\nChaille has been making films since he was 8 years old.\nChaille's first movie was\nThe movie explored what people think about boy ballet dancers.\nChaille won two awards for the movie.\nChaille has also made movies about religion, how kids cope with pain, and musicians.\nHow did you get started making movies?\nThen people at HBO [a cable TV company] saw it, and they said they wanted to show the film.\nHow do you decide what your movies will be about?\nI just take stuff that's a part of everyday issues.\nIt's mostly about the 2000 election.\nThe movie asks why a kid should care about politics.\nWhat was it like talking to Governor George W. Bush and Vice President Al Gore?\nVery surprising.\nGeorge W. Bush said his daughters weren't so happy with him running in the election because they didn't want to leave their school or stay inside all the time.\nWhen I first went to speak to Al Gore in New Hampshire, he knelt down in the snow.\nIt was sort of like he understood children.\nThey both seemed like very nice men.\nFilmmakers have their own language.\nHere are some words they use and their meanings.\n--an actor who is hired to play a small, nonspeaking part, such as someone in a crowd\n--a worker who helps move the scenery and cameras during filming\n--a scene that is filmed but is not used in the movie\n--a movable arm that holds a microphone over an actor's head during filming\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.565706985847038",
+          "predict_uniformity_only": "0.46187201457555094",
+          "predict_combined": "0.5508421594733677"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4472835541048367",
+          "predict_uniformity_only": "0.4692432613137474",
+          "predict_combined": "0.4359165901729264"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most paper?\n2.\nOn which day did the Smith family recycle the fewest paper items?\n3.\nOn which day did the Smith family recycle four plastic items?\n4.\nWhat is the total number of metal items that the Smith family recycled?\n5.\nHow man items in all did the Smith family recycle on Thursday?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4334726899577513",
+          "predict_uniformity_only": "0.47061608636236",
+          "predict_combined": "0.41820502101788504"
+        }
+      ]
+    },
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "Is that your bike ?",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 0,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.33273795973103687",
+          "predict_uniformity_only": "0.11460144367026465",
+          "predict_combined": "0.18015190697056338"
+        },
+        {
+          "input": "She had a beautiful necklace around her neck .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 1,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4571292679981625",
+          "predict_uniformity_only": "0.5676789378183869",
+          "predict_combined": "0.5197409380822915"
+        },
+        {
+          "input": "I forgot to bring my umbrella .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 2,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.30798414776008987",
+          "predict_uniformity_only": "0.543965956590609",
+          "predict_combined": "0.429947729270357"
+        }
+      ]
+    }
+  ]
+}

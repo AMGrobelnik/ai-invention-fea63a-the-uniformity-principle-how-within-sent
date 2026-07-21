@@ -1,0 +1,17 @@
+[project]
+name = "uniformity-readability-experiment"
+version = "0.1.0"
+description = "Statistical evaluation of uniformity features for readability"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+    "pronouncing==0.3.0",
+    "nltk==3.10.0",
+    "loguru==0.7.3",
+    "matplotlib==3.11.1",
+    "psutil==7.2.2",
+    "cmudict==1.1.3",
+]

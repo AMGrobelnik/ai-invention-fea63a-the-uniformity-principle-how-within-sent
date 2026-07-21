@@ -1,0 +1,409 @@
+{
+  "datasets": [
+    {
+      "dataset": "CLEAR_corpus",
+      "examples": [
+        {
+          "input": "Words alone are not a sufficient possession. They must be known in all their relations. A comprehension of the structure of the sentence is always necessary. A sentence is a unit of thought, an idea reduced to its lowest terms. It may not be necessary that each sentence be analyzed strictly by grammatical rules, but it is essential that the reader should recognize by study if necessary the subject and the predicate and the character and rank of all the modifiers of each. Even the practiced reader by unconsciously laying undue prominence upon some minor phrase frequently modifies the meaning an author intends to convey. This is particularly true in verse, where the poet, hemmed in by the rules that govern his meter and his rhyme, varies the natural order of the elements of a sentence to bring the accents where they belong or to throw the rhyming word to the end of a verse. The grouping of related sentences into paragraphs is an aid to the reader and should be noticed by him till the habit of expecting a slight change in thought with the indentation of a line becomes fixed and automatic.",
+          "output": "0.29555860805860806",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7118,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.87
+        },
+        {
+          "input": "The true use of the much-praised Lucius Cary, Viscount Falkland, has hardly been apprehended: he is simply the patron saint of indifferents. From first to last, almost alone in that discordant time, he seems to have heard far-off resolving harmonies, and to have been rapt away with foreknowledge. Battle, to which all knights were bred, was penitential to him. It was but a childish means: and to what end? He meanwhile\u2014and no man carried his will in better abeyance to the scheme of the universe\u2014wanted no diligence in camp or council. Cares sat handsomely on him who cared not at all, who won small comfort from the cause which his conscience finally espoused. He labored to be a doer, to stand well with observers; and none save his intimate friends read his agitation and profound weariness. \"I am so much taken notice of,\" he writes, \"for an impatient desire for peace, that it is necessary I should likewise make it appear how it is not out of fear for the utmost hazard of war.\"",
+          "output": "0.25022893772893773",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7361,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.89
+        },
+        {
+          "input": "Once, when I was returning from a hunt, with an empty gun (having used all my ammunition), a raging wild boar rushed at me. Well, you know how unpleasant such an encounter may be, so I am sure none of you will think me a coward for hastily climbing the nearest tree; it was a young birch which could hardly bear my weight. The boar made a dash for the tree, but was a moment too late, for I had just drawn my legs out of his reach. But so violent was his rush that his tusks went through the trunk of the tree and projected an inch through the other side. I slid down the tree, picked up a stone the size of my fist, and riveted down the projecting points of the tusks. You can imagine what a narrow escape I had when I tell you that the beast weighed five tons\u2014a good deal for a wild boar.\"",
+          "output": "0.19505494505494506",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4425,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.48
+        },
+        {
+          "input": "Vesuvius is a dangerous thing, but very beautiful. It stands tall and pointed and graceful against a lovely sky. Its little cloud waves from it like a plume. At night the mountain is swallowed by the dark. But the red rivers down its slopes glare in the sky. It is beautiful and terrible like a tiger. Thousands of people have loved it. They have climbed it and looked down its crater. It is like looking into the heart of the earth. One of these travelers wrote of his visit in 1793. He said:\n\"For many days Vesuvius has been in action. I have watched it from Naples. It is wonderfully beautiful and always changing. On one day huge clouds poured out of the top. They hung in the sky far above, white as snow. Suddenly a cloud of smoke rushed out of another mouth. It was as black as ink. The black column rose tall and curling beside the snowy clouds. That was a picture in black and white. But at another time I saw one in bright colors.",
+          "output": "0.09684065934065936",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6205,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 3.19
+        },
+        {
+          "input": "Viscosity is a physical property of fluids. It shows resistance to flow. In a simple example, water has a low viscosity, as it is 'thin'. Syrup or tar, on the other hand has a high viscosity, as it is 'thick'. A way to test for viscosity is the speed at which the substance runs down a slope. Syrup would reach the bottom very slowly, whereas water would be a lot quicker.\nThere are two types of viscosity: dynamic viscosity, measured in pascal seconds, and kinematic viscosity, measured in meters per second squared.\nViscosity is used as a way to predict when volcanoes erupt. When the lava comes out very thickly (viscous), there is more chance that it will erupt violently. This is because the lava has a hard time getting out and may burst out when it can. If the lava is thin (low viscosity), then it just flows out like water.\nThe word viscous comes from the Latin viscum, meaning sticky.",
+          "output": "0.18933150183150182",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2721,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.23
+        },
+        {
+          "input": "It was found that the cow had been badly treated by the man who had owned her, and who had been in the habit of milking her. Being a high-spirited beast, she then gave him so much trouble, that he was soon glad to be rid of her.\nShe would now let no one touch her but Mabel: so Mr. Brittan finally said that the cow should be Mabel's cow, and that all the butter which the cow yielded should be hers. But Mabel is a generous girl; and so she shares the money she earns. Her mother, her sister Emily, and her brothers Oliver and Frank, all get a part of it.\nMabel has given the cow a name; and the cow will come to her when she calls her by name. The name is a very pretty one for a cow, I think. It is Dido.",
+          "output": "0.15773809523809523",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 5712,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 5.85
+        },
+        {
+          "input": "The Government has declared that during this war Greece is to remain neutral, but at the same time it did not conceal the fact that it has obligations toward one of the belligerents, Serbia, and that said obligation it was resolved to fulfill faithfully should the casus foederis arise.\nGreece, however, wishes nothing more than that such an occasion should not arise, as it desires that the conflagration which is gradually enveloping Europe should not spread over the Balkans, whose peoples, after two wars, so much need rest.\nSo far as it depends upon the initiative of Greece, every one may be assured that the European conflagration will not spread in the Balkan Peninsula. And if its other peoples are inspired by the same thoughts, then we can feel sure that peace will be preserved in the Levant up to the end of the war.",
+          "output": "0.38186813186813184",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4334,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 15.64
+        },
+        {
+          "input": "A week had passed since they had made acquaintance. It was a holiday. It was sultry indoors, while in the street the wind whirled the dust round and round, and blew people's hats off. It was a thirsty day, and Gurov often went into the pavilion, and pressed Anna Sergeyevna to have syrup and water or an ice. One did not know what to do with oneself.\nIn the evening when the wind had dropped a little, they went out on the groyne to see the steamer come in. There were a great many people walking about the harbour; they had gathered to welcome some one, bringing bouquets. And two peculiarities of a well-dressed Yalta crowd were very conspicuous: the elderly ladies were dressed like young ones, and there were great numbers of generals.\nOwing to the roughness of the sea, the steamer arrived late, after the sun had set, and it was a long time turning about before it reached the groyne. Anna Sergeyevna looked through her lorgnette at the steamer and the passengers as though looking for acquaintances, and when she turned to Gurov her eyes were shining.",
+          "output": "0.20375457875457875",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4589,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.86
+        },
+        {
+          "input": "Life meanwhile I had a good deal of at my side in the person of my brother Wilky, who, as I have had occasion elsewhere to say, contrived in those years to live, or to have every appearance of so doing, with an immediacy that left me far in the lurch. I was always still wondering how, while he had solved the question simply ambulando, which was for him but by the merest sociable stroll. This represented to me success\u2014success of a kind, but such an assured kind\u2014in a degree that was my despair; and I have never forgotten how, that summer, when the Herr Doctor did look in, did settle down a little to have the bristling page out with us, Wilky's share of the hour took on the spot the form of his turning at once upon our visitor the tables of earnest inquiry.",
+          "output": "0.3628663003663004",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4306,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 14.81
+        },
+        {
+          "input": "The Founding Fathers knew a government can't control the economy without controlling people. And they knew when a government sets out to do that, it must use force and coercion to achieve its purpose. So we have come to a time for choosing.\nPublic servants say, always with the best of intentions, \"What greater service we could render if only we had a little more money and a little more power.\" But the truth is that outside of its legitimate function, government does nothing as well or as economically as the private sector.\nYet any time you and I question the schemes of the do-gooders, we're denounced as being opposed to their humanitarian goals. It seems impossible to legitimately debate their solutions with the assumption that all of us share the desire to help the less fortunate. They tell us we're always \"against,\" never \"for\" anything.\nWe are for a provision that destitution should not follow unemployment by reason of old age, and to that end we have accepted Social Security as a step toward meeting the problem. ",
+          "output": "0.26098901098901095",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3551,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 10.36
+        },
+        {
+          "input": "Ndalo's father milks Pendo twice a day. She produces about 24 litres of milk a day, so about 12 litres for each milking. Sometimes Ndalo helps with the milking but it is not as easy as it looks. \"One day,\" he thinks to himself, \"I will have my own cows and I will have to do all the milking myself.\" His father pours the milk from the big bucket into smaller two litre cans or one litre bottles. He then sells the milk for R8 a litre. Once a week Ndalo's father donates 25 litres of milk to the school feeding scheme. Each child gets a quarter litre of this milk. That means that 100 children get milk on this day. For each litre of milk sold, his father gives Ndalo 50c. That doesn't sound like a lot, but if his father sells 24 litres a day, it adds up to quite a bit. Can you tell how much? Ndalo saves his money until Saturday when he makes a trip to the book shop. Each book costs less than R10, so in a good week, he can buy quite a few.",
+          "output": "0.09890109890109891",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3029,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 3.28
+        },
+        {
+          "input": "L. Clemandot has devised a new method of treating metals, especially steel, which consists in heating to a cherry red, compressing strongly and keeping up the pressure until the metal is completely cooled. The results are so much like those of tempering that he calls his process tempering by compression. The compressed metal becomes exceedingly hard, acquiring a molecular contraction and a fineness of grain such that polishing gives it the appearance of polished nickel. Compressed steel, like tempered steel, acquires the coercitive force which enables it to absorb magnetism. This property should be studied in connection with its durability; experiments have already shown that there is no loss of magnetism at the expiration of three months. This compression has no analogue but tempering. Hammering and hardening modify the molecular state of metals, especially when they are practiced upon metal that is nearly cold, but the effect of hydraulic pressure is much greater. The phenomena which are produced in both methods of tempering may be interpreted in different ways, but it seems likely that there is a molecular approximation, an amorphism from which results the homogeneity that is due to the absence of crystallization.",
+          "output": "0.35119047619047616",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 5121,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 14.3
+        },
+        {
+          "input": "As we grow up, we're often encouraged to think of fear as a weakness, just another childish thing to discard like baby teeth or roller skates. And I think it's no accident that we think this way. Neuroscientists have actually shown that human beings are hard-wired to be optimists. So maybe that's why we think of fear, sometimes, as a danger in and of itself. \"Don't worry,\" we like to say to one another. \"Don't panic.\" In English, fear is something we conquer. It's something we fight. It's something we overcome. But what if we looked at fear in a fresh way? What if we thought of fear as an amazing act of the imagination, something that can be as profound and insightful as storytelling itself?\nIt's easiest to see this link between fear and the imagination in young children, whose fears are often extraordinarily vivid. When I was a child, I lived in California, which is, you know, mostly a very nice place to live, but for me as a child, California could also be a little scary.",
+          "output": "0.17467948717948717",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3472,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 6.59
+        },
+        {
+          "input": "There is, or was then, an American hotel in Chihuahua, or at least one conducted in the American fashion, though only a mere posada. Among its guests was a gentleman, stranger to the town, as the country. His dress and general appearance bespoke him from the States, and by the same tokens it could be told that he belonged to their southern section. He was in truth a Kentuckian; but so far from representing the type, tall, rough, and stalwart, usually ascribed to the people \"Kaintuck,\" he was a man of medium size, with a build comparable to that of the Belvidere Apollo. He had a figure tersely set, with limbs well knitted; a handsome face and features of amiable cast, at the same time expressing confidence and courage. A costly Guayaquil hat upon his head, and coat to correspond, bespoke him respectable; his tout ensemble proclaimed him a man of leisure; while his air and bearing were unmistakably such as could only belong to a born gentleman.",
+          "output": "0.3269230769230769",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6517,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 13.24
+        },
+        {
+          "input": "While Dande wondered how to punish Madola, a small black poisonous snake entered one of the gourds unnoticed. Afterwards, Dande sealed the gourds and left. Dande gave Madola one gourd expecting his pay. After tasting, Madola said, \"Bring me another gourd and I will pay you.\" Dande ran for it. Dande brought the second gourd. He gave it to Madola saying, \"Here is another gourd of sweet honey like the last one. Pay me now.\" Madola took the gourd but said in a cunning way, \"There is no pay today. Wait for the end of the year.\" Dande was angry. Madola wanted to eat the honey. He put his finger in the gourd and was bitten. He cried, \"I'm bitten! Help!\" The snake disappeared unnoticed. All the workers ran away not knowing what had happened to their employer. A short while later, an ambulance arrived to take Madola to hospital.",
+          "output": "0.11584249084249083",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3018,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 4.02
+        },
+        {
+          "input": "We are now living in the golden era of television. The term \"golden era\" is what television and media critics call the collection of TV shows from the late 1990s to present day. Commercial television shows have existed since the early 20th century, but as Jason Mitchell notes in his book Complex TV, technological development in the late 1990s led to three drastic changes in television. First, TV shows started to look better and showcase more interesting camera work. Second, the growth of more available channels led to an increase in the number of shows being produced. And third, technology allowed users to record, pause, and rewind the shows they were watching. Together, these three changes ushered in the golden era of television, allowing TV shows to tell more complex stories.\nThere isn't a clear-cut division between a complex plot and a simple one, but in general, simple plots exist in shows where every episode begins as if the one before it hasn't happened (known as stand-alone episodes). Complex plots, on the other hand, exist in shows where each episode depends on what happens before (known as serialized episodes).",
+          "output": "0.2708333333333333",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3040,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 10.79
+        },
+        {
+          "input": "An emulator is a computer program or hardware that makes one kind of computer behave like a different one, so that it can use the same programs or do the same things as the other one. They are best for using old software and games on newer computers. They can be hardware that you add to the computer, or software that you use on it. Some types of emulators require newer computers that have the right system requirements. For example, you need a processor that is fast enough to meet the demands of the emulator. Memory (both RAM and hard drive space) may be another factor to help it run smoothly and more accurately. With the more advanced emulators, if your computer is too old, the emulator or even the operating system may crash.\nThe simplest type of emulator is called an interpreter, and it runs the foreign program one step at a time.",
+          "output": "0.2422161172161172",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2030,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.54
+        },
+        {
+          "input": "The word \"information\" is used in many different ways. Originally, it comes from a word that meant to give a form to something. Information is something that people can learn, know about, or understand. For example, a newspaper contains information about the world. This article contains information about \"Information\".\nPeople who use computers often use the words information and data in the same way. There are special fields of study called \"information science\" and \"information technology\" (IT).\nIn the 1970s and 1980s, some people gave a new, specific meaning to \"information\". At that time, the first computer databases were built. In computer science, data often means a kind of information that has not been checked. That means data has not been changed or fixed, and you may not be able to trust it. With the new meaning, information means data that has been checked and passed tests for what it must be. A person can trust that \"information\" is correct.",
+          "output": "0.19551282051282048",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2131,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.5
+        },
+        {
+          "input": "When they were nearly home, Nozibele put her hand to her neck. She had forgotten her necklace! \"Please come back with me!\" she begged her friends. But her friends said it was too late. \nNozibele went back to the river alone. She found her necklace and began hurrying home. But, she got lost in the dark. \nIn the distance she saw light coming from a hut. She walked quickly towards it and knocked at the door. \nTo her surprise, a dog opened the door and said, \"What do you want?\" \"I'm lost and I need a place to sleep,\" said Nozibele. \"Come in, or I'll bite you!\" said the dog. Nozibele went in. \nThe dog said, \"Cook for me!\" \"But I've never cooked for a dog before,\" Nozibele answered. \"Cook, or I'll bite you!\" said the dog. Nozibele cooked some food for the dog. \nThen the dog said, \"Make the bed for me!\" Nozibele answered, \"I've never made a bed for a dog.\" \"Make the bed, or I'll bite you!\" the dog said. Nozibele made the bed. \nEvery day she had to cook and sweep and wash for the dog.",
+          "output": "0.07165750915750915",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3420,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 2.09
+        },
+        {
+          "input": "When Tuesday came, Edith's nurse dressed her in a fresh, white frock, and Edith dressed her dolly in her best dress, and went out under the trees where her nurse had set the table for two. And then she sat in a chair at the table and waited. But the big town clock struck four and no Helen came; and then she waited for half an hour longer. Then Edith put her dolly down on the chair and went in the house to find her mother.\n\"Mama,\" she said, \"I think Helen is very rude, she doesn't come to my party and I invited her!\"\n\"Just wait a little longer, dear,\" said her mother, \"and she will come. Maybe her nurse was busy dressing Helen's little sister and brother and couldn't get her ready in time.\"\n\"But I invited her,\" was all Edith could say; \"but I invited her, and she doesn't come.\"",
+          "output": "0.15247252747252749",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7027,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 5.62
+        },
+        {
+          "input": "One noon, during a break in the rains, there was a cool soft breeze blowing; the smell of the damp grass and leaves in the hot sun felt like the warm breathing of the tired earth on one's body. A persistent bird went on all the afternoon repeating the burden of its one complaint in Nature's audience chamber.\nThe postmaster had nothing to do. The shimmer of the freshly washed leaves, and the banked-up remnants of the retreating rain-clouds were sights to see; and the postmaster was watching them and thinking to himself: \"Oh, if only some kindred soul were near\u2014just one loving human being whom I could hold near my heart!\" This was exactly, he went on to think, what that bird was trying to say, and it was the same feeling which the murmuring leaves were striving to express. But no one knows, or would believe, that such an idea might also take possession of an ill-paid village postmaster in the deep, silent midday interval of his work.",
+          "output": "0.2756410256410256",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3777,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.0
+        },
+        {
+          "input": "The widow ran away like a lively schoolgirl. All the sisters watched her get into the sleigh with the deacon, and resumed the previous discussion with greatly increased interest. But little recked the widow and less recked the deacon. He had bought a new horse and he wanted the widow's opinion of it, for the Widow Stimson was a competent judge of fine horseflesh. If Deacon Hawkins had one insatiable ambition it was to own a horse which could fling its heels in the face of the best that Squire Hopkins drove. In his early manhood the deacon was no deacon by a great deal. But as the years gathered in behind him he put off most of the frivolities of youth and held now only to the one of driving a fast horse. No other man in the county drove anything faster except Squire Hopkins, and him the deacon had not been able to throw the dust over. The deacon would get good ones, but somehow never could he find one that the squire didn't get a better.",
+          "output": "0.2097069597069597",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4432,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 8.12
+        },
+        {
+          "input": "The area around Vesuvius received its first warning sign that the mountain was perhaps reawakening when a massive earthquake struck on the 5th of February 62 A.D. The quake measured 7.5 on the Richter scale and devastated the surrounding towns; even parts of Naples, 20 miles away, were damaged. At Pompeii, few buildings escaped damage. Temples, houses, and parts of the thick city walls collapsed, fires ravaged sections of the town, and even sheep in the surrounding countryside died from the release of poisonous gases. The death toll was likely in the thousands rather than the hundreds. The water supply to the town was also severely affected with damage to aqueducts and underground pipes. The recovery process was also hampered by the collapse of the bridge over the Sarno. Things were so bad that a significant portion of the population left the town for good.",
+          "output": "0.2422161172161172",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3490,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.54
+        },
+        {
+          "input": "The author began by stating that probably in few trades have a smaller number of changes been made during recent years, in the processes employed, than in that of lead smelting and manufacturing. He then briefly noted what these changes are, and went on to describe the \"steam desilverizing process,\" as used in the works of the writer's firm, and in other works licensed by them, which process is the invention of Messrs. Luce Fils et Rozan, of Marseilles. It is one which should commend itself especially to engineers, as in it mechanical means are employed, instead of the large amount of hand-labor used in the Pattinson process. It consists in using two pots only, of which the lower is placed at such a height that the bottom of it is about 12 in. to 15 in. above the floor level, while the upper is placed at a sufficiently high level to enable the lead to be run out of it into the lower pot. The capacity of the lower pot, in those most recently erected, is thirty-six tons--double that of the upper one.",
+          "output": "0.2882326007326007",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 5326,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.55
+        },
+        {
+          "input": "An undergraduate history degree is often used as a stepping stone to graduate studies in business or law. Many historians are employed at universities and other facilities for post-secondary education. In addition, it is normal for colleges and universities to require the PhD degree for new full-time hires. A scholarly thesis, such as a PhD, is now regarded as the baseline qualification for a professional historian. However, some historians still gain recognition based on published (academic) works and the award of fellowships by academic bodies like the Royal Historical Society. Publication is increasingly required by smaller schools, so graduate papers become journal articles and PhD dissertations become published monographs. The graduate student experience is difficult\u2014those who finish their doctorate in the United States take on average 8 or more years; funding is scarce except at a few very rich universities. Being a teaching assistant in a course is required in some programs; in others it is a paid opportunity awarded a fraction of the students.",
+          "output": "0.324404761904762",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2109,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 13.13
+        },
+        {
+          "input": "Each cell in our body includes the full copy of the DNA. Only a small part of the DNA in these cells contains genes, that carry the information to make proteins. Other genes hold instructions to produce different kind of molecules called RNA. There are large and small RNA molecules. In our laboratory, we study the newly discovered family of the tiny microRNA genes, and test if they may be responsible for the response of humans to trauma.\nThe newly discovered family of \"microRNAs,\" many of which have emerged during primates' (apes, gorillas, etc.) evolution are excellent candidates to be involved in response to trauma. Scientists have known about these miniature genes, 100 times smaller than \"regular\" genes, for <30 years. Nevertheless, those researchers who discovered them won the Nobel prize in 2006 and made a major impact on our understanding of how the brain functions and how it sends messages to the body. We suspect that these microRNAs are very important to our trauma reactions. So, to understand what happens under trauma, let us discuss the way microRNAs function.",
+          "output": "0.2522893772893773",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2583,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.98
+        },
+        {
+          "input": "Kicchu woke up early one morning. \"It is time to catch some fish,\" he said yawning. He met Choru on the way to the pond. They were best friends who played all day long. Munia saw them marching with their fishing rods.\n\"We are going to the pond to catch fish. Come along Munia, if you wish.\"\nLittle Munia thought for sometime. \"Please don't do that,\" she said, \"without water, the fish will die.\" They did not listen to what Munia had to say. They headed to the pond straight away.\nKicchu and Choru sat waiting by the pond. Two fish swam across, one thin and another round. Then came the third fish, the biggest one they had seen. Munia said laughing, \"It is bigger than Appa's feet!\"\nKicchu and Choru held on tight to their rods.\nKicchu screamed, \"MY FISH!\"\nChoru also screamed, \"NO... MY FISH!\"",
+          "output": "0.07051282051282051",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7402,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 2.04
+        },
+        {
+          "input": "One day, all the wild animals got together to choose a king. \nThey saw that it would be good to choose Lion to be the king of the animals. \nAt that meeting, they crowned Lion the king of the animals. As part of the ceremony, they had a big party that lasted a week. \nAll of the animals attended the ceremony until the end. They ate, they drank, they sang and they danced. \nWhen the ceremony was over, they all dispersed. They were returning to their homes. \nIt was the custom for every animal to go and greet Lion because he was their king. \nOne visitor who came to greet King Lion was Hyena. When Hyena arrived at Lion's house, he found the king in bed. \nLion told him, \"I'm sick with an incurable illness.\" \nHyena responded, \"O, Great King, don't be sad because of your illness. Hare knows the cure for this illness.\" \nThe reason Hyena said this was because he wanted to get Hare in trouble in the eyes of Lion. \nHyena knew that Hare was unable to heal Lion. \nLion cheered up and sent Hyena right away to call Hare.",
+          "output": "0.12454212454212456",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 3347,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 4.4
+        },
+        {
+          "input": "The similarities and differences between the microbiomes of different animals made us wonder if species with similar diets have similar microbiomes, or whether the microbiomes are only similar because the species are related. For example, do a dolphin and a penguin have a similar microbiome because they both eat fish? Or, even though they have similar diets, do dolphins and penguins have different microbiomes because they are not closely related species? In science, it is common to create a hypothesis, then design an experiment, or a series of experiments, to test it. The results of the experiments are then reported in a trustworthy scientific journal. Other scientists read the report in the journal and come up with new ideas. Our hypothesis was that we would see the same bacteria in birds and animals with the same diet. Because this hypothesis needed multiple experiments to compare the microbiomes of different birds, this would have been impossible to do with a single experiment. To overcome this problem, we performed something called a meta-study. A meta-study involves looking at lots of different studies on the same topic and comparing the results from all the studies.",
+          "output": "0.2953296703296703",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2926,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.86
+        },
+        {
+          "input": "A little knot of the school-girls were walking home together one afternoon in July. As they neared Dr. Carr's gate, Maria Fiske exclaimed, at the sight of a pretty bunch of flowers lying in the middle of the sidewalk:\n\"Oh my!\" she cried, \"see what somebody's dropped! I'm going to have it.\" She stooped to pick it up. But, just as her fingers touched the stems, the nosegay, as if bewitched, began to move. Maria made a bewildered clutch. The nosegay moved faster, and at last vanished under the gate, while a giggle sounded from the other side of the hedge.\n\"Did you see that?\" shrieked Maria; \"those flowers ran away of themselves.\"\n\"Nonsense,\" said Katy, \"it's those absurd children.\" Then, opening the gate, she called: \"John! Dorry! come out and show yourselves.\" But nobody replied, and no one could be seen. The nosegay lay on the path, however, and picking it up, Katy exhibited to the girls a long end of black thread, tied to the stems.",
+          "output": "0.13438644688644688",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6763,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 4.83
+        },
+        {
+          "input": "M. Leclerc du Sablon has published some of his results in his work on the opening of fruits. The influences which act upon fruit are external and internal. The external cause of dehiscence is drying. We can open or shut a fruit by drying or wetting it. The internal causes are related to the arrangement of the tissues, and we may say that the opening of fruit can be easily explained by the contraction of the ligneous fibers under drying influences. M. Leclerc shows by experiment that the fibers contract more transversely than longitudinally, and that the thicker fibers contract the most. This he finds is connected with the opening of dry fruits.\nHerr Hoffman has recently made some interesting experiments upon the cultivation of fruits.\nIt is well known that many plants appear to select certain mineral soils and avoid others, that a number of plants which prefer calcareous soils are grouped together as calcicoles, and others which shun such ground as calcifuges. Herr Hoffman has grown the specimen which has been cited by many authors as absolutely calcifugic.",
+          "output": "0.2538919413919414",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4920,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 10.05
+        },
+        {
+          "input": "She wore a blue wool frock and a red cloak. Sarah held her close. She even drew a fold of her own blue homespun blanket around her to shield her from the November wind. The sky was low and gray; the wind blew from the northeast, and had the breath of snow in it. Submit on the wall drew her quilted petticoats close down over her feet, and huddled herself into a small space, but her face gleamed keen and resolute out of the depths of a great red hood that belonged to her mother. Her eyes were fixed upon a turkey-gobbler ruffling and bobbing around the back door of the Adams house. The two gambrel-roofed Thompson and Adams houses were built as close together as if the little village of Bridgewater were a city. Acres of land stretched behind them and at the other sides, but they stood close to the road, and close to each other. The narrow space between them was divided by a stone wall which was Submit's and Sarah's trysting-place. They met there every day and exchanged confidences.",
+          "output": "0.17857142857142858",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 1124,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 6.76
+        },
+        {
+          "input": "When Marilla had gone Anne looked around her wistfully. The whitewashed walls were so painfully bare and staring that she thought they must ache over their own bareness. The floor was bare, too, except for a round braided mat in the middle such as Anne had never seen before. In one corner was the bed, a high, old-fashioned one, with four dark, low-turned posts. In the other corner was the aforesaid three-corner table adorned with a fat, red velvet pin-cushion hard enough to turn the point of the most adventurous pin. Above it hung a little six-by-eight mirror. Midway between table and bed was the window, with an icy white muslin frill over it, and opposite it was the wash-stand. The whole apartment was of a rigidity not to be described in words, but which sent a shiver to the very marrow of Anne's bones. With a sob she hastily discarded her garments, put on the skimpy nightgown and sprang into bed where she burrowed face downward into the pillow and pulled the clothes over her head.",
+          "output": "0.19665750915750915",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4471,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.55
+        },
+        {
+          "input": "Surgeon Major Roehring, of Amberg, reports, in No. 32 of the Allg. Med. Centr. Zeit., April 22, 1882, a case of headache of long standing, which he cured by salicylate of sodium, which confirms the observations of Dr. Oehlschlager, of Dantzig, who first contended that we possessed in salicylic acid one of the most reliable remedies for neuralgia. This cannot astonish us if we remember that the action of salicylic acid is, in more than one respect, and especially in its influence on the nervous centers, analogous to quinine.\nWhile out with the troops on maneuver, Dr. Roehring was called to visit the sixteen-year-old son of a poor peasant family in a neighboring village. The boy, who gave all evidences of living under bad hygienic surroundings, but who had shown himself very diligent at school, had been suffering, from his sixth year, several days every week from the most intense headache, which had not been relieved by any of the many remedies tried for this purpose. A careful examination did not reveal any organic lesion or any cause for the pain, which seemed to be neuralgic in character, a purely nervous headache.",
+          "output": "0.29967948717948717",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 5192,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 12.05
+        },
+        {
+          "input": "One of them, who was apparently the leader of the trio, was a big, unwieldy boy of sixteen, a year older and considerably larger than Bob and Joe. His eyes were close together, and he had a look of coarseness and arrogance that denoted the bully. Buck Looker, as he was called\u2014his first name was Buckley\u2014was generally unpopular among the boys, but as he was the son of one of the richest men of the town he usually had one or two cronies who hung about him for what they could get. One of these, Carl Lutz, an unwholesome looking boy, somewhat younger than Buck, was walking beside him, and on the side nearer the curb was Terry Mooney, the youngest of the three, a boy whose, furtive eyes carried in them a suggestion of treachery and sneakiness.\n\"What's the joke, Buck?\" asked Bob coldly, as he looked from one to the other of the sniggering faces.\n\"You're the joke,\" answered Buck insolently; \"that is, if you believe all that stuff I heard you pulling off just now. You must be easy if you fall for that.\"",
+          "output": "0.27953296703296704",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6441,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.17
+        },
+        {
+          "input": "Strangely beautiful those prawns are when you see them at home. And that one seems to do in the Great Aquarium; though, I suppose, it is much like seeing land beasts and birds in the Zoological Gardens\u2014a poor imitation of their free life in their natural condition. Still, there is no other way in which you can see and come to know these wonderful \"sea gentlemen\" so well, unless you could go, like Jack Dogherty, to visit them at the bottom of the sea. And whilst I heartily recommend every one who has not seen the Aquarium to visit it as soon as possible, let me describe it for the benefit of those who cannot do so at present. It may also be of some little use to them hereafter to know what is most worth seeing there, and where to look for it.",
+          "output": "0.24130036630036628",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 899,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.5
+        },
+        {
+          "input": "When I think of the flag that those ships carry, the only touch of color about them, the only thing that moves as if it had a settled spirit in it, in their solid structure, it seems to me I see alternate strips of parchment upon which are written the rights of liberty and justice and strips of blood spilt to vindicate those rights, and then, in the corner, a prediction of the blue serene into which every nation may swim which stands for these great things.\nThe mission of America is the only thing that a sailor or soldier should think about; he has nothing to do with the formulation of her policy; he is to support her policy, whatever it is\u2014but he is to support her policy in the spirit of herself, and the strength of our policy is that we, who for the time being administer the affairs of this nation, do not originate her spirit; we attempt to embody it; we attempt to realize it in action we are dominated by it, we do not dictate it.",
+          "output": "0.8525641025641026",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4176,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 36.2
+        },
+        {
+          "input": "At Denver there was an influx of passengers into the coaches on the eastbound B. & M. Express. In one coach there sat a very pretty young woman dressed in elegant taste and surrounded by all the luxurious comforts of an experienced traveler. Among the newcomers were two young men, one of handsome presence with a bold, frank countenance and manner; the other a ruffled, glum-faced person, heavily built and roughly dressed. The two were handcuffed together.\nAs they passed down the aisle of the coach the only vacant seat offered was a reversed one facing the attractive young woman. Here the linked couple seated themselves. The young woman's glance fell upon them with a distant, swift disinterest; then with a lovely smile brightening her countenance and a tender pink tingeing her rounded cheeks, she held out a little gray-gloved hand. When she spoke her voice, full, sweet, and deliberate, proclaimed that its owner was accustomed to speak and be heard.\n\"Well, Mr. Easton, if you will make me speak first, I suppose I must. Don't you ever recognize old friends when you meet them in the West?\"",
+          "output": "0.21291208791208793",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4558,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 8.26
+        },
+        {
+          "input": "Cat and Dog walk. They walk in their village. Then they see an egg. The egg is in the grass. The egg is alone in the grass. The egg is all alone. Cat and Dog walk to a bird. They ask the bird, \"Is this your egg?\" But the bird says, \"No, that is not my egg. Ask the owl. Maybe it is his egg.\" Cat and Dog walk to the owl. They ask the owl, \"Is this your egg?\" But the owl says, \"No, that is not my egg. Ask the goose. Maybe it is her egg.\" Cat and Dog walk to the goose. They ask the goose, \"Is this your egg?\" But the goose says, \"No, that is not my egg. Ask the two ducks. Maybe it is their egg.\" Cat and Dog walk to the two ducks. They ask the two ducks, \"Is this your egg?\" But the two ducks say, \"No, that is not our egg.\" Then the egg breaks.",
+          "output": "0.0004578754578754583",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2938,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": -1.02
+        },
+        {
+          "input": "Prime numbers have occupied human attention since ancient times and were even associated with the supernatural. Even today, in modern times, there are people trying to provide prime numbers with mystical properties. The well-known astronomer and science author Carl Sagan wrote a book in 1985 called \"Contact,\" dealing with extraterrestrials (a human-like culture outside of earth) trying to communicate with humans using prime numbers as signals. The idea that signals based on prime numbers could serve as a basis for communication with extraterrestrial cultures continues to ignite the imagination of many people to this day.\nIt is commonly assumed that serious interest in prime numbers started in the days of Pythagoras. Pythagoras was an ancient Greek mathematician. His students, the Pythagoreans\u2014partly scientists and partly mystics\u2014lived in the sixth century BC. They did not leave written evidence and what we know about them comes from stories that were passed down orally. Three hundred years later, in the third century BC, Alexandria (in modern Egypt) was the cultural capital of the Greek world.",
+          "output": "0.2960164835164835",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2773,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.89
+        },
+        {
+          "input": "Then, suddenly, his hand struck a stone wall. Groping his way, he turned a sharp corner and followed along a low narrow passageway that obliged him to stoop. Then came the sound of the moaning just ahead. Jack Cales was a brave man but it was all that he could do, to keep from turning and running in panic for the mouth of the cave. But though his determination had received a severe shock, it did not turn to flight.\nHe saw a faint light ahead, spreading a glow at the end of the passage as he came nearer. Then he saw something that held him stone still with a clutch of weird fear. He had reached the end of the narrow passage, and dimly made out a domed room in the rock, white with translucent encrustation.\nHe struck a match. About him, before, to the right and to the left he could see forms all of ghostly white, some crouching, others standing. Hardly had the light flared up than it sizzled out. Some drops of water falling from the roof had extinguished the blaze. Then was repeated that awful sound of distress.",
+          "output": "0.13965201465201466",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6781,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 5.06
+        },
+        {
+          "input": "\"Well, then,\" said the teacher, \"you may take your slate and go out behind the schoolhouse for half an hour. Think of something to write about, and write the word on your slate. Then try to tell what it is, what it is like, what it is good for, and what is done with it. That is the way to write a composition.\"\nHenry took his slate and went out. Just behind the schoolhouse was Mr.\nFinney's barn. Quite close to the barn was a garden. And in the garden,\nHenry saw a turnip.\n\"Well, I know what that is,\" he said to himself; and he wrote the word turnip on his slate. Then he tried to tell what it was like, what it was good for, and what was done with it.\nBefore the half hour was ended he had written a very neat composition on his slate. He then went into the house, and waited while the teacher read it.\nThe teacher was surprised and pleased. He said, \"Henry Longfellow, you have done very well. Today you may stand up before the school and read what you have written about the turnip.\"",
+          "output": "0.10691391941391941",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6179,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 3.63
+        },
+        {
+          "input": "She broke off with a little shudder. It was a relief to Framton when the aunt bustled into the room with a whirl of apologies for being late in making her appearance.\n\"I hope Vera has been amusing you?\" she said.\n\"She has been very interesting,\" said Framton.\n\"I hope you don't mind the open window,\" said Mrs. Sappleton briskly; \"my husband and brothers will be home directly from shooting, and they always come in this way. They've been out for snipe in the marshes today, so they'll make a fine mess over my poor carpets. So like you menfolk, isn't it?\"\nShe rattled on cheerfully about the shooting and the scarcity of birds, and the prospects for duck in the winter. To Framton it was all purely horrible. He made a desperate but only partially successful effort to turn the talk on to a less ghastly topic, he was conscious that his hostess was giving him only a fragment of her attention, and her eyes were constantly straying past him to the open window and the lawn beyond. It was certainly an unfortunate coincidence that he should have paid his visit on this tragic anniversary.",
+          "output": "0.2133699633699634",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4340,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 8.28
+        },
+        {
+          "input": "In the year 1439 died King Albert, who had been appointed King of Hungary in right of his wife, Queen Elizabeth. He left a little daughter only four years old, and as the Magyars had never been governed by a female hand, they proposed to send and offer their crown, and the hand of their young widowed queen, to Wladislas, the King of Poland. But Elizabeth had hopes of another child, and in case it should be a son, she had no mind to give away its rights to its father's throne. How, then, was she to help herself among the proud and determined nobles of her court? One thing was certain, that if once the Polish King were crowned with St. Stephen's crown, it would be his own fault if he were not King of Hungary as long as he lived; but if the crown were not to be found, of course he could not receive it, and the fealty of the nobles would not be pledged to him.",
+          "output": "0.30105311355311354",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7282,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 12.11
+        },
+        {
+          "input": "Depression is a mental illness that impacts millions of people. It affects the way a person thinks, feels, and behaves. Depression is more intense than the experience of sadness. Important symptoms of depression include low mood, loss of pleasure, weight loss or gain, low energy, and feelings of hopelessness. These symptoms last over 2 weeks and interfere with a person's daily activities. Depression affects the depressed person, the person's family, and the community. In the United States, over 80 billion dollars a year is spent on depression. Most important, depression can be fatal, so it requires as much care as a serious physical illness.\nWe need to understand the causes of depression. This need has prompted decades of study. Research now shows that many factors contribute to depression. Of the known factors, stress is very important. Stress can cause depression over time.",
+          "output": "0.20764652014652016",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2537,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 8.03
+        },
+        {
+          "input": "Thor was always going on long journeys. One day he went off and left Sif alone. She went out on the porch and fell asleep.\nLoki came along. He was always playing tricks.\nHe saw Sif lying asleep. He said, \"I am going to cut off her hair.\"\nSo Loki went up on the porch and cut off Sif's golden hair.\nWhen Sif woke up and saw that her hair was gone, she cried and cried. Then she ran to hide. She did not want Thor to see her.\nWhen Thor came home, he could not find Sif.\n\"Sif! Sif!\" he called, \"Where are you?\"\nBut Sif did not answer.\nThor looked all around the house. At last he found her crying.\n\"Oh, Thor, look, all my hair is gone! Somebody has cut it off. It was a man. He ran away with it.\"\nThen Thor was very angry. He said, \"I know it was Loki. He is always getting into mischief. Just wait until I get him!\"\nAnd Thor went out to find Loki.",
+          "output": "0.037316849816849816",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4691,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 0.59
+        },
+        {
+          "input": "It was a season of unparalleled enthusiasm and rejoicing, when General Lafayette, the friend and supporter of American Independence, responded to the wishes of the people of the United States, and came to see their prosperity, and to hear their expressions of gratitude. The national heartbeat joyfully in anticipation; and one long, loud, and free shout of welcome was heard throughout the land.\nArriving at New York in August 1824, General Lafayette journeyed through the Eastern States, receiving such tokens of affection as the people had extended to no other man except Washington, and then returned southward. On the 28th of September, he entered Philadelphia, the birthplace of the Declaration of Independence, the greater part of the population coming out to receive and welcome him. A large procession was formed, and thirteen triumphal arches erected in the principal streets through which the procession passed.\nAfter General Lafayette himself, the most remarkable objects in the procession were four large open cars, resembling tents, each containing forty veterans of the struggle for independence.",
+          "output": "0.38118131868131866",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6245,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 15.61
+        },
+        {
+          "input": "It is a good rule in war to concentrate your forces on the main theatre and not to dissipate them in disconnected and sporadic adventures, however promising they may appear to be. That consideration, I need hardly say, has not been lost sight of in the councils of the Allies. There has been and there will be no denudation or impairment of the forces which are at work in Flanders, and both the French and ourselves will continue to give them the fullest, and we believe the most effective, support. Nor, what is equally important, has there for the purpose of these operations been any weakening of the grand fleet. The enterprise which is now going on, and so far has gone on in a manner which reflects, as I think the House will agree, the highest credit on all concerned, was carefully considered and conceived with very distinct and definite objects\u2014political, strategic, and economical. Some of these objects are so obvious as not to need statement and others are of such a character that it is perhaps better for the moment not to state them.",
+          "output": "0.33882783882783885",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4033,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 13.76
+        },
+        {
+          "input": "The great bulk of the writings of the world is in prose. It is the medium of hard sense, of practical knowledge, of argument and of dialogue. Yet often it appeals to the imagination, charms with its beauty and inspires to heroic deeds.\nIt seems to be generally accepted that four methods of expression are to be found in prose: narration, description, exposition and argumentation. Narration deals with things in action, description with the appearance of things, exposition explains the relations ideas bear to one another, and argumentation not only does this, but tries at the same time to convince. Theoretically, this distinction is very easy to make, for action is the life of narration, appearance the theme of description, explanation and exposition are synonymous, and no one argues but with the hope of convincing. What can man do more than to tell what has been done, tell how a thing looks, show how one thing follows from another or is related to it, and endeavor to bring another person to the same state of mind?",
+          "output": "0.3104395604395604",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7121,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 12.52
+        },
+        {
+          "input": "Ellington started taking piano lessons at age seven. He did not take the lessons very seriously or practice well for the first few years. He often skipped his lessons in favor of playing baseball because he did not think he was a good pianist. But by the time he was fourteen, he started sneaking into music clubs and listening to the professional pianists there. He developed a new passion for music. Soon he wrote his first song, \"Soda Fountain Rag,\" inspired by his experiences working at a soda shop.\nDuring high school, Ellington continued to take music lessons, and he imitated his favorite ragtime pianists. Whenever he traveled with his family, he sought out local famous musicians to get advice for his own music. After he graduated he took a job as a sign-painter, which he also used to build his music career; anytime someone requested a sign for a party, he also asked them if they needed a musician for entertainment. He became quite successful playing for both black and white audiences, which was a unique accomplishment at the time.",
+          "output": "0.2419871794871795",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 6091,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.53
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_name": "OneStopEnglish",
+  "source_url": "https://huggingface.co/datasets/iastate/onestop_english",
+  "license": "Unknown - from HuggingFace",
+  "n_sentences": 567,
+  "score_distribution": {
+    "mean": 0.5,
+    "std": 0.41,
+    "min": 0.0,
+    "max": 1.0,
+    "description": "Normalized labels: 0=Elementary, 0.5=Intermediate, 1=Advanced"
+  },
+  "preprocessing": "None - used texts as-is with labels normalized to 0-1",
+  "schema_version": "exp_sel_data_out.json v1.0",
+  "description": "OneStopEnglish corpus with 189 texts at 3 reading levels (Elementary, Intermediate, Advanced), each text appears in all 3 versions",
+  "citation": "Vajjala, S., & Lu\u010di\u0107, I. (2018). OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification. ACL."
+}

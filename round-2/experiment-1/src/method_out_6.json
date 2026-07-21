@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "experiment": "uniformity_principle_minimal",
+    "num_examples": 6,
+    "feature_names": [
+      "avg_word_length",
+      "avg_syllables",
+      "sentence_length",
+      "cv_word_length",
+      "cv_syllables"
+    ],
+    "r2_mean": NaN,
+    "r2_std": NaN
+  },
+  "datasets": [
+    {
+      "dataset": "combined",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest movie.\nThe movie is about the 2000 presidential election.\nFor the movie, Chaille talked to the two main candidates.\nHe talked to Texas Governor George W. Bush at the governor's home.\nChaille also traveled with Vice President Al Gore on his campaign bus.\nChaille has been making films since he was 8 years old.\nChaille's first movie was\nThe movie explored what people think about boy ballet dancers.\nChaille won two awards for the movie.\nChaille has also made movies about religion, how kids cope with pain, and musicians.\nHow did you get started making movies?\nThen people at HBO [a cable TV company] saw it, and they said they wanted to show the film.\nHow do you decide what your movies will be about?\nI just take stuff that's a part of everyday issues.\nIt's mostly about the 2000 election.\nThe movie asks why a kid should care about politics.\nWhat was it like talking to Governor George W. Bush and Vice President Al Gore?\nVery surprising.\nGeorge W. Bush said his daughters weren't so happy with him running in the election because they didn't want to leave their school or stay inside all the time.\nWhen I first went to speak to Al Gore in New Hampshire, he knelt down in the snow.\nIt was sort of like he understood children.\nThey both seemed like very nice men.\nFilmmakers have their own language.\nHere are some words they use and their meanings.\n--an actor who is hired to play a small, nonspeaking part, such as someone in a crowd\n--a worker who helps move the scenery and cameras during filming\n--a scene that is filmed but is not used in the movie\n--a movable arm that holds a microphone over an actor's head during filming\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most paper?\n2.\nOn which day did the Smith family recycle the fewest paper items?\n3.\nOn which day did the Smith family recycle four plastic items?\n4.\nWhat is the total number of metal items that the Smith family recycled?\n5.\nHow man items in all did the Smith family recycle on Thursday?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The table below shows information about the five\nor kinds, of rhinos.\nChoose the answer that completes each sentence or answers each question.\nWhich of these rhinos is found in Asia?\nHow many horns does a black rhino have?\nHow many species of rhinos come from Africa?\nBesides the Indian rhino, what other type of rhino has only one horn?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 3,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "The Crazy Horse statue is in South Dakota.\nThe map shows where the statue and other important places are located.\nThe Crazy Horse Statue is in South Dakota.\nThe map shows where the statue and other important places are located.\nUse the map to answer the questions.\nCircle your answers.\nWhat is the capital of South Dakota?\nWhich city on the map is the farthest north?\nWhich state is south of South Dakota?\nWhich of these states is east of South Dakota?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 4,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        },
+        {
+          "input": "Do you know how to count in Spanish?\nLearn to how to spell and say these words.\nUse what you have learned to solve thse math problems.\nWrite the Spanish word for the sum on the line.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 5,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_readability": "0.0"
+        }
+      ]
+    }
+  ]
+}

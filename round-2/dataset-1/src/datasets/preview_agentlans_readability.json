@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "dataset": "agentlans_readability",
+      "examples": [
+        {
+          "input": "Work on the first tube of the Simplon Tunnel commenced in 1898. The Italian king Victor Emmanuel III...",
+          "output": "0.30844155844155846",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 9830,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 9.15
+        },
+        {
+          "input": "In 2019 with the Phillies, he batted .293/.307/.579 with eight home runs and 34 RBIs in 133 at-bats....",
+          "output": "0.1646825396825397",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 43505,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.165
+        },
+        {
+          "input": "79% of children aged 6 to 17 with mental disorders do not receive appropriate care.\nChildren with me...",
+          "output": "0.437950937950938",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 101863,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.74
+        }
+      ]
+    }
+  ]
+}

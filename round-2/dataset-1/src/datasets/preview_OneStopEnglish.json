@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "dataset": "OneStopEnglish",
+      "examples": [
+        {
+          "input": "When you see the word Amazon, what\u2019s the first thing you think of \u2013 the world\u2019s biggest forest, the ...",
+          "output": "0.0",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 0,
+          "metadata_source": "OneStopEnglish",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "To tourists, Amsterdam still seems very liberal. Recently the city\u2019s Mayor told them that the coffee...",
+          "output": "0.0",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 1,
+          "metadata_source": "OneStopEnglish",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Anitta, a music star from Brazil, has millions of fans, but she is at the centre of a debate about s...",
+          "output": "0.0",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 2,
+          "metadata_source": "OneStopEnglish",
+          "metadata_original_label": 0
+        }
+      ]
+    }
+  ]
+}

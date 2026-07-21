@@ -1,0 +1,62 @@
+{
+  "datasets": [
+    {
+      "dataset": "CLEAR_corpus",
+      "examples": [
+        {
+          "input": "Words alone are not a sufficient possession. They must be known in all their relations. A comprehension of the structure of the sentence is always necessary. A sentence is a unit of thought, an idea reduced to its lowest terms. It may not be necessary that each sentence be analyzed strictly by grammatical rules, but it is essential that the reader should recognize by study if necessary the subject and the predicate and the character and rank of all the modifiers of each. Even the practiced reader by unconsciously laying undue prominence upon some minor phrase frequently modifies the meaning an author intends to convey. This is particularly true in verse, where the poet, hemmed in by the rules that govern his meter and his rhyme, varies the natural order of the elements of a sentence to bring the accents where they belong or to throw the rhyming word to the end of a verse. The grouping of related sentences into paragraphs is an aid to the reader and should be noticed by him till the habit of expecting a slight change in thought with the indentation of a line becomes fixed and automatic.",
+          "output": "0.29555860805860806",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7118,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.87
+        },
+        {
+          "input": "The true use of the much-praised Lucius Cary, Viscount Falkland, has hardly been apprehended: he is simply the patron saint of indifferents. From first to last, almost alone in that discordant time, he seems to have heard far-off resolving harmonies, and to have been rapt away with foreknowledge. Battle, to which all knights were bred, was penitential to him. It was but a childish means: and to what end? He meanwhile—and no man carried his will in better abeyance to the scheme of the universe—wanted no diligence in camp or council. Cares sat handsomely on him who cared not at all, who won small comfort from the cause which his conscience finally espoused. He labored to be a doer, to stand well with observers; and none save his intimate friends read his agitation and profound weariness. \"I am so much taken notice of,\" he writes, \"for an impatient desire for peace, that it is necessary I should likewise make it appear how it is not out of fear for the utmost hazard of war.\"",
+          "output": "0.25022893772893773",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7361,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.89
+        },
+        {
+          "input": "Once, when I was returning from a hunt, with an empty gun (having used all my ammunition), a raging wild boar rushed at me. Well, you know how unpleasant such an encounter may be, so I am sure none of you will think me a coward for hastily climbing the nearest tree; it was a young birch which could hardly bear my weight. The boar made a dash for the tree, but was a moment too late, for I had just drawn my legs out of his reach. But so violent was his rush that his tusks went through the trunk of the tree and projected an inch through the other side. I slid down the tree, picked up a stone the size of my fist, and riveted down the projecting points of the tusks. You can imagine what a narrow escape I had when I tell you that the beast weighed five tons—a good deal for a wild boar.\"",
+          "output": "0.19505494505494506",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4425,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.48
+        }
+      ]
+    },
+    {
+      "dataset": "agentlans_readability",
+      "examples": [
+        {
+          "input": "Work on the first tube of the Simplon Tunnel commenced in 1898. The Italian king Victor Emmanuel III of Italy and the president of the Swiss Confederation (presiding the Federal Council of Switzerland for that year) Ludwig Forrer opened the tunnel at Brig on 19 May 1906. The builders of the tunnel were Hermann Häustler and Hugo von Kager. Work on the second tube of the tunnel started in 1912 and it was opened in 1921.",
+          "output": "0.30844155844155846",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 9830,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 9.15
+        },
+        {
+          "input": "In 2019 with the Phillies, he batted .293/.307/.579 with eight home runs and 34 RBIs in 133 at-bats. His season was cut short by a fractured navicular bone in his left foot.",
+          "output": "0.1646825396825397",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 43505,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.165
+        },
+        {
+          "input": "79% of children aged 6 to 17 with mental disorders do not receive appropriate care.\nChildren with mental health needs are best served with early detection and treatment, which can prevent them from having more expensive and intense forms of treatment later on.\nUntreated mental illnesses may increase the risk of a child being involved in the juvenile justice system. According to one study, 66% of boys and almost 75% of girls in juvenile detention have at least one mental disorder.\nAnxiety disorders, mood disorders and disruptive disorders are the most common mental disorders among children.",
+          "output": "0.437950937950938",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 101863,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.74
+        }
+      ]
+    }
+  ]
+}

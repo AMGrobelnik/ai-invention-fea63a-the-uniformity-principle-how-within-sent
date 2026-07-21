@@ -1,0 +1,62 @@
+{
+  "datasets": [
+    {
+      "dataset": "CLEAR_corpus",
+      "examples": [
+        {
+          "input": "Words alone are not a sufficient possession. They must be known in all their relations. A comprehension of the structure of the sentence is always necessary. A sentence is a unit of thought, an idea r...",
+          "output": "0.29555860805860806",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7118,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 11.87
+        },
+        {
+          "input": "The true use of the much-praised Lucius Cary, Viscount Falkland, has hardly been apprehended: he is simply the patron saint of indifferents. From first to last, almost alone in that discordant time, h...",
+          "output": "0.25022893772893773",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 7361,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 9.89
+        },
+        {
+          "input": "Once, when I was returning from a hunt, with an empty gun (having used all my ammunition), a raging wild boar rushed at me. Well, you know how unpleasant such an encounter may be, so I am sure none of...",
+          "output": "0.19505494505494506",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 4425,
+          "metadata_source": "CLEAR_corpus",
+          "metadata_original_grade_level": 7.48
+        }
+      ]
+    },
+    {
+      "dataset": "agentlans_readability",
+      "examples": [
+        {
+          "input": "Work on the first tube of the Simplon Tunnel commenced in 1898. The Italian king Victor Emmanuel III of Italy and the president of the Swiss Confederation (presiding the Federal Council of Switzerland...",
+          "output": "0.30844155844155846",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 9830,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 9.15
+        },
+        {
+          "input": "In 2019 with the Phillies, he batted .293/.307/.579 with eight home runs and 34 RBIs in 133 at-bats. His season was cut short by a fractured navicular bone in his left foot.",
+          "output": "0.1646825396825397",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 43505,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 5.165
+        },
+        {
+          "input": "79% of children aged 6 to 17 with mental disorders do not receive appropriate care.\nChildren with mental health needs are best served with early detection and treatment, which can prevent them from ha...",
+          "output": "0.437950937950938",
+          "metadata_fold": "test",
+          "metadata_sentence_id": 101863,
+          "metadata_source": "agentlans_readability",
+          "metadata_original_grade": 12.74
+        }
+      ]
+    }
+  ]
+}

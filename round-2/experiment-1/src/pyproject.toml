@@ -1,0 +1,18 @@
+[project]
+name = "readability-uniformity-experiment"
+version = "0.1.0"
+description = "Test Uniformity Principle with SUBTLEX-US and BERT for readability prediction"
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.13.0+cpu",
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "scikit-learn==1.9.0",
+    "transformers==5.14.1",
+    "datasets==5.0.0",
+    "pronouncing",
+    "syllables",
+    "loguru==0.7.3",
+    "psutil==7.2.2",
+    "jsonschema==4.26.0",
+]

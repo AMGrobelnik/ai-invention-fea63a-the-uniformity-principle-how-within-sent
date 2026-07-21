@@ -1,0 +1,71 @@
+{
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest movie.\nThe movie is about the 2000 presidential election.\nFor the movie, Chaille talked to the two main candidates.\nHe talked to Texas Governor George W. Bush at the governor's home.\nChaille also traveled with Vice President Al Gore on his campaign bus.\nChaille has been making films since he was 8 years old.\nChaille's first movie was\nThe movie explored what people think about boy ballet dancers.\nChaille won two awards for the movie.\nChaille has also made movies about religion, how kids cope with pain, and musicians.\nHow did you get started making movies?\nThen people at HBO [a cable TV company] saw it, and they said they wanted to show the film.\nHow do you decide what your movies will be about?\nI just take stuff that's a part of everyday issues.\nIt's mostly about the 2000 election.\nThe movie asks why a kid should care about politics.\nWhat was it like talking to Governor George W. Bush and Vice President Al Gore?\nVery surprising.\nGeorge W. Bush said his daughters weren't so happy with him running in the election because they didn't want to leave their school or stay inside all the time.\nWhen I first went to speak to Al Gore in New Hampshire, he knelt down in the snow.\nIt was sort of like he understood children.\nThey both seemed like very nice men.\nFilmmakers have their own language.\nHere are some words they use and their meanings.\n--an actor who is hired to play a small, nonspeaking part, such as someone in a crowd\n--a worker who helps move the scenery and cameras during filming\n--a scene that is filmed but is not used in the movie\n--a movable arm that holds a microphone over an actor's head during filming\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most paper?\n2.\nOn which day did the Smith family recycle the fewest paper items?\n3.\nOn which day did the Smith family recycle four plastic items?\n4.\nWhat is the total number of metal items that the Smith family recycled?\n5.\nHow man items in all did the Smith family recycle on Thursday?\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train"
+        }
+      ]
+    },
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "Is that your bike ?",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 0,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "She had a beautiful necklace around her neck .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 1,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        },
+        {
+          "input": "I forgot to bring my umbrella .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 2,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train"
+        }
+      ]
+    }
+  ]
+}

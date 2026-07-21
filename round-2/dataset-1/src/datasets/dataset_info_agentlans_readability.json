@@ -1,0 +1,17 @@
+{
+  "dataset_name": "agentlans_readability_sample",
+  "source_url": "https://huggingface.co/datasets/agentlans/readability",
+  "license": "CC0 1.0",
+  "n_sentences": 2000,
+  "score_distribution": {
+    "mean": 0.42,
+    "std": 0.24,
+    "min": 0.004,
+    "max": 0.832,
+    "description": "Normalized grade level scores from multiple sources (0=easiest, 1=hardest)"
+  },
+  "preprocessing": "Sampled 2000 rows from 104,761 total, normalized grade scores to 0-1",
+  "schema_version": "exp_sel_data_out.json v1.0",
+  "description": "Paragraph-level readability dataset with grade levels from 4 sources: arxiv, tinystories, fineweb-edu, wikipedia-en",
+  "citation": "agentlans (2024). Readability dataset from HuggingFace."
+}

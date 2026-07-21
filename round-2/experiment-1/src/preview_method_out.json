@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "experiment": "uniformity_principle_readability",
+    "num_examples": 13129,
+    "feature_names": [
+      "avg_word_length",
+      "avg_syllables",
+      "avg_word_freq"
+    ],
+    "results": {
+      "average_only": {
+        "feature_names": [
+          "avg_word_length",
+          "avg_syllables",
+          "avg_word_freq"
+        ],
+        "r2_mean": 0.19135649977885816,
+        "r2_std": 0.015433929521017053
+      },
+      "uniformity_only": {
+        "feature_names": [
+          "cv_word_length",
+          "cv_syllables",
+          "cv_word_freq"
+        ],
+        "r2_mean": 0.16562564612965394,
+        "r2_std": 0.011341247281379356
+      },
+      "combined": {
+        "feature_names": [
+          "avg_word_length",
+          "avg_syllables",
+          "avg_word_freq"
+        ],
+        "r2_mean": 0.2365400566248252,
+        "r2_std": 0.015558454513718912
+      }
+    },
+    "bootstrap_avg_vs_combined": {
+      "mean_diff": 0.04556243610814067,
+      "ci_lower": 0.04010134398012799,
+      "ci_upper": 0.051081569899309835,
+      "p_value": 0.0,
+      "significant": true
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "WeeBIT",
+      "examples": [
+        {
+          "input": "Chaille Stovall is making a movie about the 2000 presidential election.\nHis friend Zac Skipp is helping him.\nChaille (pronounced shal-ee) is only 11 years old!\nis the name of Chaille Stovall's latest ...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 0,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.565706985847038",
+          "predict_uniformity_only": "0.46187201457555094",
+          "predict_combined": "0.5508421594733677"
+        },
+        {
+          "input": "Copy the words below on to a piece of paper.\nNext to each word, write the form of the word that means more than one.\nAll trademarks and logos are property of Weekly Reader Corporation.",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 1,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4472835541048367",
+          "predict_uniformity_only": "0.4692432613137474",
+          "predict_combined": "0.4359165901729264"
+        },
+        {
+          "input": "The table below shows how many of each kind of item the Smith family recycled during the week.\nStudy the table.\nThen fill in the correct circle.\n1.\nOn which day did the Smith family recycle the most p...",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "WeeBIT",
+          "metadata_row_index": 2,
+          "metadata_complexity_age_interval": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4334726899577513",
+          "predict_uniformity_only": "0.47061608636236",
+          "predict_combined": "0.41820502101788504"
+        }
+      ]
+    },
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "Is that your bike ?",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 0,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.33273795973103687",
+          "predict_uniformity_only": "0.11460144367026465",
+          "predict_combined": "0.18015190697056338"
+        },
+        {
+          "input": "She had a beautiful necklace around her neck .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 1,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.4571292679981625",
+          "predict_uniformity_only": "0.5676789378183869",
+          "predict_combined": "0.5197409380822915"
+        },
+        {
+          "input": "I forgot to bring my umbrella .",
+          "output": "0.0",
+          "metadata_readability_score": 0.0,
+          "metadata_source": "CEFR-SP",
+          "metadata_row_index": 2,
+          "metadata_annotator_1": 1,
+          "metadata_annotator_2": 1,
+          "metadata_original_split": "train",
+          "predict_average_only": "0.30798414776008987",
+          "predict_uniformity_only": "0.543965956590609",
+          "predict_combined": "0.429947729270357"
+        }
+      ]
+    }
+  ]
+}
